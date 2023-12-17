@@ -1,0 +1,3 @@
+bash skinny.sh           ==>  小规模猜测决定问题在云平台上的效率测试
+bash bivium_guess_18.sh  ==>  小规模子问题在云平台上的效率测试
+bash bivium_guess_10.sh  ==>  大规模子问题在云平台上的稳定性测试
