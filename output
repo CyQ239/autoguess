@@ -1,17 +1,17 @@
 Number of relations: 885
 Number of variables: 1062
 Number of target variables: 1062
-Number of known variables: 201
-Number of guessed variables: 0
+Number of known variables: 194
+Number of guessed variables: 7
 Number of state copies (max_steps): 85
-An upper bound for the number of guessed variables given by user (max_guess): 0
+An upper bound for the number of guessed variables given by user (max_guess): 7
 1062 out of 1062 state variables are known after 85 state copies
 ############################################################
-The following 0 variable(s) are guessed:
-
+The following 7 variable(s) are guessed:
+b_46, a_67, a_68, a_99, b_112, a_141, a_212
 ############################################################
-The following 201 variable(s) are initially known:
-b_21, a_31, am_41, am_42, b_68, a_71, a_73, a_97, a_100, a_102, am_100, b_105, b_107, b_110, a_111, a_126, a_127, a_128, a_141, b_172, a_172, a_173, b_181, a_198, z_0, z_1, z_2, z_3, z_4, z_5, z_6, z_7, z_8, z_9, z_10, z_11, z_12, z_13, z_14, z_15, z_16, z_17, z_18, z_19, z_20, z_21, z_22, z_23, z_24, z_25, z_26, z_27, z_28, z_29, z_30, z_31, z_32, z_33, z_34, z_35, z_36, z_37, z_38, z_39, z_40, z_41, z_42, z_43, z_44, z_45, z_46, z_47, z_48, z_49, z_50, z_51, z_52, z_53, z_54, z_55, z_56, z_57, z_58, z_59, z_60, z_61, z_62, z_63, z_64, z_65, z_66, z_67, z_68, z_69, z_70, z_71, z_72, z_73, z_74, z_75, z_76, z_77, z_78, z_79, z_80, z_81, z_82, z_83, z_84, z_85, z_86, z_87, z_88, z_89, z_90, z_91, z_92, z_93, z_94, z_95, z_96, z_97, z_98, z_99, z_100, z_101, z_102, z_103, z_104, z_105, z_106, z_107, z_108, z_109, z_110, z_111, z_112, z_113, z_114, z_115, z_116, z_117, z_118, z_119, z_120, z_121, z_122, z_123, z_124, z_125, z_126, z_127, z_128, z_129, z_130, z_131, z_132, z_133, z_134, z_135, z_136, z_137, z_138, z_139, z_140, z_141, z_142, z_143, z_144, z_145, z_146, z_147, z_148, z_149, z_150, z_151, z_152, z_153, z_154, z_155, z_156, z_157, z_158, z_159, z_160, z_161, z_162, z_163, z_164, z_165, z_166, z_167, z_168, z_169, z_170, z_171, z_172, z_173, z_174, z_175, z_176
+The following 194 variable(s) are initially known:
+b_21, a_31, am_41, am_42, b_68, a_71, a_73, a_97, a_100, a_102, am_100, b_105, b_107, b_110, a_111, a_126, a_127, z_0, z_1, z_2, z_3, z_4, z_5, z_6, z_7, z_8, z_9, z_10, z_11, z_12, z_13, z_14, z_15, z_16, z_17, z_18, z_19, z_20, z_21, z_22, z_23, z_24, z_25, z_26, z_27, z_28, z_29, z_30, z_31, z_32, z_33, z_34, z_35, z_36, z_37, z_38, z_39, z_40, z_41, z_42, z_43, z_44, z_45, z_46, z_47, z_48, z_49, z_50, z_51, z_52, z_53, z_54, z_55, z_56, z_57, z_58, z_59, z_60, z_61, z_62, z_63, z_64, z_65, z_66, z_67, z_68, z_69, z_70, z_71, z_72, z_73, z_74, z_75, z_76, z_77, z_78, z_79, z_80, z_81, z_82, z_83, z_84, z_85, z_86, z_87, z_88, z_89, z_90, z_91, z_92, z_93, z_94, z_95, z_96, z_97, z_98, z_99, z_100, z_101, z_102, z_103, z_104, z_105, z_106, z_107, z_108, z_109, z_110, z_111, z_112, z_113, z_114, z_115, z_116, z_117, z_118, z_119, z_120, z_121, z_122, z_123, z_124, z_125, z_126, z_127, z_128, z_129, z_130, z_131, z_132, z_133, z_134, z_135, z_136, z_137, z_138, z_139, z_140, z_141, z_142, z_143, z_144, z_145, z_146, z_147, z_148, z_149, z_150, z_151, z_152, z_153, z_154, z_155, z_156, z_157, z_158, z_159, z_160, z_161, z_162, z_163, z_164, z_165, z_166, z_167, z_168, z_169, z_170, z_171, z_172, z_173, z_174, z_175, z_176
 ############################################################
 Target variables:
 b_1, b_2, bm_0, a_1, a_2, am_0, b_3, bm_1, a_3, am_1, b_4, bm_2, a_4, am_2, b_5, bm_3, a_5, am_3, b_6, bm_4, a_6, am_4, b_7, bm_5, a_7, am_5, b_8, bm_6, a_8, am_6, b_9, bm_7, a_9, am_7, b_10, bm_8, a_10, am_8, b_11, bm_9, a_11, am_9, b_12, bm_10, a_12, am_10, b_13, bm_11, a_13, am_11, b_14, bm_12, a_14, am_12, b_15, bm_13, a_15, am_13, b_16, bm_14, a_16, am_14, b_17, bm_15, a_17, am_15, b_18, bm_16, a_18, am_16, b_19, bm_17, a_19, am_17, b_20, bm_18, a_20, am_18, b_21, bm_19, a_21, am_19, b_22, bm_20, a_22, am_20, b_23, bm_21, a_23, am_21, b_24, bm_22, a_24, am_22, b_25, bm_23, a_25, am_23, b_26, bm_24, a_26, am_24, b_27, bm_25, a_27, am_25, b_28, bm_26, a_28, am_26, b_29, bm_27, a_29, am_27, b_30, bm_28, a_30, am_28, b_31, bm_29, a_31, am_29, b_32, bm_30, a_32, am_30, b_33, bm_31, a_33, am_31, b_34, bm_32, a_34, am_32, b_35, bm_33, a_35, am_33, b_36, bm_34, a_36, am_34, b_37, bm_35, a_37, am_35, b_38, bm_36, a_38, am_36, b_39, bm_37, a_39, am_37, b_40, bm_38, a_40, am_38, b_41, bm_39, a_41, am_39, b_42, bm_40, a_42, am_40, b_43, bm_41, a_43, am_41, b_44, bm_42, a_44, am_42, b_45, bm_43, a_45, am_43, b_46, bm_44, a_46, am_44, b_47, bm_45, a_47, am_45, b_48, bm_46, a_48, am_46, b_49, bm_47, a_49, am_47, b_50, bm_48, a_50, am_48, b_51, bm_49, a_51, am_49, b_52, bm_50, a_52, am_50, b_53, bm_51, a_53, am_51, b_54, bm_52, a_54, am_52, b_55, bm_53, a_55, am_53, b_56, bm_54, a_56, am_54, b_57, bm_55, a_57, am_55, b_58, bm_56, a_58, am_56, b_59, bm_57, a_59, am_57, b_60, bm_58, a_60, am_58, b_61, bm_59, a_61, am_59, b_62, bm_60, a_62, am_60, b_63, bm_61, a_63, am_61, b_64, bm_62, a_64, am_62, b_65, bm_63, a_65, am_63, b_66, bm_64, a_66, am_64, b_67, bm_65, a_67, am_65, b_68, bm_66, a_68, am_66, b_69, bm_67, a_69, am_67, b_70, bm_68, a_70, am_68, b_71, bm_69, a_71, am_69, b_72, bm_70, a_72, am_70, b_73, bm_71, a_73, am_71, b_74, bm_72, a_74, am_72, b_75, bm_73, a_75, am_73, b_76, bm_74, a_76, am_74, b_77, bm_75, a_77, am_75, b_78, bm_76, a_78, am_76, b_79, bm_77, a_79, am_77, b_80, bm_78, a_80, am_78, b_81, bm_79, a_81, am_79, b_82, bm_80, a_82, am_80, b_83, bm_81, a_83, am_81, b_84, bm_82, a_84, am_82, b_85, bm_83, a_85, am_83, b_86, bm_84, a_86, am_84, b_87, bm_85, a_87, am_85, b_88, bm_86, a_88, am_86, b_89, bm_87, a_89, am_87, b_90, bm_88, a_90, am_88, b_91, bm_89, a_91, am_89, b_92, bm_90, a_92, am_90, b_93, bm_91, a_93, am_91, b_94, bm_92, a_94, am_92, b_95, bm_93, a_95, am_93, b_96, bm_94, a_96, am_94, b_97, bm_95, a_97, am_95, b_98, bm_96, a_98, am_96, b_99, bm_97, a_99, am_97, b_100, bm_98, a_100, am_98, b_101, bm_99, a_101, am_99, b_102, bm_100, a_102, am_100, b_103, bm_101, a_103, am_101, b_104, bm_102, a_104, am_102, b_105, bm_103, a_105, am_103, b_106, bm_104, a_106, am_104, b_107, bm_105, a_107, am_105, b_108, bm_106, a_108, am_106, b_109, bm_107, a_109, am_107, b_110, bm_108, a_110, am_108, b_111, bm_109, a_111, am_109, b_112, bm_110, a_112, am_110, b_113, bm_111, a_113, am_111, b_114, bm_112, a_114, am_112, b_115, bm_113, a_115, am_113, b_116, bm_114, a_116, am_114, b_117, bm_115, a_117, am_115, b_118, bm_116, a_118, am_116, b_119, bm_117, a_119, am_117, b_120, bm_118, a_120, am_118, b_121, bm_119, a_121, am_119, b_122, bm_120, a_122, am_120, b_123, bm_121, a_123, am_121, b_124, bm_122, a_124, am_122, b_125, bm_123, a_125, am_123, b_126, bm_124, a_126, am_124, b_127, bm_125, a_127, am_125, b_128, bm_126, a_128, am_126, b_129, bm_127, a_129, am_127, b_130, bm_128, a_130, am_128, b_131, bm_129, a_131, am_129, b_132, bm_130, a_132, am_130, b_133, bm_131, a_133, am_131, b_134, bm_132, a_134, am_132, b_135, bm_133, a_135, am_133, b_136, bm_134, a_136, am_134, b_137, bm_135, a_137, am_135, b_138, bm_136, a_138, am_136, b_139, bm_137, a_139, am_137, b_140, bm_138, a_140, am_138, b_141, bm_139, a_141, am_139, b_142, bm_140, a_142, am_140, b_143, bm_141, a_143, am_141, b_144, bm_142, a_144, am_142, b_145, bm_143, a_145, am_143, b_146, bm_144, a_146, am_144, b_147, bm_145, a_147, am_145, b_148, bm_146, a_148, am_146, b_149, bm_147, a_149, am_147, b_150, bm_148, a_150, am_148, b_151, bm_149, a_151, am_149, b_152, bm_150, a_152, am_150, b_153, bm_151, a_153, am_151, b_154, bm_152, a_154, am_152, b_155, bm_153, a_155, am_153, b_156, bm_154, a_156, am_154, b_157, bm_155, a_157, am_155, b_158, bm_156, a_158, am_156, b_159, bm_157, a_159, am_157, b_160, bm_158, a_160, am_158, b_161, bm_159, a_161, am_159, b_162, bm_160, a_162, am_160, b_163, bm_161, a_163, am_161, b_164, bm_162, a_164, am_162, b_165, bm_163, a_165, am_163, b_166, bm_164, a_166, am_164, b_167, bm_165, a_167, am_165, b_168, bm_166, a_168, am_166, b_169, bm_167, a_169, am_167, b_170, bm_168, a_170, am_168, b_171, bm_169, a_171, am_169, b_172, bm_170, a_172, am_170, b_173, bm_171, a_173, am_171, b_174, bm_172, a_174, am_172, b_175, bm_173, a_175, am_173, b_176, bm_174, a_176, am_174, b_177, bm_175, a_177, am_175, b_178, bm_176, a_178, am_176, z_0, a_0, b_0, z_1, z_2, z_3, z_4, z_5, z_6, z_7, z_8, z_9, z_10, z_11, z_12, z_13, z_14, z_15, z_16, z_17, z_18, z_19, z_20, z_21, z_22, z_23, z_24, z_25, z_26, z_27, z_28, z_29, z_30, z_31, z_32, z_33, z_34, z_35, z_36, z_37, z_38, z_39, z_40, z_41, z_42, z_43, z_44, z_45, z_46, z_47, z_48, z_49, z_50, z_51, z_52, z_53, z_54, z_55, z_56, z_57, z_58, z_59, z_60, z_61, z_62, z_63, z_64, z_65, z_66, z_67, z_68, z_69, z_70, z_71, z_72, z_73, z_74, z_75, z_76, z_77, z_78, z_79, z_80, z_81, z_82, z_83, z_84, z_85, a_179, z_86, a_180, z_87, a_181, z_88, a_182, z_89, a_183, z_90, a_184, z_91, a_185, z_92, a_186, z_93, a_187, z_94, a_188, z_95, b_179, a_189, z_96, b_180, a_190, z_97, b_181, a_191, z_98, b_182, a_192, z_99, b_183, a_193, z_100, b_184, a_194, z_101, b_185, a_195, z_102, b_186, a_196, z_103, b_187, a_197, z_104, b_188, a_198, z_105, b_189, a_199, z_106, b_190, a_200, z_107, b_191, a_201, z_108, b_192, a_202, z_109, b_193, a_203, z_110, b_194, a_204, z_111, b_195, a_205, z_112, b_196, a_206, z_113, b_197, a_207, z_114, b_198, a_208, z_115, b_199, a_209, z_116, b_200, a_210, z_117, b_201, a_211, z_118, b_202, a_212, z_119, b_203, a_213, z_120, b_204, a_214, z_121, b_205, a_215, z_122, b_206, a_216, z_123, b_207, a_217, z_124, b_208, a_218, z_125, b_209, a_219, z_126, b_210, a_220, z_127, b_211, a_221, z_128, b_212, a_222, z_129, b_213, a_223, z_130, b_214, a_224, z_131, b_215, a_225, z_132, b_216, a_226, z_133, b_217, a_227, z_134, b_218, a_228, z_135, b_219, a_229, z_136, b_220, a_230, z_137, b_221, a_231, z_138, b_222, a_232, z_139, b_223, a_233, z_140, b_224, a_234, z_141, b_225, a_235, z_142, b_226, a_236, z_143, b_227, a_237, z_144, b_228, a_238, z_145, b_229, a_239, z_146, b_230, a_240, z_147, b_231, a_241, z_148, b_232, a_242, z_149, b_233, a_243, z_150, b_234, a_244, z_151, b_235, a_245, z_152, b_236, a_246, z_153, b_237, a_247, z_154, b_238, a_248, z_155, b_239, a_249, z_156, b_240, a_250, z_157, b_241, a_251, z_158, b_242, a_252, z_159, b_243, a_253, z_160, b_244, a_254, z_161, b_245, a_255, z_162, b_246, a_256, z_163, b_247, a_257, z_164, b_248, a_258, z_165, b_249, a_259, z_166, b_250, a_260, z_167, b_251, a_261, z_168, b_252, a_262, z_169, b_253, a_263, z_170, b_254, a_264, z_171, b_255, a_265, z_172, b_256, a_266, z_173, b_257, a_267, z_174, b_258, a_268, z_175, b_259, a_269, z_176, b_260
@@ -22,626 +22,556 @@ State 0:
 b_21, z_6 in symmetric relation [b_6, b_21, z_6] are known: b_21, z_6 ===> b_6
 a_100, a_31, z_7 in symmetric relation [a_100, a_31, z_7, bm_7] are known: a_100, a_31, z_7 ===> bm_7
 b_21, z_21 in symmetric relation [b_21, b_36, z_21] are known: b_21, z_21 ===> b_36
+b_46, z_31 in symmetric relation [b_31, b_46, z_31] are known: b_46, z_31 ===> b_31
+b_46, z_46 in symmetric relation [b_46, b_61, z_46] are known: b_46, z_46 ===> b_61
 b_68, z_53 in symmetric relation [b_53, b_68, z_53] are known: b_68, z_53 ===> b_53
 b_68, z_68 in symmetric relation [b_68, b_83, z_68] are known: b_68, z_68 ===> b_83
 b_105, z_90 in symmetric relation [b_90, b_105, z_90] are known: b_105, z_90 ===> b_90
 b_107, z_92 in symmetric relation [b_92, b_107, z_92] are known: b_107, z_92 ===> b_92
 b_110, z_95 in symmetric relation [b_95, b_110, z_95] are known: b_110, z_95 ===> b_95
+b_112, z_97 in symmetric relation [b_97, b_112, z_97] are known: b_112, z_97 ===> b_97
 b_105, z_105 in symmetric relation [b_105, b_120, z_105] are known: b_105, z_105 ===> b_120
 b_107, z_107 in symmetric relation [b_107, b_122, z_107] are known: b_107, z_107 ===> b_122
 b_110, z_110 in symmetric relation [b_110, b_125, z_110] are known: b_110, z_110 ===> b_125
-b_172, z_157 in symmetric relation [b_157, b_172, z_157] are known: b_172, z_157 ===> b_157
-b_181, z_166 in symmetric relation [b_166, b_181, z_166] are known: b_181, z_166 ===> b_166
-b_172, z_172 in symmetric relation [b_172, b_187, z_172] are known: b_172, z_172 ===> b_187
+b_112, z_112 in symmetric relation [b_112, b_127, z_112] are known: b_112, z_112 ===> b_127
+a_67, a_68 in implication relation [a_67, a_68 => am_66] are known: a_67, a_68 ===> am_66
+a_99, a_100 in implication relation [a_99, a_100 => am_98] are known: a_99, a_100 ===> am_98
 a_126, a_127 in implication relation [a_126, a_127 => am_125] are known: a_126, a_127 ===> am_125
-a_127, a_128 in implication relation [a_127, a_128 => am_126] are known: a_127, a_128 ===> am_126
-a_172, a_173 in implication relation [a_172, a_173 => am_171] are known: a_172, a_173 ===> am_171
 ############################################################
 State 1:
+b_31, z_16 in symmetric relation [b_16, b_31, z_16] are known: b_31, z_16 ===> b_16
 b_36, z_36 in symmetric relation [b_36, b_51, z_36] are known: b_36, z_36 ===> b_51
 b_53, z_38 in symmetric relation [b_38, b_53, z_38] are known: b_53, z_38 ===> b_38
+b_61, z_61 in symmetric relation [b_61, b_76, z_61] are known: b_61, z_61 ===> b_76
 b_90, z_75 in symmetric relation [b_75, b_90, z_75] are known: b_90, z_75 ===> b_75
 b_92, z_77 in symmetric relation [b_77, b_92, z_77] are known: b_92, z_77 ===> b_77
 b_95, z_80 in symmetric relation [b_80, b_95, z_80] are known: b_95, z_80 ===> b_80
+b_97, z_82 in symmetric relation [b_82, b_97, z_82] are known: b_97, z_82 ===> b_82
 b_83, z_83 in symmetric relation [b_83, b_98, z_83] are known: b_83, z_83 ===> b_98
 b_120, z_120 in symmetric relation [b_120, b_135, z_120] are known: b_120, z_120 ===> b_135
 b_122, z_122 in symmetric relation [b_122, b_137, z_122] are known: b_122, z_122 ===> b_137
 b_125, z_125 in symmetric relation [b_125, b_140, z_125] are known: b_125, z_125 ===> b_140
-b_157, z_142 in symmetric relation [b_142, b_157, z_142] are known: b_157, z_142 ===> b_142
-b_166, z_151 in symmetric relation [b_151, b_166, z_151] are known: b_166, z_151 ===> b_151
+b_127, z_127 in symmetric relation [b_127, b_142, z_127] are known: b_127, z_127 ===> b_142
 ############################################################
 State 2:
+b_16, z_1 in symmetric relation [b_1, b_16, z_1] are known: b_16, z_1 ===> b_1
 b_38, z_23 in symmetric relation [b_23, b_38, z_23] are known: b_38, z_23 ===> b_23
 b_51, z_51 in symmetric relation [b_51, b_66, z_51] are known: b_51, z_51 ===> b_66
 b_75, z_60 in symmetric relation [b_60, b_75, z_60] are known: b_75, z_60 ===> b_60
 b_77, z_62 in symmetric relation [b_62, b_77, z_62] are known: b_77, z_62 ===> b_62
 b_80, z_65 in symmetric relation [b_65, b_80, z_65] are known: b_80, z_65 ===> b_65
+b_82, z_67 in symmetric relation [b_67, b_82, z_67] are known: b_82, z_67 ===> b_67
+b_76, z_76 in symmetric relation [b_76, b_91, z_76] are known: b_76, z_76 ===> b_91
 b_98, z_98 in symmetric relation [b_98, b_113, z_98] are known: b_98, z_98 ===> b_113
-b_142, z_127 in symmetric relation [b_127, b_142, z_127] are known: b_142, z_127 ===> b_127
 b_135, z_135 in symmetric relation [b_135, b_150, z_135] are known: b_135, z_135 ===> b_150
-b_151, z_136 in symmetric relation [b_136, b_151, z_136] are known: b_151, z_136 ===> b_136
 b_137, z_137 in symmetric relation [b_137, b_152, z_137] are known: b_137, z_137 ===> b_152
 b_140, z_140 in symmetric relation [b_140, b_155, z_140] are known: b_140, z_140 ===> b_155
+b_142, z_142 in symmetric relation [b_142, b_157, z_142] are known: b_142, z_142 ===> b_157
+b_75, b_76 in implication relation [b_75, b_76 => bm_74] are known: b_75, b_76 ===> bm_74
+b_76, b_77 in implication relation [b_76, b_77 => bm_75] are known: b_76, b_77 ===> bm_75
+b_82, b_83 in implication relation [b_82, b_83 => bm_81] are known: b_82, b_83 ===> bm_81
+b_97, b_98 in implication relation [b_97, b_98 => bm_96] are known: b_97, b_98 ===> bm_96
 ############################################################
 State 3:
 b_23, z_8 in symmetric relation [b_8, b_23, z_8] are known: b_23, z_8 ===> b_8
 b_60, z_45 in symmetric relation [b_45, b_60, z_45] are known: b_60, z_45 ===> b_45
 b_62, z_47 in symmetric relation [b_47, b_62, z_47] are known: b_62, z_47 ===> b_47
 b_65, z_50 in symmetric relation [b_50, b_65, z_50] are known: b_65, z_50 ===> b_50
+b_67, z_52 in symmetric relation [b_52, b_67, z_52] are known: b_67, z_52 ===> b_52
 b_66, z_66 in symmetric relation [b_66, b_81, z_66] are known: b_66, z_66 ===> b_81
-b_127, z_112 in symmetric relation [b_112, b_127, z_112] are known: b_127, z_112 ===> b_112
+a_99, z_75, bm_75 in symmetric relation [a_168, a_99, z_75, bm_75] are known: a_99, z_75, bm_75 ===> a_168
+b_91, z_91 in symmetric relation [b_91, b_106, z_91] are known: b_91, z_91 ===> b_106
 b_113, z_113 in symmetric relation [b_113, b_128, z_113] are known: b_113, z_113 ===> b_128
-b_136, z_121 in symmetric relation [b_121, b_136, z_121] are known: b_136, z_121 ===> b_121
 b_150, z_150 in symmetric relation [b_150, b_165, z_150] are known: b_150, z_150 ===> b_165
 b_152, z_152 in symmetric relation [b_152, b_167, z_152] are known: b_152, z_152 ===> b_167
 b_155, z_155 in symmetric relation [b_155, b_170, z_155] are known: b_155, z_155 ===> b_170
+b_157, z_157 in symmetric relation [b_157, b_172, z_157] are known: b_157, z_157 ===> b_172
+b_60, b_61 in implication relation [b_60, b_61 => bm_59] are known: b_60, b_61 ===> bm_59
+b_61, b_62 in implication relation [b_61, b_62 => bm_60] are known: b_61, b_62 ===> bm_60
 b_65, b_66 in implication relation [b_65, b_66 => bm_64] are known: b_65, b_66 ===> bm_64
-b_135, b_136 in implication relation [b_135, b_136 => bm_134] are known: b_135, b_136 ===> bm_134
-b_136, b_137 in implication relation [b_136, b_137 => bm_135] are known: b_136, b_137 ===> bm_135
-b_150, b_151 in implication relation [b_150, b_151 => bm_149] are known: b_150, b_151 ===> bm_149
-b_151, b_152 in implication relation [b_151, b_152 => bm_150] are known: b_151, b_152 ===> bm_150
+b_66, b_67 in implication relation [b_66, b_67 => bm_65] are known: b_66, b_67 ===> bm_65
+b_67, b_68 in implication relation [b_67, b_68 => bm_66] are known: b_67, b_68 ===> bm_66
+b_90, b_91 in implication relation [b_90, b_91 => bm_89] are known: b_90, b_91 ===> bm_89
+b_91, b_92 in implication relation [b_91, b_92 => bm_90] are known: b_91, b_92 ===> bm_90
+b_112, b_113 in implication relation [b_112, b_113 => bm_111] are known: b_112, b_113 ===> bm_111
 ############################################################
 State 4:
 b_45, z_30 in symmetric relation [b_30, b_45, z_30] are known: b_45, z_30 ===> b_30
 b_47, z_32 in symmetric relation [b_32, b_47, z_32] are known: b_47, z_32 ===> b_32
 b_50, z_35 in symmetric relation [b_35, b_50, z_35] are known: b_50, z_35 ===> b_35
+b_52, z_37 in symmetric relation [b_37, b_52, z_37] are known: b_52, z_37 ===> b_37
+b_125, b_47, a_68, am_41 in symmetric relation [b_125, b_47, a_68, a_41, am_41] are known: b_125, b_47, a_68, am_41 ===> a_41
 b_81, z_81 in symmetric relation [b_81, b_96, z_81] are known: b_81, z_81 ===> b_96
-b_112, z_97 in symmetric relation [b_97, b_112, z_97] are known: b_112, z_97 ===> b_97
-b_121, z_106 in symmetric relation [b_106, b_121, z_106] are known: b_121, z_106 ===> b_106
+b_106, a_127, a_100, am_100 in symmetric relation [b_184, b_106, a_127, a_100, am_100] are known: b_106, a_127, a_100, am_100 ===> b_184
+b_106, z_106 in symmetric relation [b_106, b_121, z_106] are known: b_106, z_106 ===> b_121
 b_128, z_128 in symmetric relation [b_128, b_143, z_128] are known: b_128, z_128 ===> b_143
-a_173, z_149, bm_149 in symmetric relation [a_242, a_173, z_149, bm_149] are known: a_173, z_149, bm_149 ===> a_242
 b_165, z_165 in symmetric relation [b_165, b_180, z_165] are known: b_165, z_165 ===> b_180
 b_167, z_167 in symmetric relation [b_167, b_182, z_167] are known: b_167, z_167 ===> b_182
 b_170, z_170 in symmetric relation [b_170, b_185, z_170] are known: b_170, z_170 ===> b_185
+b_172, z_172 in symmetric relation [b_172, b_187, z_172] are known: b_172, z_172 ===> b_187
+b_45, b_46 in implication relation [b_45, b_46 => bm_44] are known: b_45, b_46 ===> bm_44
+b_46, b_47 in implication relation [b_46, b_47 => bm_45] are known: b_46, b_47 ===> bm_45
 b_50, b_51 in implication relation [b_50, b_51 => bm_49] are known: b_50, b_51 ===> bm_49
+b_51, b_52 in implication relation [b_51, b_52 => bm_50] are known: b_51, b_52 ===> bm_50
+b_52, b_53 in implication relation [b_52, b_53 => bm_51] are known: b_52, b_53 ===> bm_51
 b_80, b_81 in implication relation [b_80, b_81 => bm_79] are known: b_80, b_81 ===> bm_79
-b_112, b_113 in implication relation [b_112, b_113 => bm_111] are known: b_112, b_113 ===> bm_111
-b_120, b_121 in implication relation [b_120, b_121 => bm_119] are known: b_120, b_121 ===> bm_119
-b_121, b_122 in implication relation [b_121, b_122 => bm_120] are known: b_121, b_122 ===> bm_120
+b_81, b_82 in implication relation [b_81, b_82 => bm_80] are known: b_81, b_82 ===> bm_80
+b_105, b_106 in implication relation [b_105, b_106 => bm_104] are known: b_105, b_106 ===> bm_104
+b_106, b_107 in implication relation [b_106, b_107 => bm_105] are known: b_106, b_107 ===> bm_105
 b_127, b_128 in implication relation [b_127, b_128 => bm_126] are known: b_127, b_128 ===> bm_126
-b_165, b_166 in implication relation [b_165, b_166 => bm_164] are known: b_165, b_166 ===> bm_164
-b_166, b_167 in implication relation [b_166, b_167 => bm_165] are known: b_166, b_167 ===> bm_165
 ############################################################
 State 5:
 b_30, z_15 in symmetric relation [b_15, b_30, z_15] are known: b_30, z_15 ===> b_15
 b_32, z_17 in symmetric relation [b_17, b_32, z_17] are known: b_32, z_17 ===> b_17
 b_35, z_20 in symmetric relation [b_20, b_35, z_20] are known: b_35, z_20 ===> b_20
+b_37, z_22 in symmetric relation [b_22, b_37, z_22] are known: b_37, z_22 ===> b_22
+a_68, z_44, bm_44 in symmetric relation [a_137, a_68, z_44, bm_44] are known: a_68, z_44, bm_44 ===> a_137
 a_73, z_49, bm_49 in symmetric relation [a_142, a_73, z_49, bm_49] are known: a_73, z_49, bm_49 ===> a_142
-a_172, z_79, bm_79 in symmetric relation [a_172, a_103, z_79, bm_79] are known: a_172, z_79, bm_79 ===> a_103
-b_97, z_82 in symmetric relation [b_82, b_97, z_82] are known: b_97, z_82 ===> b_82
-b_106, z_91 in symmetric relation [b_91, b_106, z_91] are known: b_106, z_91 ===> b_91
 b_96, z_96 in symmetric relation [b_96, b_111, z_96] are known: b_96, z_96 ===> b_111
-b_106, a_127, a_100, am_100 in symmetric relation [b_184, b_106, a_127, a_100, am_100] are known: b_106, a_127, a_100, am_100 ===> b_184
+b_121, z_121 in symmetric relation [b_121, b_136, z_121] are known: b_121, z_121 ===> b_136
 b_143, z_143 in symmetric relation [b_143, b_158, z_143] are known: b_143, z_143 ===> b_158
+b_184, z_169 in symmetric relation [b_169, b_184, z_169] are known: b_184, z_169 ===> b_169
+b_30, b_31 in implication relation [b_30, b_31 => bm_29] are known: b_30, b_31 ===> bm_29
+b_31, b_32 in implication relation [b_31, b_32 => bm_30] are known: b_31, b_32 ===> bm_30
 b_35, b_36 in implication relation [b_35, b_36 => bm_34] are known: b_35, b_36 ===> bm_34
+b_36, b_37 in implication relation [b_36, b_37 => bm_35] are known: b_36, b_37 ===> bm_35
+b_37, b_38 in implication relation [b_37, b_38 => bm_36] are known: b_37, b_38 ===> bm_36
 b_95, b_96 in implication relation [b_95, b_96 => bm_94] are known: b_95, b_96 ===> bm_94
 b_96, b_97 in implication relation [b_96, b_97 => bm_95] are known: b_96, b_97 ===> bm_95
-b_97, b_98 in implication relation [b_97, b_98 => bm_96] are known: b_97, b_98 ===> bm_96
-b_105, b_106 in implication relation [b_105, b_106 => bm_104] are known: b_105, b_106 ===> bm_104
-b_106, b_107 in implication relation [b_106, b_107 => bm_105] are known: b_106, b_107 ===> bm_105
+b_120, b_121 in implication relation [b_120, b_121 => bm_119] are known: b_120, b_121 ===> bm_119
+b_121, b_122 in implication relation [b_121, b_122 => bm_120] are known: b_121, b_122 ===> bm_120
 b_142, b_143 in implication relation [b_142, b_143 => bm_141] are known: b_142, b_143 ===> bm_141
 ############################################################
 State 6:
 b_15, z_0 in symmetric relation [b_0, b_15, z_0] are known: b_15, z_0 ===> b_0
 b_17, z_2 in symmetric relation [b_2, b_17, z_2] are known: b_17, z_2 ===> b_2
 b_20, z_5 in symmetric relation [b_5, b_20, z_5] are known: b_20, z_5 ===> b_5
+b_22, z_7 in symmetric relation [b_7, b_22, z_7] are known: b_22, z_7 ===> b_7
 a_127, z_34, bm_34 in symmetric relation [a_127, a_58, z_34, bm_34] are known: a_127, z_34, bm_34 ===> a_58
-b_82, z_67 in symmetric relation [b_67, b_82, z_67] are known: b_82, z_67 ===> b_67
-b_91, z_76 in symmetric relation [b_76, b_91, z_76] are known: b_91, z_76 ===> b_76
-a_128, z_104, bm_104 in symmetric relation [a_197, a_128, z_104, bm_104] are known: a_128, z_104, bm_104 ===> a_197
-a_198, z_105, bm_105 in symmetric relation [a_198, a_129, z_105, bm_105] are known: a_198, z_105, bm_105 ===> a_129
 b_111, z_111 in symmetric relation [b_111, b_126, z_111] are known: b_111, z_111 ===> b_126
+a_212, z_119, bm_119 in symmetric relation [a_212, a_143, z_119, bm_119] are known: a_212, z_119, bm_119 ===> a_143
+b_136, z_136 in symmetric relation [b_136, b_151, z_136] are known: b_136, z_136 ===> b_151
+b_169, z_154 in symmetric relation [b_154, b_169, z_154] are known: b_169, z_154 ===> b_154
 b_158, z_158 in symmetric relation [b_158, b_173, z_158] are known: b_158, z_158 ===> b_173
-b_184, z_169 in symmetric relation [b_169, b_184, z_169] are known: b_184, z_169 ===> b_169
+b_15, b_16 in implication relation [b_15, b_16 => bm_14] are known: b_15, b_16 ===> bm_14
+b_16, b_17 in implication relation [b_16, b_17 => bm_15] are known: b_16, b_17 ===> bm_15
 b_20, b_21 in implication relation [b_20, b_21 => bm_19] are known: b_20, b_21 ===> bm_19
-b_81, b_82 in implication relation [b_81, b_82 => bm_80] are known: b_81, b_82 ===> bm_80
-b_82, b_83 in implication relation [b_82, b_83 => bm_81] are known: b_82, b_83 ===> bm_81
-b_90, b_91 in implication relation [b_90, b_91 => bm_89] are known: b_90, b_91 ===> bm_89
-b_91, b_92 in implication relation [b_91, b_92 => bm_90] are known: b_91, b_92 ===> bm_90
-a_102, a_103 in implication relation [a_102, a_103 => am_101] are known: a_102, a_103 ===> am_101
+b_21, b_22 in implication relation [b_21, b_22 => bm_20] are known: b_21, b_22 ===> bm_20
+b_22, b_23 in implication relation [b_22, b_23 => bm_21] are known: b_22, b_23 ===> bm_21
 b_110, b_111 in implication relation [b_110, b_111 => bm_109] are known: b_110, b_111 ===> bm_109
 b_111, b_112 in implication relation [b_111, b_112 => bm_110] are known: b_111, b_112 ===> bm_110
+b_135, b_136 in implication relation [b_135, b_136 => bm_134] are known: b_135, b_136 ===> bm_134
+b_136, b_137 in implication relation [b_136, b_137 => bm_135] are known: b_136, b_137 ===> bm_135
 a_141, a_142 in implication relation [a_141, a_142 => am_140] are known: a_141, a_142 ===> am_140
 b_157, b_158 in implication relation [b_157, b_158 => bm_156] are known: b_157, b_158 ===> bm_156
+b_169, b_170 in implication relation [b_169, b_170 => bm_168] are known: b_169, b_170 ===> bm_168
 ############################################################
 State 7:
-b_67, z_52 in symmetric relation [b_52, b_67, z_52] are known: b_67, z_52 ===> b_52
-b_76, z_61 in symmetric relation [b_61, b_76, z_61] are known: b_76, z_61 ===> b_61
-a_173, z_80, bm_80 in symmetric relation [a_173, a_104, z_80, bm_80] are known: a_173, z_80, bm_80 ===> a_104
-b_185, b_107, a_128, am_101 in symmetric relation [b_185, b_107, a_128, a_101, am_101] are known: b_185, b_107, a_128, am_101 ===> a_101
+a_143, z_50, bm_50 in symmetric relation [a_143, a_74, z_50, bm_50] are known: a_143, z_50, bm_50 ===> a_74
 b_126, z_126 in symmetric relation [b_126, b_141, z_126] are known: b_126, z_126 ===> b_141
-b_169, z_154 in symmetric relation [b_154, b_169, z_154] are known: b_169, z_154 ===> b_154
+b_154, z_139 in symmetric relation [b_139, b_154, z_139] are known: b_154, z_139 ===> b_139
+b_151, z_151 in symmetric relation [b_151, b_166, z_151] are known: b_151, z_151 ===> b_166
 b_173, z_173 in symmetric relation [b_173, b_188, z_173] are known: b_173, z_173 ===> b_188
+b_1, b_2 in implication relation [b_1, b_2 => bm_0] are known: b_1, b_2 ===> bm_0
 b_5, b_6 in implication relation [b_5, b_6 => bm_4] are known: b_5, b_6 ===> bm_4
-b_66, b_67 in implication relation [b_66, b_67 => bm_65] are known: b_66, b_67 ===> bm_65
-b_67, b_68 in implication relation [b_67, b_68 => bm_66] are known: b_67, b_68 ===> bm_66
-b_75, b_76 in implication relation [b_75, b_76 => bm_74] are known: b_75, b_76 ===> bm_74
-b_76, b_77 in implication relation [b_76, b_77 => bm_75] are known: b_76, b_77 ===> bm_75
+b_6, b_7 in implication relation [b_6, b_7 => bm_5] are known: b_6, b_7 ===> bm_5
+b_7, b_8 in implication relation [b_7, b_8 => bm_6] are known: b_7, b_8 ===> bm_6
 b_125, b_126 in implication relation [b_125, b_126 => bm_124] are known: b_125, b_126 ===> bm_124
 b_126, b_127 in implication relation [b_126, b_127 => bm_125] are known: b_126, b_127 ===> bm_125
-a_128, a_129 in implication relation [a_128, a_129 => am_127] are known: a_128, a_129 ===> am_127
-b_169, b_170 in implication relation [b_169, b_170 => bm_168] are known: b_169, b_170 ===> bm_168
+a_142, a_143 in implication relation [a_142, a_143 => am_141] are known: a_142, a_143 ===> am_141
+b_150, b_151 in implication relation [b_150, b_151 => bm_149] are known: b_150, b_151 ===> bm_149
+b_151, b_152 in implication relation [b_151, b_152 => bm_150] are known: b_151, b_152 ===> bm_150
+b_154, b_155 in implication relation [b_154, b_155 => bm_153] are known: b_154, b_155 ===> bm_153
 b_172, b_173 in implication relation [b_172, b_173 => bm_171] are known: b_172, b_173 ===> bm_171
 ############################################################
 State 8:
 a_97, z_4, bm_4 in symmetric relation [a_97, a_28, z_4, bm_4] are known: a_97, z_4, bm_4 ===> a_28
-b_52, z_37 in symmetric relation [b_37, b_52, z_37] are known: b_52, z_37 ===> b_37
-b_61, z_46 in symmetric relation [b_46, b_61, z_46] are known: b_61, z_46 ===> b_46
-b_154, z_139 in symmetric relation [b_139, b_154, z_139] are known: b_154, z_139 ===> b_139
+a_99, z_6, bm_6 in symmetric relation [a_99, a_30, z_6, bm_6] are known: a_99, z_6, bm_6 ===> a_30
+b_139, z_124 in symmetric relation [b_124, b_139, z_124] are known: b_139, z_124 ===> b_124
 b_141, z_141 in symmetric relation [b_141, b_156, z_141] are known: b_141, z_141 ===> b_156
-b_51, b_52 in implication relation [b_51, b_52 => bm_50] are known: b_51, b_52 ===> bm_50
-b_52, b_53 in implication relation [b_52, b_53 => bm_51] are known: b_52, b_53 ===> bm_51
-b_60, b_61 in implication relation [b_60, b_61 => bm_59] are known: b_60, b_61 ===> bm_59
-b_61, b_62 in implication relation [b_61, b_62 => bm_60] are known: b_61, b_62 ===> bm_60
-a_100, a_101 in implication relation [a_100, a_101 => am_99] are known: a_100, a_101 ===> am_99
-a_103, a_104 in implication relation [a_103, a_104 => am_102] are known: a_103, a_104 ===> am_102
+b_166, z_166 in symmetric relation [b_166, b_181, z_166] are known: b_166, z_166 ===> b_181
+a_73, a_74 in implication relation [a_73, a_74 => am_72] are known: a_73, a_74 ===> am_72
+b_139, b_140 in implication relation [b_139, b_140 => bm_138] are known: b_139, b_140 ===> bm_138
 b_140, b_141 in implication relation [b_140, b_141 => bm_139] are known: b_140, b_141 ===> bm_139
 b_141, b_142 in implication relation [b_141, b_142 => bm_140] are known: b_141, b_142 ===> bm_140
-b_154, b_155 in implication relation [b_154, b_155 => bm_153] are known: b_154, b_155 ===> bm_153
+b_165, b_166 in implication relation [b_165, b_166 => bm_164] are known: b_165, b_166 ===> bm_164
+b_166, b_167 in implication relation [b_166, b_167 => bm_165] are known: b_166, b_167 ===> bm_165
 ############################################################
 State 9:
-b_37, z_22 in symmetric relation [b_22, b_37, z_22] are known: b_37, z_22 ===> b_22
-b_46, z_31 in symmetric relation [b_31, b_46, z_31] are known: b_46, z_31 ===> b_31
-b_139, z_124 in symmetric relation [b_124, b_139, z_124] are known: b_139, z_124 ===> b_124
+b_124, z_109 in symmetric relation [b_109, b_124, z_109] are known: b_124, z_109 ===> b_109
 b_156, z_156 in symmetric relation [b_156, b_171, z_156] are known: b_156, z_156 ===> b_171
-b_36, b_37 in implication relation [b_36, b_37 => bm_35] are known: b_36, b_37 ===> bm_35
-b_37, b_38 in implication relation [b_37, b_38 => bm_36] are known: b_37, b_38 ===> bm_36
-b_45, b_46 in implication relation [b_45, b_46 => bm_44] are known: b_45, b_46 ===> bm_44
-b_46, b_47 in implication relation [b_46, b_47 => bm_45] are known: b_46, b_47 ===> bm_45
-b_139, b_140 in implication relation [b_139, b_140 => bm_138] are known: b_139, b_140 ===> bm_138
+a_30, a_31 in implication relation [a_30, a_31 => am_29] are known: a_30, a_31 ===> am_29
+b_124, b_125 in implication relation [b_124, b_125 => bm_123] are known: b_124, b_125 ===> bm_123
 b_155, b_156 in implication relation [b_155, b_156 => bm_154] are known: b_155, b_156 ===> bm_154
 b_156, b_157 in implication relation [b_156, b_157 => bm_155] are known: b_156, b_157 ===> bm_155
 ############################################################
 State 10:
-b_22, z_7 in symmetric relation [b_7, b_22, z_7] are known: b_22, z_7 ===> b_7
-b_31, z_16 in symmetric relation [b_16, b_31, z_16] are known: b_31, z_16 ===> b_16
-a_128, z_35, bm_35 in symmetric relation [a_128, a_59, z_35, bm_35] are known: a_128, z_35, bm_35 ===> a_59
-a_129, z_36, bm_36 in symmetric relation [a_129, a_60, z_36, bm_36] are known: a_129, z_36, bm_36 ===> a_60
-b_124, z_109 in symmetric relation [b_109, b_124, z_109] are known: b_124, z_109 ===> b_109
+b_109, z_94 in symmetric relation [b_94, b_109, z_94] are known: b_109, z_94 ===> b_94
 b_171, z_171 in symmetric relation [b_171, b_186, z_171] are known: b_171, z_171 ===> b_186
-b_21, b_22 in implication relation [b_21, b_22 => bm_20] are known: b_21, b_22 ===> bm_20
-b_22, b_23 in implication relation [b_22, b_23 => bm_21] are known: b_22, b_23 ===> bm_21
-b_30, b_31 in implication relation [b_30, b_31 => bm_29] are known: b_30, b_31 ===> bm_29
-b_31, b_32 in implication relation [b_31, b_32 => bm_30] are known: b_31, b_32 ===> bm_30
-b_124, b_125 in implication relation [b_124, b_125 => bm_123] are known: b_124, b_125 ===> bm_123
+b_109, b_110 in implication relation [b_109, b_110 => bm_108] are known: b_109, b_110 ===> bm_108
 b_170, b_171 in implication relation [b_170, b_171 => bm_169] are known: b_170, b_171 ===> bm_169
 b_171, b_172 in implication relation [b_171, b_172 => bm_170] are known: b_171, b_172 ===> bm_170
 ############################################################
 State 11:
-b_16, z_1 in symmetric relation [b_1, b_16, z_1] are known: b_16, z_1 ===> b_1
-b_109, z_94 in symmetric relation [b_94, b_109, z_94] are known: b_109, z_94 ===> b_94
-b_186, a_129, a_102, am_102 in symmetric relation [b_186, b_108, a_129, a_102, am_102] are known: b_186, a_129, a_102, am_102 ===> b_108
-b_6, b_7 in implication relation [b_6, b_7 => bm_5] are known: b_6, b_7 ===> bm_5
-b_7, b_8 in implication relation [b_7, b_8 => bm_6] are known: b_7, b_8 ===> bm_6
-b_15, b_16 in implication relation [b_15, b_16 => bm_14] are known: b_15, b_16 ===> bm_14
-b_16, b_17 in implication relation [b_16, b_17 => bm_15] are known: b_16, b_17 ===> bm_15
-a_58, a_59 in implication relation [a_58, a_59 => am_57] are known: a_58, a_59 ===> am_57
-a_59, a_60 in implication relation [a_59, a_60 => am_58] are known: a_59, a_60 ===> am_58
-b_109, b_110 in implication relation [b_109, b_110 => bm_108] are known: b_109, b_110 ===> bm_108
+b_94, z_79 in symmetric relation [b_79, b_94, z_79] are known: b_94, z_79 ===> b_79
+b_94, b_95 in implication relation [b_94, b_95 => bm_93] are known: b_94, b_95 ===> bm_93
 ############################################################
 State 12:
-b_94, z_79 in symmetric relation [b_79, b_94, z_79] are known: b_94, z_79 ===> b_79
-b_108, z_93 in symmetric relation [b_93, b_108, z_93] are known: b_108, z_93 ===> b_93
-b_108, z_108 in symmetric relation [b_108, b_123, z_108] are known: b_108, z_108 ===> b_123
-b_1, b_2 in implication relation [b_1, b_2 => bm_0] are known: b_1, b_2 ===> bm_0
-b_94, b_95 in implication relation [b_94, b_95 => bm_93] are known: b_94, b_95 ===> bm_93
-b_107, b_108 in implication relation [b_107, b_108 => bm_106] are known: b_107, b_108 ===> bm_106
-b_108, b_109 in implication relation [b_108, b_109 => bm_107] are known: b_108, b_109 ===> bm_107
-############################################################
-State 13:
 b_79, z_64 in symmetric relation [b_64, b_79, z_64] are known: b_79, z_64 ===> b_64
 b_157, b_79, a_100, a_73 in symmetric relation [b_157, b_79, a_100, a_73, am_73] are known: b_157, b_79, a_100, a_73 ===> am_73
-b_93, z_78 in symmetric relation [b_78, b_93, z_78] are known: b_93, z_78 ===> b_78
-b_123, z_123 in symmetric relation [b_123, b_138, z_123] are known: b_123, z_123 ===> b_138
 b_79, b_80 in implication relation [b_79, b_80 => bm_78] are known: b_79, b_80 ===> bm_78
-b_92, b_93 in implication relation [b_92, b_93 => bm_91] are known: b_92, b_93 ===> bm_91
-b_93, b_94 in implication relation [b_93, b_94 => bm_92] are known: b_93, b_94 ===> bm_92
-b_122, b_123 in implication relation [b_122, b_123 => bm_121] are known: b_122, b_123 ===> bm_121
-b_123, b_124 in implication relation [b_123, b_124 => bm_122] are known: b_123, b_124 ===> bm_122
+############################################################
+State 13:
+b_64, z_49 in symmetric relation [b_49, b_64, z_49] are known: b_64, z_49 ===> b_49
+a_102, z_78, bm_78 in symmetric relation [a_171, a_102, z_78, bm_78] are known: a_102, z_78, bm_78 ===> a_171
+b_64, b_65 in implication relation [b_64, b_65 => bm_63] are known: b_64, b_65 ===> bm_63
 ############################################################
 State 14:
-b_64, z_49 in symmetric relation [b_49, b_64, z_49] are known: b_64, z_49 ===> b_49
-b_142, b_64, a_58, am_58 in symmetric relation [b_142, b_64, a_85, a_58, am_58] are known: b_142, b_64, a_58, am_58 ===> a_85
-b_78, z_63 in symmetric relation [b_63, b_78, z_63] are known: b_78, z_63 ===> b_63
-a_102, z_78, bm_78 in symmetric relation [a_171, a_102, z_78, bm_78] are known: a_102, z_78, bm_78 ===> a_171
-b_138, z_138 in symmetric relation [b_138, b_153, z_138] are known: b_138, z_138 ===> b_153
-b_64, b_65 in implication relation [b_64, b_65 => bm_63] are known: b_64, b_65 ===> bm_63
-b_77, b_78 in implication relation [b_77, b_78 => bm_76] are known: b_77, b_78 ===> bm_76
-b_78, b_79 in implication relation [b_78, b_79 => bm_77] are known: b_78, b_79 ===> bm_77
-b_137, b_138 in implication relation [b_137, b_138 => bm_136] are known: b_137, b_138 ===> bm_136
-b_138, b_139 in implication relation [b_138, b_139 => bm_137] are known: b_138, b_139 ===> bm_137
+b_49, z_34 in symmetric relation [b_34, b_49, z_34] are known: b_49, z_34 ===> b_34
+b_49, b_50 in implication relation [b_49, b_50 => bm_48] are known: b_49, b_50 ===> bm_48
 ############################################################
 State 15:
-b_49, z_34 in symmetric relation [b_34, b_49, z_34] are known: b_49, z_34 ===> b_34
-b_63, z_48 in symmetric relation [b_48, b_63, z_48] are known: b_63, z_48 ===> b_48
-a_100, z_76, bm_76 in symmetric relation [a_169, a_100, z_76, bm_76] are known: a_100, z_76, bm_76 ===> a_169
-a_101, z_77, bm_77 in symmetric relation [a_170, a_101, z_77, bm_77] are known: a_101, z_77, bm_77 ===> a_170
-b_153, z_153 in symmetric relation [b_153, b_168, z_153] are known: b_153, z_153 ===> b_168
-b_49, b_50 in implication relation [b_49, b_50 => bm_48] are known: b_49, b_50 ===> bm_48
-b_62, b_63 in implication relation [b_62, b_63 => bm_61] are known: b_62, b_63 ===> bm_61
-b_63, b_64 in implication relation [b_63, b_64 => bm_62] are known: b_63, b_64 ===> bm_62
-b_152, b_153 in implication relation [b_152, b_153 => bm_151] are known: b_152, b_153 ===> bm_151
-b_153, b_154 in implication relation [b_153, b_154 => bm_152] are known: b_153, b_154 ===> bm_152
-a_171, a_172 in implication relation [a_171, a_172 => am_170] are known: a_171, a_172 ===> am_170
+b_34, z_19 in symmetric relation [b_19, b_34, z_19] are known: b_34, z_19 ===> b_19
+a_141, z_48, bm_48 in symmetric relation [a_141, a_72, z_48, bm_48] are known: a_141, z_48, bm_48 ===> a_72
+b_34, b_35 in implication relation [b_34, b_35 => bm_33] are known: b_34, b_35 ===> bm_33
 ############################################################
 State 16:
-b_34, z_19 in symmetric relation [b_19, b_34, z_19] are known: b_34, z_19 ===> b_19
-b_48, z_33 in symmetric relation [b_33, b_48, z_33] are known: b_48, z_33 ===> b_33
-a_141, z_48, bm_48 in symmetric relation [a_141, a_72, z_48, bm_48] are known: a_141, z_48, bm_48 ===> a_72
-a_85, z_61, bm_61 in symmetric relation [a_154, a_85, z_61, bm_61] are known: a_85, z_61, bm_61 ===> a_154
-b_168, z_168 in symmetric relation [b_168, b_183, z_168] are known: b_168, z_168 ===> b_183
-b_34, b_35 in implication relation [b_34, b_35 => bm_33] are known: b_34, b_35 ===> bm_33
-b_47, b_48 in implication relation [b_47, b_48 => bm_46] are known: b_47, b_48 ===> bm_46
-b_48, b_49 in implication relation [b_48, b_49 => bm_47] are known: b_48, b_49 ===> bm_47
-b_167, b_168 in implication relation [b_167, b_168 => bm_166] are known: b_167, b_168 ===> bm_166
-b_168, b_169 in implication relation [b_168, b_169 => bm_167] are known: b_168, b_169 ===> bm_167
-a_169, a_170 in implication relation [a_169, a_170 => am_168] are known: a_169, a_170 ===> am_168
-a_170, a_171 in implication relation [a_170, a_171 => am_169] are known: a_170, a_171 ===> am_169
-############################################################
-State 17:
 b_19, z_4 in symmetric relation [b_4, b_19, z_4] are known: b_19, z_4 ===> b_4
-b_33, z_18 in symmetric relation [b_18, b_33, z_18] are known: b_33, z_18 ===> b_18
 a_126, z_33, bm_33 in symmetric relation [a_126, a_57, z_33, bm_33] are known: a_126, z_33, bm_33 ===> a_57
-a_71, z_47, bm_47 in symmetric relation [a_140, a_71, z_47, bm_47] are known: a_71, z_47, bm_47 ===> a_140
-b_183, b_105, a_126, am_99 in symmetric relation [b_183, b_105, a_126, a_99, am_99] are known: b_183, b_105, a_126, am_99 ===> a_99
+b_156, a_99, a_72, am_72 in symmetric relation [b_156, b_78, a_99, a_72, am_72] are known: b_156, a_99, a_72, am_72 ===> b_78
 b_19, b_20 in implication relation [b_19, b_20 => bm_18] are known: b_19, b_20 ===> bm_18
-b_32, b_33 in implication relation [b_32, b_33 => bm_31] are known: b_32, b_33 ===> bm_31
-b_33, b_34 in implication relation [b_33, b_34 => bm_32] are known: b_33, b_34 ===> bm_32
 a_71, a_72 in implication relation [a_71, a_72 => am_70] are known: a_71, a_72 ===> am_70
 a_72, a_73 in implication relation [a_72, a_73 => am_71] are known: a_72, a_73 ===> am_71
 ############################################################
-State 18:
-b_18, z_3 in symmetric relation [b_3, b_18, z_3] are known: b_18, z_3 ===> b_3
-a_99, z_6, bm_6 in symmetric relation [a_99, a_30, z_6, bm_6] are known: a_99, z_6, bm_6 ===> a_30
+State 17:
 a_111, z_18, bm_18 in symmetric relation [a_111, a_42, z_18, bm_18] are known: a_111, z_18, bm_18 ===> a_42
-b_141, b_63, a_57, am_57 in symmetric relation [b_141, b_63, a_84, a_57, am_57] are known: b_141, b_63, a_57, am_57 ===> a_84
+b_78, z_63 in symmetric relation [b_63, b_78, z_63] are known: b_78, z_63 ===> b_63
 b_154, b_76, a_97, am_70 in symmetric relation [b_154, b_76, a_97, a_70, am_70] are known: b_154, b_76, a_97, am_70 ===> a_70
 b_155, b_77, a_71, am_71 in symmetric relation [b_155, b_77, a_98, a_71, am_71] are known: b_155, b_77, a_71, am_71 ===> a_98
-b_156, b_78, a_99, a_72 in symmetric relation [b_156, b_78, a_99, a_72, am_72] are known: b_156, b_78, a_99, a_72 ===> am_72
-a_99, z_75, bm_75 in symmetric relation [a_168, a_99, z_75, bm_75] are known: a_99, z_75, bm_75 ===> a_168
+b_78, z_78 in symmetric relation [b_78, b_93, z_78] are known: b_78, z_78 ===> b_93
 b_4, b_5 in implication relation [b_4, b_5 => bm_3] are known: b_4, b_5 ===> bm_3
-b_17, b_18 in implication relation [b_17, b_18 => bm_16] are known: b_17, b_18 ===> bm_16
-b_18, b_19 in implication relation [b_18, b_19 => bm_17] are known: b_18, b_19 ===> bm_17
 a_57, a_58 in implication relation [a_57, a_58 => am_56] are known: a_57, a_58 ===> am_56
-a_99, a_100 in implication relation [a_99, a_100 => am_98] are known: a_99, a_100 ===> am_98
-a_140, a_141 in implication relation [a_140, a_141 => am_139] are known: a_140, a_141 ===> am_139
+b_77, b_78 in implication relation [b_77, b_78 => bm_76] are known: b_77, b_78 ===> bm_76
+b_78, b_79 in implication relation [b_78, b_79 => bm_77] are known: b_78, b_79 ===> bm_77
 ############################################################
-State 19:
+State 18:
 a_98, z_5, bm_5 in symmetric relation [a_98, a_29, z_5, bm_5] are known: a_98, z_5, bm_5 ===> a_29
-b_126, b_48, a_42, am_42 in symmetric relation [b_126, b_48, a_69, a_42, am_42] are known: b_126, b_48, a_42, am_42 ===> a_69
-a_70, z_46, bm_46 in symmetric relation [a_139, a_70, z_46, bm_46] are known: a_70, z_46, bm_46 ===> a_139
-a_84, z_60, bm_60 in symmetric relation [a_153, a_84, z_60, bm_60] are known: a_84, z_60, bm_60 ===> a_153
+b_63, z_48 in symmetric relation [b_48, b_63, z_48] are known: b_63, z_48 ===> b_48
 a_98, z_74, bm_74 in symmetric relation [a_167, a_98, z_74, bm_74] are known: a_98, z_74, bm_74 ===> a_167
-b_168, b_90, a_111, a_84 in symmetric relation [b_168, b_90, a_111, a_84, am_84] are known: b_168, b_90, a_111, a_84 ===> am_84
-b_2, b_3 in implication relation [b_2, b_3 => bm_1] are known: b_2, b_3 ===> bm_1
-b_3, b_4 in implication relation [b_3, b_4 => bm_2] are known: b_3, b_4 ===> bm_2
-a_30, a_31 in implication relation [a_30, a_31 => am_29] are known: a_30, a_31 ===> am_29
+a_100, z_76, bm_76 in symmetric relation [a_169, a_100, z_76, bm_76] are known: a_100, z_76, bm_76 ===> a_169
+b_93, z_93 in symmetric relation [b_93, b_108, z_93] are known: b_93, z_93 ===> b_108
+a_41, a_42 in implication relation [a_41, a_42 => am_40] are known: a_41, a_42 ===> am_40
+b_62, b_63 in implication relation [b_62, b_63 => bm_61] are known: b_62, b_63 ===> bm_61
+b_63, b_64 in implication relation [b_63, b_64 => bm_62] are known: b_63, b_64 ===> bm_62
 a_70, a_71 in implication relation [a_70, a_71 => am_69] are known: a_70, a_71 ===> am_69
-a_84, a_85 in implication relation [a_84, a_85 => am_83] are known: a_84, a_85 ===> am_83
+b_92, b_93 in implication relation [b_92, b_93 => bm_91] are known: b_92, b_93 ===> bm_91
+b_93, b_94 in implication relation [b_93, b_94 => bm_92] are known: b_93, b_94 ===> bm_92
 a_97, a_98 in implication relation [a_97, a_98 => am_96] are known: a_97, a_98 ===> am_96
 a_98, a_99 in implication relation [a_98, a_99 => am_97] are known: a_98, a_99 ===> am_97
+############################################################
+State 19:
+b_113, b_35, a_29, am_29 in symmetric relation [b_113, b_35, a_56, a_29, am_29] are known: b_113, b_35, a_29, am_29 ===> a_56
+b_48, z_33 in symmetric relation [b_33, b_48, z_33] are known: b_48, z_33 ===> b_33
+b_124, b_46, a_67, am_40 in symmetric relation [b_124, b_46, a_67, a_40, am_40] are known: b_124, b_46, a_67, am_40 ===> a_40
+b_126, b_48, a_42, am_42 in symmetric relation [b_126, b_48, a_69, a_42, am_42] are known: b_126, b_48, a_42, am_42 ===> a_69
+b_108, z_108 in symmetric relation [b_108, b_123, z_108] are known: b_108, z_108 ===> b_123
+a_28, a_29 in implication relation [a_28, a_29 => am_27] are known: a_28, a_29 ===> am_27
+a_29, a_30 in implication relation [a_29, a_30 => am_28] are known: a_29, a_30 ===> am_28
+b_47, b_48 in implication relation [b_47, b_48 => bm_46] are known: b_47, b_48 ===> bm_46
+b_48, b_49 in implication relation [b_48, b_49 => bm_47] are known: b_48, b_49 ===> bm_47
+b_107, b_108 in implication relation [b_107, b_108 => bm_106] are known: b_107, b_108 ===> bm_106
+b_108, b_109 in implication relation [b_108, b_109 => bm_107] are known: b_108, b_109 ===> bm_107
+a_167, a_168 in implication relation [a_167, a_168 => am_166] are known: a_167, a_168 ===> am_166
 a_168, a_169 in implication relation [a_168, a_169 => am_167] are known: a_168, a_169 ===> am_167
 ############################################################
 State 20:
-b_113, b_35, a_29, am_29 in symmetric relation [b_113, b_35, a_56, a_29, am_29] are known: b_113, b_35, a_29, am_29 ===> a_56
+b_33, z_18 in symmetric relation [b_18, b_33, z_18] are known: b_33, z_18 ===> b_18
+b_112, b_34, a_28, am_28 in symmetric relation [b_112, b_34, a_55, a_28, am_28] are known: b_112, b_34, a_28, am_28 ===> a_55
 a_69, z_45, bm_45 in symmetric relation [a_138, a_69, z_45, bm_45] are known: a_69, z_45, bm_45 ===> a_138
-b_153, b_75, a_69, am_69 in symmetric relation [b_153, b_75, a_96, a_69, am_69] are known: b_153, b_75, a_69, am_69 ===> a_96
-a_28, a_29 in implication relation [a_28, a_29 => am_27] are known: a_28, a_29 ===> am_27
-a_29, a_30 in implication relation [a_29, a_30 => am_28] are known: a_29, a_30 ===> am_28
+a_70, z_46, bm_46 in symmetric relation [a_139, a_70, z_46, bm_46] are known: a_70, z_46, bm_46 ===> a_139
+a_71, z_47, bm_47 in symmetric relation [a_140, a_71, z_47, bm_47] are known: a_71, z_47, bm_47 ===> a_140
+b_140, b_62, a_56, am_56 in symmetric relation [b_140, b_62, a_83, a_56, am_56] are known: b_140, b_62, a_56, am_56 ===> a_83
+b_123, z_123 in symmetric relation [b_123, b_138, z_123] are known: b_123, z_123 ===> b_138
+b_32, b_33 in implication relation [b_32, b_33 => bm_31] are known: b_32, b_33 ===> bm_31
+b_33, b_34 in implication relation [b_33, b_34 => bm_32] are known: b_33, b_34 ===> bm_32
+a_40, a_41 in implication relation [a_40, a_41 => am_39] are known: a_40, a_41 ===> am_39
+a_56, a_57 in implication relation [a_56, a_57 => am_55] are known: a_56, a_57 ===> am_55
+a_68, a_69 in implication relation [a_68, a_69 => am_67] are known: a_68, a_69 ===> am_67
 a_69, a_70 in implication relation [a_69, a_70 => am_68] are known: a_69, a_70 ===> am_68
-a_139, a_140 in implication relation [a_139, a_140 => am_138] are known: a_139, a_140 ===> am_138
-a_153, a_154 in implication relation [a_153, a_154 => am_152] are known: a_153, a_154 ===> am_152
-a_167, a_168 in implication relation [a_167, a_168 => am_166] are known: a_167, a_168 ===> am_166
+b_122, b_123 in implication relation [b_122, b_123 => bm_121] are known: b_122, b_123 ===> bm_121
+b_123, b_124 in implication relation [b_123, b_124 => bm_122] are known: b_123, b_124 ===> bm_122
 ############################################################
 State 21:
-a_96, z_3, bm_3 in symmetric relation [a_96, a_27, z_3, bm_3] are known: a_96, z_3, bm_3 ===> a_27
-b_112, b_34, a_28, am_28 in symmetric relation [b_112, b_34, a_55, a_28, am_28] are known: b_112, b_34, a_28, am_28 ===> a_55
-a_56, z_32, bm_32 in symmetric relation [a_125, a_56, z_32, bm_32] are known: a_56, z_32, bm_32 ===> a_125
-b_140, b_62, a_56, am_56 in symmetric relation [b_140, b_62, a_83, a_56, am_56] are known: b_140, b_62, a_56, am_56 ===> a_83
-a_56, a_57 in implication relation [a_56, a_57 => am_55] are known: a_56, a_57 ===> am_55
-a_96, a_97 in implication relation [a_96, a_97 => am_95] are known: a_96, a_97 ===> am_95
-a_138, a_139 in implication relation [a_138, a_139 => am_137] are known: a_138, a_139 ===> am_137
-############################################################
-State 22:
-b_111, b_33, a_27, am_27 in symmetric relation [b_111, b_33, a_54, a_27, am_27] are known: b_111, b_33, a_27, am_27 ===> a_54
+b_18, z_3 in symmetric relation [b_3, b_18, z_3] are known: b_18, z_3 ===> b_3
 a_55, z_31, bm_31 in symmetric relation [a_124, a_55, z_31, bm_31] are known: a_55, z_31, bm_31 ===> a_124
+a_56, z_32, bm_32 in symmetric relation [a_125, a_56, z_32, bm_32] are known: a_56, z_32, bm_32 ===> a_125
 b_139, b_61, a_55, am_55 in symmetric relation [b_139, b_61, a_82, a_55, am_55] are known: b_139, b_61, a_55, am_55 ===> a_82
 a_83, z_59, bm_59 in symmetric relation [a_152, a_83, z_59, bm_59] are known: a_83, z_59, bm_59 ===> a_152
-b_182, a_125, a_98, am_98 in symmetric relation [b_182, b_104, a_125, a_98, am_98] are known: b_182, a_125, a_98, am_98 ===> b_104
-a_27, a_28 in implication relation [a_27, a_28 => am_26] are known: a_27, a_28 ===> am_26
+b_138, z_138 in symmetric relation [b_138, b_153, z_138] are known: b_138, z_138 ===> b_153
+b_17, b_18 in implication relation [b_17, b_18 => bm_16] are known: b_17, b_18 ===> bm_16
+b_18, b_19 in implication relation [b_18, b_19 => bm_17] are known: b_18, b_19 ===> bm_17
 a_55, a_56 in implication relation [a_55, a_56 => am_54] are known: a_55, a_56 ===> am_54
-a_83, a_84 in implication relation [a_83, a_84 => am_82] are known: a_83, a_84 ===> am_82
+b_137, b_138 in implication relation [b_137, b_138 => bm_136] are known: b_137, b_138 ===> bm_136
+a_137, a_138 in implication relation [a_137, a_138 => am_136] are known: a_137, a_138 ===> am_136
+b_138, b_139 in implication relation [b_138, b_139 => bm_137] are known: b_138, b_139 ===> bm_137
+a_138, a_139 in implication relation [a_138, a_139 => am_137] are known: a_138, a_139 ===> am_137
+a_139, a_140 in implication relation [a_139, a_140 => am_138] are known: a_139, a_140 ===> am_138
+a_140, a_141 in implication relation [a_140, a_141 => am_139] are known: a_140, a_141 ===> am_139
+############################################################
+State 22:
+a_40, z_16, bm_16 in symmetric relation [a_109, a_40, z_16, bm_16] are known: a_40, z_16, bm_16 ===> a_109
+a_41, z_17, bm_17 in symmetric relation [a_110, a_41, z_17, bm_17] are known: a_41, z_17, bm_17 ===> a_110
+b_153, b_75, a_69, am_69 in symmetric relation [b_153, b_75, a_96, a_69, am_69] are known: b_153, b_75, a_69, am_69 ===> a_96
+b_181, a_124, a_97, am_97 in symmetric relation [b_181, b_103, a_124, a_97, am_97] are known: b_181, a_124, a_97, am_97 ===> b_103
+b_182, a_125, a_98, am_98 in symmetric relation [b_182, b_104, a_125, a_98, am_98] are known: b_182, a_125, a_98, am_98 ===> b_104
+b_153, z_153 in symmetric relation [b_153, b_168, z_153] are known: b_153, z_153 ===> b_168
+b_2, b_3 in implication relation [b_2, b_3 => bm_1] are known: b_2, b_3 ===> bm_1
+b_3, b_4 in implication relation [b_3, b_4 => bm_2] are known: b_3, b_4 ===> bm_2
+a_82, a_83 in implication relation [a_82, a_83 => am_81] are known: a_82, a_83 ===> am_81
+a_124, a_125 in implication relation [a_124, a_125 => am_123] are known: a_124, a_125 ===> am_123
 a_125, a_126 in implication relation [a_125, a_126 => am_124] are known: a_125, a_126 ===> am_124
+b_152, b_153 in implication relation [b_152, b_153 => bm_151] are known: b_152, b_153 ===> bm_151
+b_153, b_154 in implication relation [b_153, b_154 => bm_152] are known: b_153, b_154 ===> bm_152
 ############################################################
 State 23:
-a_54, z_30, bm_30 in symmetric relation [a_123, a_54, z_30, bm_30] are known: a_54, z_30, bm_30 ===> a_123
-b_138, b_60, a_54, am_54 in symmetric relation [b_138, b_60, a_81, a_54, am_54] are known: b_138, b_60, a_54, am_54 ===> a_81
+a_96, z_3, bm_3 in symmetric relation [a_96, a_27, z_3, bm_3] are known: a_96, z_3, bm_3 ===> a_27
+b_103, z_88 in symmetric relation [b_88, b_103, z_88] are known: b_103, z_88 ===> b_88
 b_104, z_89 in symmetric relation [b_89, b_104, z_89] are known: b_104, z_89 ===> b_89
-b_181, a_124, a_97, am_97 in symmetric relation [b_181, b_103, a_124, a_97, am_97] are known: b_181, a_124, a_97, am_97 ===> b_103
+b_103, z_103 in symmetric relation [b_103, b_118, z_103] are known: b_103, z_103 ===> b_118
 b_104, z_104 in symmetric relation [b_104, b_119, z_104] are known: b_104, z_104 ===> b_119
-a_54, a_55 in implication relation [a_54, a_55 => am_53] are known: a_54, a_55 ===> am_53
-a_82, a_83 in implication relation [a_82, a_83 => am_81] are known: a_82, a_83 ===> am_81
+b_168, z_168 in symmetric relation [b_168, b_183, z_168] are known: b_168, z_168 ===> b_183
+a_96, a_97 in implication relation [a_96, a_97 => am_95] are known: a_96, a_97 ===> am_95
+b_103, b_104 in implication relation [b_103, b_104 => bm_102] are known: b_103, b_104 ===> bm_102
 b_104, b_105 in implication relation [b_104, b_105 => bm_103] are known: b_104, b_105 ===> bm_103
-a_124, a_125 in implication relation [a_124, a_125 => am_123] are known: a_124, a_125 ===> am_123
-a_152, a_153 in implication relation [a_152, a_153 => am_151] are known: a_152, a_153 ===> am_151
+a_109, a_110 in implication relation [a_109, a_110 => am_108] are known: a_109, a_110 ===> am_108
+a_110, a_111 in implication relation [a_110, a_111 => am_109] are known: a_110, a_111 ===> am_109
+b_167, b_168 in implication relation [b_167, b_168 => bm_166] are known: b_167, b_168 ===> bm_166
+b_168, b_169 in implication relation [b_168, b_169 => bm_167] are known: b_168, b_169 ===> bm_167
 ############################################################
 State 24:
+b_111, b_33, a_27, am_27 in symmetric relation [b_111, b_33, a_54, a_27, am_27] are known: b_111, b_33, a_27, am_27 ===> a_54
+b_88, z_73 in symmetric relation [b_73, b_88, z_73] are known: b_88, z_73 ===> b_73
 b_89, z_74 in symmetric relation [b_74, b_89, z_74] are known: b_89, z_74 ===> b_74
-b_167, b_89, a_83, am_83 in symmetric relation [b_167, b_89, a_110, a_83, am_83] are known: b_167, b_89, a_83, am_83 ===> a_110
-b_103, z_88 in symmetric relation [b_88, b_103, z_88] are known: b_103, z_88 ===> b_88
-b_180, a_123, a_96, am_96 in symmetric relation [b_180, b_102, a_123, a_96, am_96] are known: b_180, a_123, a_96, am_96 ===> b_102
+b_166, b_88, a_109, a_82 in symmetric relation [b_166, b_88, a_109, a_82, am_82] are known: b_166, b_88, a_109, a_82 ===> am_82
+b_167, b_89, a_110, a_83 in symmetric relation [b_167, b_89, a_110, a_83, am_83] are known: b_167, b_89, a_110, a_83 ===> am_83
+b_183, b_105, a_126, a_99 in symmetric relation [b_183, b_105, a_126, a_99, am_99] are known: b_183, b_105, a_126, a_99 ===> am_99
+a_126, z_102, bm_102 in symmetric relation [a_195, a_126, z_102, bm_102] are known: a_126, z_102, bm_102 ===> a_195
 a_127, z_103, bm_103 in symmetric relation [a_196, a_127, z_103, bm_103] are known: a_127, z_103, bm_103 ===> a_196
-b_103, z_103 in symmetric relation [b_103, b_118, z_103] are known: b_103, z_103 ===> b_118
+b_118, z_118 in symmetric relation [b_118, b_133, z_118] are known: b_118, z_118 ===> b_133
 b_119, z_119 in symmetric relation [b_119, b_134, z_119] are known: b_119, z_119 ===> b_134
-a_81, a_82 in implication relation [a_81, a_82 => am_80] are known: a_81, a_82 ===> am_80
+a_27, a_28 in implication relation [a_27, a_28 => am_26] are known: a_27, a_28 ===> am_26
+b_88, b_89 in implication relation [b_88, b_89 => bm_87] are known: b_88, b_89 ===> bm_87
 b_89, b_90 in implication relation [b_89, b_90 => bm_88] are known: b_89, b_90 ===> bm_88
-b_103, b_104 in implication relation [b_103, b_104 => bm_102] are known: b_103, b_104 ===> bm_102
+b_118, b_119 in implication relation [b_118, b_119 => bm_117] are known: b_118, b_119 ===> bm_117
 b_119, b_120 in implication relation [b_119, b_120 => bm_118] are known: b_119, b_120 ===> bm_118
-a_123, a_124 in implication relation [a_123, a_124 => am_122] are known: a_123, a_124 ===> am_122
 ############################################################
 State 25:
-a_110, z_17, bm_17 in symmetric relation [a_110, a_41, z_17, bm_17] are known: a_110, z_17, bm_17 ===> a_41
+a_54, z_30, bm_30 in symmetric relation [a_123, a_54, z_30, bm_30] are known: a_54, z_30, bm_30 ===> a_123
+b_138, b_60, a_54, am_54 in symmetric relation [b_138, b_60, a_81, a_54, am_54] are known: b_138, b_60, a_54, am_54 ===> a_81
+b_73, z_58 in symmetric relation [b_58, b_73, z_58] are known: b_73, z_58 ===> b_58
 b_74, z_59 in symmetric relation [b_59, b_74, z_59] are known: b_74, z_59 ===> b_59
-b_88, z_73 in symmetric relation [b_73, b_88, z_73] are known: b_88, z_73 ===> b_73
-b_166, b_88, a_82, am_82 in symmetric relation [b_166, b_88, a_109, a_82, am_82] are known: b_166, b_88, a_82, am_82 ===> a_109
-b_102, z_87 in symmetric relation [b_87, b_102, z_87] are known: b_102, z_87 ===> b_87
-a_126, z_102, bm_102 in symmetric relation [a_195, a_126, z_102, bm_102] are known: a_126, z_102, bm_102 ===> a_195
-b_102, z_102 in symmetric relation [b_102, b_117, z_102] are known: b_102, z_102 ===> b_117
+b_151, b_73, a_67, am_67 in symmetric relation [b_151, b_73, a_94, a_67, am_67] are known: b_151, b_73, a_67, am_67 ===> a_94
+b_152, b_74, a_68, am_68 in symmetric relation [b_152, b_74, a_95, a_68, am_68] are known: b_152, b_74, a_68, am_68 ===> a_95
+a_111, z_87, bm_87 in symmetric relation [a_180, a_111, z_87, bm_87] are known: a_111, z_87, bm_87 ===> a_180
+a_141, z_117, bm_117 in symmetric relation [a_210, a_141, z_117, bm_117] are known: a_141, z_117, bm_117 ===> a_210
 a_142, z_118, bm_118 in symmetric relation [a_211, a_142, z_118, bm_118] are known: a_142, z_118, bm_118 ===> a_211
-b_118, z_118 in symmetric relation [b_118, b_133, z_118] are known: b_118, z_118 ===> b_133
+b_133, z_133 in symmetric relation [b_133, b_148, z_133] are known: b_133, z_133 ===> b_148
 b_134, z_134 in symmetric relation [b_134, b_149, z_134] are known: b_134, z_134 ===> b_149
+a_195, z_171, bm_171 in symmetric relation [a_264, a_195, z_171, bm_171] are known: a_195, z_171, bm_171 ===> a_264
+a_54, a_55 in implication relation [a_54, a_55 => am_53] are known: a_54, a_55 ===> am_53
+b_73, b_74 in implication relation [b_73, b_74 => bm_72] are known: b_73, b_74 ===> bm_72
 b_74, b_75 in implication relation [b_74, b_75 => bm_73] are known: b_74, b_75 ===> bm_73
-b_88, b_89 in implication relation [b_88, b_89 => bm_87] are known: b_88, b_89 ===> bm_87
-b_102, b_103 in implication relation [b_102, b_103 => bm_101] are known: b_102, b_103 ===> bm_101
-a_110, a_111 in implication relation [a_110, a_111 => am_109] are known: a_110, a_111 ===> am_109
-b_118, b_119 in implication relation [b_118, b_119 => bm_117] are known: b_118, b_119 ===> bm_117
+b_133, b_134 in implication relation [b_133, b_134 => bm_132] are known: b_133, b_134 ===> bm_132
 b_134, b_135 in implication relation [b_134, b_135 => bm_133] are known: b_134, b_135 ===> bm_133
 ############################################################
 State 26:
-a_109, z_16, bm_16 in symmetric relation [a_109, a_40, z_16, bm_16] are known: a_109, z_16, bm_16 ===> a_40
-b_125, b_47, a_41, am_41 in symmetric relation [b_125, b_47, a_68, a_41, am_41] are known: b_125, b_47, a_41, am_41 ===> a_68
+a_94, z_1, bm_1 in symmetric relation [a_94, a_25, z_1, bm_1] are known: a_94, z_1, bm_1 ===> a_25
+a_95, z_2, bm_2 in symmetric relation [a_95, a_26, z_2, bm_2] are known: a_95, z_2, bm_2 ===> a_26
+b_58, z_43 in symmetric relation [b_43, b_58, z_43] are known: b_58, z_43 ===> b_43
 b_59, z_44 in symmetric relation [b_44, b_59, z_44] are known: b_59, z_44 ===> b_44
-b_73, z_58 in symmetric relation [b_58, b_73, z_58] are known: b_73, z_58 ===> b_58
-b_87, z_72 in symmetric relation [b_72, b_87, z_72] are known: b_87, z_72 ===> b_72
+a_96, z_72, bm_72 in symmetric relation [a_165, a_96, z_72, bm_72] are known: a_96, z_72, bm_72 ===> a_165
 a_97, z_73, bm_73 in symmetric relation [a_166, a_97, z_73, bm_73] are known: a_97, z_73, bm_73 ===> a_166
-b_165, b_87, a_81, am_81 in symmetric relation [b_165, b_87, a_108, a_81, am_81] are known: b_165, b_87, a_81, am_81 ===> a_108
-a_111, z_87, bm_87 in symmetric relation [a_180, a_111, z_87, bm_87] are known: a_111, z_87, bm_87 ===> a_180
-a_125, z_101, bm_101 in symmetric relation [a_194, a_125, z_101, bm_101] are known: a_125, z_101, bm_101 ===> a_194
-a_141, z_117, bm_117 in symmetric relation [a_210, a_141, z_117, bm_117] are known: a_141, z_117, bm_117 ===> a_210
-b_117, z_117 in symmetric relation [b_117, b_132, z_117] are known: b_117, z_117 ===> b_132
-b_133, a_154, a_127, am_127 in symmetric relation [b_211, b_133, a_154, a_127, am_127] are known: b_133, a_154, a_127, am_127 ===> b_211
-b_133, z_133 in symmetric relation [b_133, b_148, z_133] are known: b_133, z_133 ===> b_148
+b_180, a_123, a_96, am_96 in symmetric relation [b_180, b_102, a_123, a_96, am_96] are known: b_180, a_123, a_96, am_96 ===> b_102
+b_148, z_148 in symmetric relation [b_148, b_163, z_148] are known: b_148, z_148 ===> b_163
 b_149, z_149 in symmetric relation [b_149, b_164, z_149] are known: b_149, z_149 ===> b_164
-a_195, z_171, bm_171 in symmetric relation [a_264, a_195, z_171, bm_171] are known: a_195, z_171, bm_171 ===> a_264
-a_41, a_42 in implication relation [a_41, a_42 => am_40] are known: a_41, a_42 ===> am_40
+a_180, z_156, bm_156 in symmetric relation [a_249, a_180, z_156, bm_156] are known: a_180, z_156, bm_156 ===> a_249
+b_58, b_59 in implication relation [b_58, b_59 => bm_57] are known: b_58, b_59 ===> bm_57
 b_59, b_60 in implication relation [b_59, b_60 => bm_58] are known: b_59, b_60 ===> bm_58
-b_73, b_74 in implication relation [b_73, b_74 => bm_72] are known: b_73, b_74 ===> bm_72
-b_87, b_88 in implication relation [b_87, b_88 => bm_86] are known: b_87, b_88 ===> bm_86
-a_109, a_110 in implication relation [a_109, a_110 => am_108] are known: a_109, a_110 ===> am_108
-b_117, b_118 in implication relation [b_117, b_118 => bm_116] are known: b_117, b_118 ===> bm_116
-b_133, b_134 in implication relation [b_133, b_134 => bm_132] are known: b_133, b_134 ===> bm_132
+a_81, a_82 in implication relation [a_81, a_82 => am_80] are known: a_81, a_82 ===> am_80
+a_94, a_95 in implication relation [a_94, a_95 => am_93] are known: a_94, a_95 ===> am_93
+a_95, a_96 in implication relation [a_95, a_96 => am_94] are known: a_95, a_96 ===> am_94
+a_123, a_124 in implication relation [a_123, a_124 => am_122] are known: a_123, a_124 ===> am_122
+b_148, b_149 in implication relation [b_148, b_149 => bm_147] are known: b_148, b_149 ===> bm_147
 b_149, b_150 in implication relation [b_149, b_150 => bm_148] are known: b_149, b_150 ===> bm_148
 ############################################################
 State 27:
-a_108, z_15, bm_15 in symmetric relation [a_108, a_39, z_15, bm_15] are known: a_108, z_15, bm_15 ===> a_39
+b_110, b_32, a_26, am_26 in symmetric relation [b_110, b_32, a_53, a_26, am_26] are known: b_110, b_32, a_26, am_26 ===> a_53
+b_43, z_28 in symmetric relation [b_28, b_43, z_28] are known: b_43, z_28 ===> b_28
 b_44, z_29 in symmetric relation [b_29, b_44, z_29] are known: b_44, z_29 ===> b_29
-b_124, b_46, a_40, am_40 in symmetric relation [b_124, b_46, a_67, a_40, am_40] are known: b_124, b_46, a_40, am_40 ===> a_67
-b_58, z_43 in symmetric relation [b_43, b_58, z_43] are known: b_58, z_43 ===> b_43
-a_68, z_44, bm_44 in symmetric relation [a_137, a_68, z_44, bm_44] are known: a_68, z_44, bm_44 ===> a_137
-b_72, z_57 in symmetric relation [b_57, b_72, z_57] are known: b_72, z_57 ===> b_57
+a_81, z_57, bm_57 in symmetric relation [a_150, a_81, z_57, bm_57] are known: a_81, z_57, bm_57 ===> a_150
 a_82, z_58, bm_58 in symmetric relation [a_151, a_82, z_58, bm_58] are known: a_82, z_58, bm_58 ===> a_151
-b_152, b_74, a_68, am_68 in symmetric relation [b_152, b_74, a_95, a_68, am_68] are known: b_152, b_74, a_68, am_68 ===> a_95
-a_96, z_72, bm_72 in symmetric relation [a_165, a_96, z_72, bm_72] are known: a_96, z_72, bm_72 ===> a_165
-a_110, z_86, bm_86 in symmetric relation [a_179, a_110, z_86, bm_86] are known: a_110, z_86, bm_86 ===> a_179
-a_140, z_116, bm_116 in symmetric relation [a_209, a_140, z_116, bm_116] are known: a_140, z_116, bm_116 ===> a_209
-b_132, a_153, a_126, am_126 in symmetric relation [b_210, b_132, a_153, a_126, am_126] are known: b_132, a_153, a_126, am_126 ===> b_210
-b_132, z_132 in symmetric relation [b_132, b_147, z_132] are known: b_132, z_132 ===> b_147
-a_172, z_148, bm_148 in symmetric relation [a_241, a_172, z_148, bm_148] are known: a_172, z_148, bm_148 ===> a_241
-b_148, z_148 in symmetric relation [b_148, b_163, z_148] are known: b_148, z_148 ===> b_163
-a_180, z_156, bm_156 in symmetric relation [a_249, a_180, z_156, bm_156] are known: a_180, z_156, bm_156 ===> a_249
+b_102, z_87 in symmetric relation [b_87, b_102, z_87] are known: b_102, z_87 ===> b_87
+b_102, z_102 in symmetric relation [b_102, b_117, z_102] are known: b_102, z_102 ===> b_117
+a_165, z_141, bm_141 in symmetric relation [a_234, a_165, z_141, bm_141] are known: a_165, z_141, bm_141 ===> a_234
+a_171, z_147, bm_147 in symmetric relation [a_240, a_171, z_147, bm_147] are known: a_171, z_147, bm_147 ===> a_240
+b_163, z_163 in symmetric relation [b_163, b_178, z_163] are known: b_163, z_163 ===> b_178
 b_164, z_164 in symmetric relation [b_164, b_179, z_164] are known: b_164, z_164 ===> b_179
-b_173, a_194, a_167, am_167 in symmetric relation [b_251, b_173, a_194, a_167, am_167] are known: b_173, a_194, a_167, am_167 ===> b_251
-a_194, z_170, bm_170 in symmetric relation [a_263, a_194, z_170, bm_170] are known: a_194, z_170, bm_170 ===> a_263
-a_40, a_41 in implication relation [a_40, a_41 => am_39] are known: a_40, a_41 ===> am_39
+a_25, a_26 in implication relation [a_25, a_26 => am_24] are known: a_25, a_26 ===> am_24
+a_26, a_27 in implication relation [a_26, a_27 => am_25] are known: a_26, a_27 ===> am_25
+b_43, b_44 in implication relation [b_43, b_44 => bm_42] are known: b_43, b_44 ===> bm_42
 b_44, b_45 in implication relation [b_44, b_45 => bm_43] are known: b_44, b_45 ===> bm_43
-b_58, b_59 in implication relation [b_58, b_59 => bm_57] are known: b_58, b_59 ===> bm_57
-a_68, a_69 in implication relation [a_68, a_69 => am_67] are known: a_68, a_69 ===> am_67
-b_72, b_73 in implication relation [b_72, b_73 => bm_71] are known: b_72, b_73 ===> bm_71
-a_108, a_109 in implication relation [a_108, a_109 => am_107] are known: a_108, a_109 ===> am_107
-b_132, b_133 in implication relation [b_132, b_133 => bm_131] are known: b_132, b_133 ===> bm_131
-b_148, b_149 in implication relation [b_148, b_149 => bm_147] are known: b_148, b_149 ===> bm_147
+b_102, b_103 in implication relation [b_102, b_103 => bm_101] are known: b_102, b_103 ===> bm_101
+b_163, b_164 in implication relation [b_163, b_164 => bm_162] are known: b_163, b_164 ===> bm_162
 b_164, b_165 in implication relation [b_164, b_165 => bm_163] are known: b_164, b_165 ===> bm_163
+a_165, a_166 in implication relation [a_165, a_166 => am_164] are known: a_165, a_166 ===> am_164
 a_166, a_167 in implication relation [a_166, a_167 => am_165] are known: a_166, a_167 ===> am_165
 ############################################################
 State 28:
-a_95, z_2, bm_2 in symmetric relation [a_95, a_26, z_2, bm_2] are known: a_95, z_2, bm_2 ===> a_26
-b_29, z_14 in symmetric relation [b_14, b_29, z_14] are known: b_29, z_14 ===> b_14
-b_43, z_28 in symmetric relation [b_28, b_43, z_28] are known: b_43, z_28 ===> b_28
-b_123, b_45, a_39, am_39 in symmetric relation [b_123, b_45, a_66, a_39, am_39] are known: b_123, b_45, a_39, am_39 ===> a_66
-b_57, z_42 in symmetric relation [b_42, b_57, z_42] are known: b_57, z_42 ===> b_42
-a_67, z_43, bm_43 in symmetric relation [a_136, a_67, z_43, bm_43] are known: a_67, z_43, bm_43 ===> a_136
-a_81, z_57, bm_57 in symmetric relation [a_150, a_81, z_57, bm_57] are known: a_81, z_57, bm_57 ===> a_150
-b_151, b_73, a_67, am_67 in symmetric relation [b_151, b_73, a_94, a_67, am_67] are known: b_151, b_73, a_67, am_67 ===> a_94
-a_95, z_71, bm_71 in symmetric relation [a_164, a_95, z_71, bm_71] are known: a_95, z_71, bm_71 ===> a_164
-a_165, z_141, bm_141 in symmetric relation [a_234, a_165, z_141, bm_141] are known: a_165, z_141, bm_141 ===> a_234
-a_171, z_147, bm_147 in symmetric relation [a_240, a_171, z_147, bm_147] are known: a_171, z_147, bm_147 ===> a_240
-b_147, z_147 in symmetric relation [b_147, b_162, z_147] are known: b_147, z_147 ===> b_162
-b_158, a_179, a_152, am_152 in symmetric relation [b_236, b_158, a_179, a_152, am_152] are known: b_158, a_179, a_152, am_152 ===> b_236
-a_179, z_155, bm_155 in symmetric relation [a_248, a_179, z_155, bm_155] are known: a_179, z_155, bm_155 ===> a_248
-b_163, z_163 in symmetric relation [b_163, b_178, z_163] are known: b_163, z_163 ===> b_178
-b_29, b_30 in implication relation [b_29, b_30 => bm_28] are known: b_29, b_30 ===> bm_28
-a_39, a_40 in implication relation [a_39, a_40 => am_38] are known: a_39, a_40 ===> am_38
-b_43, b_44 in implication relation [b_43, b_44 => bm_42] are known: b_43, b_44 ===> bm_42
-b_57, b_58 in implication relation [b_57, b_58 => bm_56] are known: b_57, b_58 ===> bm_56
-a_67, a_68 in implication relation [a_67, a_68 => am_66] are known: a_67, a_68 ===> am_66
-a_95, a_96 in implication relation [a_95, a_96 => am_94] are known: a_95, a_96 ===> am_94
-a_137, a_138 in implication relation [a_137, a_138 => am_136] are known: a_137, a_138 ===> am_136
-b_147, b_148 in implication relation [b_147, b_148 => bm_146] are known: b_147, b_148 ===> bm_146
-a_151, a_152 in implication relation [a_151, a_152 => am_150] are known: a_151, a_152 ===> am_150
-b_163, b_164 in implication relation [b_163, b_164 => bm_162] are known: b_163, b_164 ===> bm_162
-a_165, a_166 in implication relation [a_165, a_166 => am_164] are known: a_165, a_166 ===> am_164
-############################################################
-State 29:
-a_94, z_1, bm_1 in symmetric relation [a_94, a_25, z_1, bm_1] are known: a_94, z_1, bm_1 ===> a_25
 b_28, z_13 in symmetric relation [b_13, b_28, z_13] are known: b_28, z_13 ===> b_13
-b_110, b_32, a_26, am_26 in symmetric relation [b_110, b_32, a_53, a_26, am_26] are known: b_110, b_32, a_26, am_26 ===> a_53
-b_42, z_27 in symmetric relation [b_27, b_42, z_27] are known: b_42, z_27 ===> b_27
-a_66, z_42, bm_42 in symmetric relation [a_135, a_66, z_42, bm_42] are known: a_66, z_42, bm_42 ===> a_135
-b_150, b_72, a_66, am_66 in symmetric relation [b_150, b_72, a_93, a_66, am_66] are known: b_150, b_72, a_66, am_66 ===> a_93
-a_150, z_126, bm_126 in symmetric relation [a_219, a_150, z_126, bm_126] are known: a_150, z_126, bm_126 ===> a_219
-b_143, a_164, a_137, am_137 in symmetric relation [b_221, b_143, a_164, a_137, am_137] are known: b_143, a_164, a_137, am_137 ===> b_221
-a_164, z_140, bm_140 in symmetric relation [a_233, a_164, z_140, bm_140] are known: a_164, z_140, bm_140 ===> a_233
-a_170, z_146, bm_146 in symmetric relation [a_239, a_170, z_146, bm_146] are known: a_170, z_146, bm_146 ===> a_239
-b_162, z_162 in symmetric relation [b_162, b_177, z_162] are known: b_162, z_162 ===> b_177
-b_14, b_15 in implication relation [b_14, b_15 => bm_13] are known: b_14, b_15 ===> bm_13
-a_26, a_27 in implication relation [a_26, a_27 => am_25] are known: a_26, a_27 ===> am_25
-b_28, b_29 in implication relation [b_28, b_29 => bm_27] are known: b_28, b_29 ===> bm_27
-b_42, b_43 in implication relation [b_42, b_43 => bm_41] are known: b_42, b_43 ===> bm_41
-a_66, a_67 in implication relation [a_66, a_67 => am_65] are known: a_66, a_67 ===> am_65
-a_94, a_95 in implication relation [a_94, a_95 => am_93] are known: a_94, a_95 ===> am_93
-a_136, a_137 in implication relation [a_136, a_137 => am_135] are known: a_136, a_137 ===> am_135
-a_150, a_151 in implication relation [a_150, a_151 => am_149] are known: a_150, a_151 ===> am_149
-b_162, b_163 in implication relation [b_162, b_163 => bm_161] are known: b_162, b_163 ===> bm_161
-a_164, a_165 in implication relation [a_164, a_165 => am_163] are known: a_164, a_165 ===> am_163
-############################################################
-State 30:
-a_93, z_0, bm_0 in symmetric relation [a_93, a_24, z_0, bm_0] are known: a_93, z_0, bm_0 ===> a_24
-b_27, z_12 in symmetric relation [b_12, b_27, z_12] are known: b_27, z_12 ===> b_12
+b_29, z_14 in symmetric relation [b_14, b_29, z_14] are known: b_29, z_14 ===> b_14
 b_109, b_31, a_25, am_25 in symmetric relation [b_109, b_31, a_52, a_25, am_25] are known: b_109, b_31, a_25, am_25 ===> a_52
 a_53, z_29, bm_29 in symmetric relation [a_122, a_53, z_29, bm_29] are known: a_53, z_29, bm_29 ===> a_122
+a_67, z_43, bm_43 in symmetric relation [a_136, a_67, z_43, bm_43] are known: a_67, z_43, bm_43 ===> a_136
 b_137, b_59, a_53, am_53 in symmetric relation [b_137, b_59, a_80, a_53, am_53] are known: b_137, b_59, a_53, am_53 ===> a_80
-a_135, z_111, bm_111 in symmetric relation [a_204, a_135, z_111, bm_111] are known: a_135, z_111, bm_111 ===> a_204
-b_177, a_198, a_171, am_171 in symmetric relation [b_255, b_177, a_198, a_171, am_171] are known: b_177, a_198, a_171, am_171 ===> b_255
-b_13, b_14 in implication relation [b_13, b_14 => bm_12] are known: b_13, b_14 ===> bm_12
-a_25, a_26 in implication relation [a_25, a_26 => am_24] are known: a_25, a_26 ===> am_24
-b_27, b_28 in implication relation [b_27, b_28 => bm_26] are known: b_27, b_28 ===> bm_26
+b_87, z_72 in symmetric relation [b_72, b_87, z_72] are known: b_87, z_72 ===> b_72
+b_165, b_87, a_81, am_81 in symmetric relation [b_165, b_87, a_108, a_81, am_81] are known: b_165, b_87, a_81, am_81 ===> a_108
+a_125, z_101, bm_101 in symmetric relation [a_194, a_125, z_101, bm_101] are known: a_125, z_101, bm_101 ===> a_194
+b_117, z_117 in symmetric relation [b_117, b_132, z_117] are known: b_117, z_117 ===> b_132
+a_150, z_126, bm_126 in symmetric relation [a_219, a_150, z_126, bm_126] are known: a_150, z_126, bm_126 ===> a_219
+b_28, b_29 in implication relation [b_28, b_29 => bm_27] are known: b_28, b_29 ===> bm_27
+b_29, b_30 in implication relation [b_29, b_30 => bm_28] are known: b_29, b_30 ===> bm_28
 a_53, a_54 in implication relation [a_53, a_54 => am_52] are known: a_53, a_54 ===> am_52
-a_93, a_94 in implication relation [a_93, a_94 => am_92] are known: a_93, a_94 ===> am_92
-a_135, a_136 in implication relation [a_135, a_136 => am_134] are known: a_135, a_136 ===> am_134
-b_177, b_178 in implication relation [b_177, b_178 => bm_176] are known: b_177, b_178 ===> bm_176
+b_87, b_88 in implication relation [b_87, b_88 => bm_86] are known: b_87, b_88 ===> bm_86
+b_117, b_118 in implication relation [b_117, b_118 => bm_116] are known: b_117, b_118 ===> bm_116
+a_150, a_151 in implication relation [a_150, a_151 => am_149] are known: a_150, a_151 ===> am_149
+a_151, a_152 in implication relation [a_151, a_152 => am_150] are known: a_151, a_152 ===> am_150
 ############################################################
-State 31:
-b_108, b_30, a_24, am_24 in symmetric relation [b_108, b_30, a_51, a_24, am_24] are known: b_108, b_30, a_24, am_24 ===> a_51
+State 29:
+a_108, z_15, bm_15 in symmetric relation [a_108, a_39, z_15, bm_15] are known: a_108, z_15, bm_15 ===> a_39
 a_52, z_28, bm_28 in symmetric relation [a_121, a_52, z_28, bm_28] are known: a_52, z_28, bm_28 ===> a_121
 b_136, b_58, a_52, am_52 in symmetric relation [b_136, b_58, a_79, a_52, am_52] are known: b_136, b_58, a_52, am_52 ===> a_79
-a_80, z_56, bm_56 in symmetric relation [a_149, a_80, z_56, bm_56] are known: a_80, z_56, bm_56 ===> a_149
+b_72, z_57 in symmetric relation [b_57, b_72, z_57] are known: b_72, z_57 ===> b_57
+a_110, z_86, bm_86 in symmetric relation [a_179, a_110, z_86, bm_86] are known: a_110, z_86, bm_86 ===> a_179
 b_179, a_122, a_95, am_95 in symmetric relation [b_179, b_101, a_122, a_95, am_95] are known: b_179, a_122, a_95, am_95 ===> b_101
-b_12, b_13 in implication relation [b_12, b_13 => bm_11] are known: b_12, b_13 ===> bm_11
-a_24, a_25 in implication relation [a_24, a_25 => am_23] are known: a_24, a_25 ===> am_23
+a_140, z_116, bm_116 in symmetric relation [a_209, a_140, z_116, bm_116] are known: a_140, z_116, bm_116 ===> a_209
+b_132, z_132 in symmetric relation [b_132, b_147, z_132] are known: b_132, z_132 ===> b_147
+b_173, a_194, a_167, am_167 in symmetric relation [b_251, b_173, a_194, a_167, am_167] are known: b_173, a_194, a_167, am_167 ===> b_251
+a_194, z_170, bm_170 in symmetric relation [a_263, a_194, z_170, bm_170] are known: a_194, z_170, bm_170 ===> a_263
+b_13, b_14 in implication relation [b_13, b_14 => bm_12] are known: b_13, b_14 ===> bm_12
+b_14, b_15 in implication relation [b_14, b_15 => bm_13] are known: b_14, b_15 ===> bm_13
 a_52, a_53 in implication relation [a_52, a_53 => am_51] are known: a_52, a_53 ===> am_51
+b_72, b_73 in implication relation [b_72, b_73 => bm_71] are known: b_72, b_73 ===> bm_71
 a_80, a_81 in implication relation [a_80, a_81 => am_79] are known: a_80, a_81 ===> am_79
+a_108, a_109 in implication relation [a_108, a_109 => am_107] are known: a_108, a_109 ===> am_107
 a_122, a_123 in implication relation [a_122, a_123 => am_121] are known: a_122, a_123 ===> am_121
+b_132, b_133 in implication relation [b_132, b_133 => bm_131] are known: b_132, b_133 ===> bm_131
+a_136, a_137 in implication relation [a_136, a_137 => am_135] are known: a_136, a_137 ===> am_135
 ############################################################
-State 32:
-a_104, z_11, bm_11 in symmetric relation [a_104, a_35, z_11, bm_11] are known: a_104, z_11, bm_11 ===> a_35
-a_51, z_27, bm_27 in symmetric relation [a_120, a_51, z_27, bm_27] are known: a_51, z_27, bm_27 ===> a_120
-b_135, b_57, a_51, am_51 in symmetric relation [b_135, b_57, a_78, a_51, am_51] are known: b_135, b_57, a_51, am_51 ===> a_78
+State 30:
+b_123, b_45, a_39, am_39 in symmetric relation [b_123, b_45, a_66, a_39, am_39] are known: b_123, b_45, a_39, am_39 ===> a_66
+b_57, z_42 in symmetric relation [b_42, b_57, z_42] are known: b_57, z_42 ===> b_42
+a_95, z_71, bm_71 in symmetric relation [a_164, a_95, z_71, bm_71] are known: a_95, z_71, bm_71 ===> a_164
 b_101, z_86 in symmetric relation [b_86, b_101, z_86] are known: b_101, z_86 ===> b_86
 b_178, a_121, a_94, am_94 in symmetric relation [b_178, b_100, a_121, a_94, am_94] are known: b_178, a_121, a_94, am_94 ===> b_100
 b_101, z_101 in symmetric relation [b_101, b_116, z_101] are known: b_101, z_101 ===> b_116
-b_128, a_149, a_122, am_122 in symmetric relation [b_206, b_128, a_149, a_122, am_122] are known: b_128, a_149, a_122, am_122 ===> b_206
-a_149, z_125, bm_125 in symmetric relation [a_218, a_149, z_125, bm_125] are known: a_149, z_125, bm_125 ===> a_218
-a_51, a_52 in implication relation [a_51, a_52 => am_50] are known: a_51, a_52 ===> am_50
+b_147, a_168, a_141, am_141 in symmetric relation [b_225, b_147, a_168, a_141, am_141] are known: b_147, a_168, a_141, am_141 ===> b_225
+b_147, z_147 in symmetric relation [b_147, b_162, z_147] are known: b_147, z_147 ===> b_162
+a_179, z_155, bm_155 in symmetric relation [a_248, a_179, z_155, bm_155] are known: a_179, z_155, bm_155 ===> a_248
+a_39, a_40 in implication relation [a_39, a_40 => am_38] are known: a_39, a_40 ===> am_38
+b_57, b_58 in implication relation [b_57, b_58 => bm_56] are known: b_57, b_58 ===> bm_56
 a_79, a_80 in implication relation [a_79, a_80 => am_78] are known: a_79, a_80 ===> am_78
 b_101, b_102 in implication relation [b_101, b_102 => bm_100] are known: b_101, b_102 ===> bm_100
 a_121, a_122 in implication relation [a_121, a_122 => am_120] are known: a_121, a_122 ===> am_120
-a_149, a_150 in implication relation [a_149, a_150 => am_148] are known: a_149, a_150 ===> am_148
+b_147, b_148 in implication relation [b_147, b_148 => bm_146] are known: b_147, b_148 ===> bm_146
 ############################################################
-State 33:
+State 31:
+b_42, z_27 in symmetric relation [b_27, b_42, z_27] are known: b_42, z_27 ===> b_27
+a_66, z_42, bm_42 in symmetric relation [a_135, a_66, z_42, bm_42] are known: a_66, z_42, bm_42 ===> a_135
+a_80, z_56, bm_56 in symmetric relation [a_149, a_80, z_56, bm_56] are known: a_80, z_56, bm_56 ===> a_149
+b_150, b_72, a_66, am_66 in symmetric relation [b_150, b_72, a_93, a_66, am_66] are known: b_150, b_72, a_66, am_66 ===> a_93
 b_86, z_71 in symmetric relation [b_71, b_86, z_71] are known: b_86, z_71 ===> b_71
 b_164, b_86, a_80, am_80 in symmetric relation [b_164, b_86, a_107, a_80, am_80] are known: b_164, b_86, a_80, am_80 ===> a_107
 b_100, z_85 in symmetric relation [b_85, b_100, z_85] are known: b_100, z_85 ===> b_85
-b_177, a_120, a_93, am_93 in symmetric relation [b_177, b_99, a_120, a_93, am_93] are known: b_177, a_120, a_93, am_93 ===> b_99
-a_120, z_96, bm_96 in symmetric relation [a_189, a_120, z_96, bm_96] are known: a_120, z_96, bm_96 ===> a_189
 a_124, z_100, bm_100 in symmetric relation [a_193, a_124, z_100, bm_100] are known: a_124, z_100, bm_100 ===> a_193
 b_100, z_100 in symmetric relation [b_100, b_115, z_100] are known: b_100, z_100 ===> b_115
 b_116, z_116 in symmetric relation [b_116, b_131, z_116] are known: b_116, z_116 ===> b_131
-a_78, a_79 in implication relation [a_78, a_79 => am_77] are known: a_78, a_79 ===> am_77
+b_143, a_164, a_137, am_137 in symmetric relation [b_221, b_143, a_164, a_137, am_137] are known: b_143, a_164, a_137, am_137 ===> b_221
+a_164, z_140, bm_140 in symmetric relation [a_233, a_164, z_140, bm_140] are known: a_164, z_140, bm_140 ===> a_233
+b_162, z_162 in symmetric relation [b_162, b_177, z_162] are known: b_162, z_162 ===> b_177
+b_42, b_43 in implication relation [b_42, b_43 => bm_41] are known: b_42, b_43 ===> bm_41
+a_66, a_67 in implication relation [a_66, a_67 => am_65] are known: a_66, a_67 ===> am_65
 b_86, b_87 in implication relation [b_86, b_87 => bm_85] are known: b_86, b_87 ===> bm_85
 b_100, b_101 in implication relation [b_100, b_101 => bm_99] are known: b_100, b_101 ===> bm_99
 b_116, b_117 in implication relation [b_116, b_117 => bm_115] are known: b_116, b_117 ===> bm_115
-a_120, a_121 in implication relation [a_120, a_121 => am_119] are known: a_120, a_121 ===> am_119
+b_162, b_163 in implication relation [b_162, b_163 => bm_161] are known: b_162, b_163 ===> bm_161
+a_164, a_165 in implication relation [a_164, a_165 => am_163] are known: a_164, a_165 ===> am_163
 ############################################################
-State 34:
+State 32:
+a_93, z_0, bm_0 in symmetric relation [a_93, a_24, z_0, bm_0] are known: a_93, z_0, bm_0 ===> a_24
+b_27, z_12 in symmetric relation [b_12, b_27, z_12] are known: b_27, z_12 ===> b_12
 a_107, z_14, bm_14 in symmetric relation [a_107, a_38, z_14, bm_14] are known: a_107, z_14, bm_14 ===> a_38
 b_115, b_37, a_58, a_31 in symmetric relation [b_115, b_37, a_58, a_31, am_31] are known: b_115, b_37, a_58, a_31 ===> am_31
 b_71, z_56 in symmetric relation [b_56, b_71, z_56] are known: b_71, z_56 ===> b_56
 b_85, z_70 in symmetric relation [b_70, b_85, z_70] are known: b_85, z_70 ===> b_70
 b_163, b_85, a_79, am_79 in symmetric relation [b_163, b_85, a_106, a_79, am_79] are known: b_163, b_85, a_79, am_79 ===> a_106
-b_99, z_84 in symmetric relation [b_84, b_99, z_84] are known: b_99, z_84 ===> b_84
 a_109, z_85, bm_85 in symmetric relation [a_178, a_109, z_85, bm_85] are known: a_109, z_85, bm_85 ===> a_178
 a_123, z_99, bm_99 in symmetric relation [a_192, a_123, z_99, bm_99] are known: a_123, z_99, bm_99 ===> a_192
-b_99, z_99 in symmetric relation [b_99, b_114, z_99] are known: b_99, z_99 ===> b_114
 b_115, a_136, a_109, am_109 in symmetric relation [b_193, b_115, a_136, a_109, am_109] are known: b_115, a_136, a_109, am_109 ===> b_193
+a_135, z_111, bm_111 in symmetric relation [a_204, a_135, z_111, bm_111] are known: a_135, z_111, bm_111 ===> a_204
 a_139, z_115, bm_115 in symmetric relation [a_208, a_139, z_115, bm_115] are known: a_139, z_115, bm_115 ===> a_208
 b_115, z_115 in symmetric relation [b_115, b_130, z_115] are known: b_115, z_115 ===> b_130
+b_128, a_149, a_122, am_122 in symmetric relation [b_206, b_128, a_149, a_122, am_122] are known: b_128, a_149, a_122, am_122 ===> b_206
+a_149, z_125, bm_125 in symmetric relation [a_218, a_149, z_125, bm_125] are known: a_149, z_125, bm_125 ===> a_218
 b_131, a_152, a_125, am_125 in symmetric relation [b_209, b_131, a_152, a_125, am_125] are known: b_131, a_152, a_125, am_125 ===> b_209
 b_131, z_131 in symmetric relation [b_131, b_146, z_131] are known: b_131, z_131 ===> b_146
-a_189, z_165, bm_165 in symmetric relation [a_258, a_189, z_165, bm_165] are known: a_189, z_165, bm_165 ===> a_258
 b_172, a_193, a_166, am_166 in symmetric relation [b_250, b_172, a_193, a_166, am_166] are known: b_172, a_193, a_166, am_166 ===> b_250
 a_193, z_169, bm_169 in symmetric relation [a_262, a_193, z_169, bm_169] are known: a_193, z_169, bm_169 ===> a_262
+b_27, b_28 in implication relation [b_27, b_28 => bm_26] are known: b_27, b_28 ===> bm_26
 b_71, b_72 in implication relation [b_71, b_72 => bm_70] are known: b_71, b_72 ===> bm_70
 b_85, b_86 in implication relation [b_85, b_86 => bm_84] are known: b_85, b_86 ===> bm_84
-b_98, b_99 in implication relation [b_98, b_99 => bm_97] are known: b_98, b_99 ===> bm_97
-b_99, b_100 in implication relation [b_99, b_100 => bm_98] are known: b_99, b_100 ===> bm_98
+a_93, a_94 in implication relation [a_93, a_94 => am_92] are known: a_93, a_94 ===> am_92
 a_107, a_108 in implication relation [a_107, a_108 => am_106] are known: a_107, a_108 ===> am_106
 b_115, b_116 in implication relation [b_115, b_116 => bm_114] are known: b_115, b_116 ===> bm_114
 b_131, b_132 in implication relation [b_131, b_132 => bm_130] are known: b_131, b_132 ===> bm_130
+a_135, a_136 in implication relation [a_135, a_136 => am_134] are known: a_135, a_136 ===> am_134
+a_149, a_150 in implication relation [a_149, a_150 => am_148] are known: a_149, a_150 ===> am_148
+b_177, b_178 in implication relation [b_177, b_178 => bm_176] are known: b_177, b_178 ===> bm_176
 ############################################################
-State 35:
+State 33:
 a_106, z_13, bm_13 in symmetric relation [a_106, a_37, z_13, bm_13] are known: a_106, z_13, bm_13 ===> a_37
-b_114, b_36, a_57, a_30 in symmetric relation [b_114, b_36, a_57, a_30, am_30] are known: b_114, b_36, a_57, a_30 ===> am_30
+b_108, b_30, a_24, am_24 in symmetric relation [b_108, b_30, a_51, a_24, am_24] are known: b_108, b_30, a_24, am_24 ===> a_51
 b_122, b_44, a_38, am_38 in symmetric relation [b_122, b_44, a_65, a_38, am_38] are known: b_122, b_44, a_38, am_38 ===> a_65
 b_56, z_41 in symmetric relation [b_41, b_56, z_41] are known: b_56, z_41 ===> b_41
 b_70, z_55 in symmetric relation [b_55, b_70, z_55] are known: b_70, z_55 ===> b_55
-b_84, z_69 in symmetric relation [b_69, b_84, z_69] are known: b_84, z_69 ===> b_69
 a_94, z_70, bm_70 in symmetric relation [a_163, a_94, z_70, bm_70] are known: a_94, z_70, bm_70 ===> a_163
-b_162, b_84, a_78, am_78 in symmetric relation [b_162, b_84, a_105, a_78, am_78] are known: b_162, b_84, a_78, am_78 ===> a_105
 a_108, z_84, bm_84 in symmetric relation [a_177, a_108, z_84, bm_84] are known: a_108, z_84, bm_84 ===> a_177
-a_121, z_97, bm_97 in symmetric relation [a_190, a_121, z_97, bm_97] are known: a_121, z_97, bm_97 ===> a_190
-a_122, z_98, bm_98 in symmetric relation [a_191, a_122, z_98, bm_98] are known: a_122, z_98, bm_98 ===> a_191
-b_114, a_135, a_108, am_108 in symmetric relation [b_192, b_114, a_135, a_108, am_108] are known: b_114, a_135, a_108, am_108 ===> b_192
 a_138, z_114, bm_114 in symmetric relation [a_207, a_138, z_114, bm_114] are known: a_138, z_114, bm_114 ===> a_207
-b_114, z_114 in symmetric relation [b_114, b_129, z_114] are known: b_114, z_114 ===> b_129
 b_130, a_151, a_124, am_124 in symmetric relation [b_208, b_130, a_151, a_124, am_124] are known: b_130, a_151, a_124, am_124 ===> b_208
-a_154, z_130, bm_130 in symmetric relation [a_223, a_154, z_130, bm_130] are known: a_154, z_130, bm_130 ===> a_223
 b_130, z_130 in symmetric relation [b_130, b_145, z_130] are known: b_130, z_130 ===> b_145
 b_146, a_167, a_140, am_140 in symmetric relation [b_224, b_146, a_167, a_140, am_140] are known: b_146, a_167, a_140, am_140 ===> b_224
 b_146, z_146 in symmetric relation [b_146, b_161, z_146] are known: b_146, z_146 ===> b_161
-b_157, a_178, a_151, am_151 in symmetric relation [b_235, b_157, a_178, a_151, am_151] are known: b_157, a_178, a_151, am_151 ===> b_235
 a_178, z_154, bm_154 in symmetric relation [a_247, a_178, z_154, bm_154] are known: a_178, z_154, bm_154 ===> a_247
 b_171, a_192, a_165, am_165 in symmetric relation [b_249, b_171, a_192, a_165, am_165] are known: b_171, a_192, a_165, am_165 ===> b_249
 a_192, z_168, bm_168 in symmetric relation [a_261, a_192, z_168, bm_168] are known: a_192, z_168, bm_168 ===> a_261
+b_12, b_13 in implication relation [b_12, b_13 => bm_11] are known: b_12, b_13 ===> bm_11
+a_24, a_25 in implication relation [a_24, a_25 => am_23] are known: a_24, a_25 ===> am_23
 a_38, a_39 in implication relation [a_38, a_39 => am_37] are known: a_38, a_39 ===> am_37
 b_56, b_57 in implication relation [b_56, b_57 => bm_55] are known: b_56, b_57 ===> bm_55
 b_70, b_71 in implication relation [b_70, b_71 => bm_69] are known: b_70, b_71 ===> bm_69
-b_83, b_84 in implication relation [b_83, b_84 => bm_82] are known: b_83, b_84 ===> bm_82
-b_84, b_85 in implication relation [b_84, b_85 => bm_83] are known: b_84, b_85 ===> bm_83
 a_106, a_107 in implication relation [a_106, a_107 => am_105] are known: a_106, a_107 ===> am_105
-b_113, b_114 in implication relation [b_113, b_114 => bm_112] are known: b_113, b_114 ===> bm_112
-b_114, b_115 in implication relation [b_114, b_115 => bm_113] are known: b_114, b_115 ===> bm_113
 b_130, b_131 in implication relation [b_130, b_131 => bm_129] are known: b_130, b_131 ===> bm_129
 b_146, b_147 in implication relation [b_146, b_147 => bm_145] are known: b_146, b_147 ===> bm_145
 ############################################################
-State 36:
-a_105, z_12, bm_12 in symmetric relation [a_105, a_36, z_12, bm_12] are known: a_105, z_12, bm_12 ===> a_36
+State 34:
 b_41, z_26 in symmetric relation [b_26, b_41, z_26] are known: b_41, z_26 ===> b_26
+a_51, z_27, bm_27 in symmetric relation [a_120, a_51, z_27, bm_27] are known: a_51, z_27, bm_27 ===> a_120
 b_121, b_43, a_37, am_37 in symmetric relation [b_121, b_43, a_64, a_37, am_37] are known: b_121, b_43, a_37, am_37 ===> a_64
 b_55, z_40 in symmetric relation [b_40, b_55, z_40] are known: b_55, z_40 ===> b_40
 a_65, z_41, bm_41 in symmetric relation [a_134, a_65, z_41, bm_41] are known: a_65, z_41, bm_41 ===> a_134
-b_69, z_54 in symmetric relation [b_54, b_69, z_54] are known: b_69, z_54 ===> b_54
+b_135, b_57, a_51, am_51 in symmetric relation [b_135, b_57, a_78, a_51, am_51] are known: b_135, b_57, a_51, am_51 ===> a_78
 a_79, z_55, bm_55 in symmetric relation [a_148, a_79, z_55, bm_55] are known: a_79, z_55, bm_55 ===> a_148
 b_149, b_71, a_65, am_65 in symmetric relation [b_149, b_71, a_92, a_65, am_65] are known: b_149, b_71, a_65, am_65 ===> a_92
 a_93, z_69, bm_69 in symmetric relation [a_162, a_93, z_69, bm_69] are known: a_93, z_69, bm_69 ===> a_162
-b_161, b_83, a_104, am_77 in symmetric relation [b_161, b_83, a_104, a_77, am_77] are known: b_161, b_83, a_104, am_77 ===> a_77
-a_105, z_81, bm_81 in symmetric relation [a_174, a_105, z_81, bm_81] are known: a_105, z_81, bm_81 ===> a_174
-a_106, z_82, bm_82 in symmetric relation [a_175, a_106, z_82, bm_82] are known: a_106, z_82, bm_82 ===> a_175
-a_107, z_83, bm_83 in symmetric relation [a_176, a_107, z_83, bm_83] are known: a_107, z_83, bm_83 ===> a_176
-a_136, z_112, bm_112 in symmetric relation [a_205, a_136, z_112, bm_112] are known: a_136, z_112, bm_112 ===> a_205
-a_137, z_113, bm_113 in symmetric relation [a_206, a_137, z_113, bm_113] are known: a_137, z_113, bm_113 ===> a_206
-b_129, a_150, a_123, am_123 in symmetric relation [b_207, b_129, a_150, a_123, am_123] are known: b_129, a_150, a_123, am_123 ===> b_207
-a_153, z_129, bm_129 in symmetric relation [a_222, a_153, z_129, bm_129] are known: a_153, z_129, bm_129 ===> a_222
-b_129, z_129 in symmetric relation [b_129, b_144, z_129] are known: b_129, z_129 ===> b_144
 b_142, a_163, a_136, am_136 in symmetric relation [b_220, b_142, a_163, a_136, am_136] are known: b_142, a_163, a_136, am_136 ===> b_220
 a_163, z_139, bm_139 in symmetric relation [a_232, a_163, z_139, bm_139] are known: a_163, z_139, bm_139 ===> a_232
 b_145, a_166, a_139, am_139 in symmetric relation [b_223, b_145, a_166, a_139, am_139] are known: b_145, a_166, a_139, am_139 ===> b_223
@@ -650,304 +580,377 @@ b_145, z_145 in symmetric relation [b_145, b_160, z_145] are known: b_145, z_145
 b_156, a_177, a_150, am_150 in symmetric relation [b_234, b_156, a_177, a_150, am_150] are known: b_156, a_177, a_150, am_150 ===> b_234
 a_177, z_153, bm_153 in symmetric relation [a_246, a_177, z_153, bm_153] are known: a_177, z_153, bm_153 ===> a_246
 b_161, z_161 in symmetric relation [b_161, b_176, z_161] are known: b_161, z_161 ===> b_176
-b_169, a_190, a_163, am_163 in symmetric relation [b_247, b_169, a_190, a_163, am_163] are known: b_169, a_190, a_163, am_163 ===> b_247
-b_170, a_191, a_164, am_164 in symmetric relation [b_248, b_170, a_191, a_164, am_164] are known: b_170, a_191, a_164, am_164 ===> b_248
-a_190, z_166, bm_166 in symmetric relation [a_259, a_190, z_166, bm_166] are known: a_190, z_166, bm_166 ===> a_259
-a_191, z_167, bm_167 in symmetric relation [a_260, a_191, z_167, bm_167] are known: a_191, z_167, bm_167 ===> a_260
 a_37, a_38 in implication relation [a_37, a_38 => am_36] are known: a_37, a_38 ===> am_36
 b_41, b_42 in implication relation [b_41, b_42 => bm_40] are known: b_41, b_42 ===> bm_40
+a_51, a_52 in implication relation [a_51, a_52 => am_50] are known: a_51, a_52 ===> am_50
 b_55, b_56 in implication relation [b_55, b_56 => bm_54] are known: b_55, b_56 ===> bm_54
 a_65, a_66 in implication relation [a_65, a_66 => am_64] are known: a_65, a_66 ===> am_64
-b_68, b_69 in implication relation [b_68, b_69 => bm_67] are known: b_68, b_69 ===> bm_67
-b_69, b_70 in implication relation [b_69, b_70 => bm_68] are known: b_69, b_70 ===> bm_68
-a_104, a_105 in implication relation [a_104, a_105 => am_103] are known: a_104, a_105 ===> am_103
-a_105, a_106 in implication relation [a_105, a_106 => am_104] are known: a_105, a_106 ===> am_104
-b_128, b_129 in implication relation [b_128, b_129 => bm_127] are known: b_128, b_129 ===> bm_127
-b_129, b_130 in implication relation [b_129, b_130 => bm_128] are known: b_129, b_130 ===> bm_128
 b_145, b_146 in implication relation [b_145, b_146 => bm_144] are known: b_145, b_146 ===> bm_144
 b_161, b_162 in implication relation [b_161, b_162 => bm_160] are known: b_161, b_162 ===> bm_160
 a_163, a_164 in implication relation [a_163, a_164 => am_162] are known: a_163, a_164 ===> am_162
 a_177, a_178 in implication relation [a_177, a_178 => am_176] are known: a_177, a_178 ===> am_176
 ############################################################
-State 37:
+State 35:
 b_26, z_11 in symmetric relation [b_11, b_26, z_11] are known: b_26, z_11 ===> b_11
 b_40, z_25 in symmetric relation [b_25, b_40, z_25] are known: b_40, z_25 ===> b_25
-b_120, b_42, a_36, am_36 in symmetric relation [b_120, b_42, a_63, a_36, am_36] are known: b_120, b_42, a_36, am_36 ===> a_63
-b_54, z_39 in symmetric relation [b_39, b_54, z_39] are known: b_54, z_39 ===> b_39
 a_64, z_40, bm_40 in symmetric relation [a_133, a_64, z_40, bm_40] are known: a_64, z_40, bm_40 ===> a_133
-b_134, b_56, a_77, am_50 in symmetric relation [b_134, b_56, a_77, a_50, am_50] are known: b_134, b_56, a_77, am_50 ===> a_50
 a_78, z_54, bm_54 in symmetric relation [a_147, a_78, z_54, bm_54] are known: a_78, z_54, bm_54 ===> a_147
 b_148, b_70, a_64, am_64 in symmetric relation [b_148, b_70, a_91, a_64, am_64] are known: b_148, b_70, a_64, am_64 ===> a_91
-a_92, z_68, bm_68 in symmetric relation [a_161, a_92, z_68, bm_68] are known: a_92, z_68, bm_68 ===> a_161
 b_176, b_98, a_92, am_92 in symmetric relation [b_176, b_98, a_119, a_92, am_92] are known: b_176, b_98, a_92, am_92 ===> a_119
-b_187, b_109, a_103, am_103 in symmetric relation [b_187, b_109, a_130, a_103, am_103] are known: b_187, b_109, a_103, am_103 ===> a_130
-b_188, b_110, a_104, am_104 in symmetric relation [b_188, b_110, a_131, a_104, am_104] are known: b_188, b_110, a_104, am_104 ===> a_131
+b_177, a_120, a_93, am_93 in symmetric relation [b_177, b_99, a_120, a_93, am_93] are known: b_177, a_120, a_93, am_93 ===> b_99
+a_120, z_96, bm_96 in symmetric relation [a_189, a_120, z_96, bm_96] are known: a_120, z_96, bm_96 ===> a_189
 b_113, a_134, a_107, am_107 in symmetric relation [b_191, b_113, a_134, a_107, am_107] are known: b_113, a_134, a_107, am_107 ===> b_191
 a_134, z_110, bm_110 in symmetric relation [a_203, a_134, z_110, bm_110] are known: a_134, z_110, bm_110 ===> a_203
 b_127, a_148, a_121, am_121 in symmetric relation [b_205, b_127, a_148, a_121, am_121] are known: b_127, a_148, a_121, am_121 ===> b_205
 a_148, z_124, bm_124 in symmetric relation [a_217, a_148, z_124, bm_124] are known: a_148, z_124, bm_124 ===> a_217
-a_151, z_127, bm_127 in symmetric relation [a_220, a_151, z_127, bm_127] are known: a_151, z_127, bm_127 ===> a_220
-a_152, z_128, bm_128 in symmetric relation [a_221, a_152, z_128, bm_128] are known: a_152, z_128, bm_128 ===> a_221
 b_141, a_162, a_135, am_135 in symmetric relation [b_219, b_141, a_162, a_135, am_135] are known: b_141, a_162, a_135, am_135 ===> b_219
 a_162, z_138, bm_138 in symmetric relation [a_231, a_162, z_138, bm_138] are known: a_162, z_138, bm_138 ===> a_231
-b_144, a_165, a_138, am_138 in symmetric relation [b_222, b_144, a_165, a_138, am_138] are known: b_144, a_165, a_138, am_138 ===> b_222
 a_168, z_144, bm_144 in symmetric relation [a_237, a_168, z_144, bm_144] are known: a_168, z_144, bm_144 ===> a_237
+b_160, z_160 in symmetric relation [b_160, b_175, z_160] are known: b_160, z_160 ===> b_175
+b_176, z_176 in symmetric relation [b_176, b_191, z_176] are known: b_176, z_176 ===> b_191
+b_26, b_27 in implication relation [b_26, b_27 => bm_25] are known: b_26, b_27 ===> bm_25
+b_40, b_41 in implication relation [b_40, b_41 => bm_39] are known: b_40, b_41 ===> bm_39
+a_64, a_65 in implication relation [a_64, a_65 => am_63] are known: a_64, a_65 ===> am_63
+a_78, a_79 in implication relation [a_78, a_79 => am_77] are known: a_78, a_79 ===> am_77
+a_92, a_93 in implication relation [a_92, a_93 => am_91] are known: a_92, a_93 ===> am_91
+a_120, a_121 in implication relation [a_120, a_121 => am_119] are known: a_120, a_121 ===> am_119
+a_134, a_135 in implication relation [a_134, a_135 => am_133] are known: a_134, a_135 ===> am_133
+a_148, a_149 in implication relation [a_148, a_149 => am_147] are known: a_148, a_149 ===> am_147
+b_160, b_161 in implication relation [b_160, b_161 => bm_159] are known: b_160, b_161 ===> bm_159
+a_162, a_163 in implication relation [a_162, a_163 => am_161] are known: a_162, a_163 ===> am_161
+b_176, b_177 in implication relation [b_176, b_177 => bm_175] are known: b_176, b_177 ===> bm_175
+############################################################
+State 36:
+b_25, z_10 in symmetric relation [b_10, b_25, z_10] are known: b_25, z_10 ===> b_10
+a_119, z_26, bm_26 in symmetric relation [a_119, a_50, z_26, bm_26] are known: a_119, z_26, bm_26 ===> a_50
+b_99, z_84 in symmetric relation [b_84, b_99, z_84] are known: b_99, z_84 ===> b_84
+b_175, b_97, a_91, am_91 in symmetric relation [b_175, b_97, a_118, a_91, am_91] are known: b_175, b_97, a_91, am_91 ===> a_118
+a_119, z_95, bm_95 in symmetric relation [a_188, a_119, z_95, bm_95] are known: a_119, z_95, bm_95 ===> a_188
+b_99, z_99 in symmetric relation [b_99, b_114, z_99] are known: b_99, z_99 ===> b_114
+b_112, a_133, a_106, am_106 in symmetric relation [b_190, b_112, a_133, a_106, am_106] are known: b_112, a_133, a_106, am_106 ===> b_190
+a_133, z_109, bm_109 in symmetric relation [a_202, a_133, z_109, bm_109] are known: a_133, z_109, bm_109 ===> a_202
+b_126, a_147, a_120, am_120 in symmetric relation [b_204, b_126, a_147, a_120, am_120] are known: b_126, a_147, a_120, am_120 ===> b_204
+a_147, z_123, bm_123 in symmetric relation [a_216, a_147, z_123, bm_123] are known: a_147, z_123, bm_123 ===> a_216
+b_168, a_189, a_162, am_162 in symmetric relation [b_246, b_168, a_189, a_162, am_162] are known: b_168, a_189, a_162, am_162 ===> b_246
+a_189, z_165, bm_165 in symmetric relation [a_258, a_189, z_165, bm_165] are known: a_189, z_165, bm_165 ===> a_258
+b_175, z_175 in symmetric relation [b_175, b_190, z_175] are known: b_175, z_175 ===> b_190
+b_11, b_12 in implication relation [b_11, b_12 => bm_10] are known: b_11, b_12 ===> bm_10
+b_25, b_26 in implication relation [b_25, b_26 => bm_24] are known: b_25, b_26 ===> bm_24
+a_91, a_92 in implication relation [a_91, a_92 => am_90] are known: a_91, a_92 ===> am_90
+b_98, b_99 in implication relation [b_98, b_99 => bm_97] are known: b_98, b_99 ===> bm_97
+b_99, b_100 in implication relation [b_99, b_100 => bm_98] are known: b_99, b_100 ===> bm_98
+a_119, a_120 in implication relation [a_119, a_120 => am_118] are known: a_119, a_120 ===> am_118
+a_133, a_134 in implication relation [a_133, a_134 => am_132] are known: a_133, a_134 ===> am_132
+a_147, a_148 in implication relation [a_147, a_148 => am_146] are known: a_147, a_148 ===> am_146
+b_175, b_176 in implication relation [b_175, b_176 => bm_174] are known: b_175, b_176 ===> bm_174
+############################################################
+State 37:
+b_107, b_29, a_50, am_23 in symmetric relation [b_107, b_29, a_50, a_23, am_23] are known: b_107, b_29, a_50, am_23 ===> a_23
+a_118, z_25, bm_25 in symmetric relation [a_118, a_49, z_25, bm_25] are known: a_118, z_25, bm_25 ===> a_49
+b_114, b_36, a_57, a_30 in symmetric relation [b_114, b_36, a_57, a_30, am_30] are known: b_114, b_36, a_57, a_30 ===> am_30
+b_134, b_56, a_50, am_50 in symmetric relation [b_134, b_56, a_77, a_50, am_50] are known: b_134, b_56, a_50, am_50 ===> a_77
+b_84, z_69 in symmetric relation [b_69, b_84, z_69] are known: b_84, z_69 ===> b_69
+b_162, b_84, a_78, am_78 in symmetric relation [b_162, b_84, a_105, a_78, am_78] are known: b_162, b_84, a_78, am_78 ===> a_105
+a_118, z_94, bm_94 in symmetric relation [a_187, a_118, z_94, bm_94] are known: a_118, z_94, bm_94 ===> a_187
+a_121, z_97, bm_97 in symmetric relation [a_190, a_121, z_97, bm_97] are known: a_121, z_97, bm_97 ===> a_190
+a_122, z_98, bm_98 in symmetric relation [a_191, a_122, z_98, bm_98] are known: a_122, z_98, bm_98 ===> a_191
+b_114, a_135, a_108, am_108 in symmetric relation [b_192, b_114, a_135, a_108, am_108] are known: b_114, a_135, a_108, am_108 ===> b_192
+b_114, z_114 in symmetric relation [b_114, b_129, z_114] are known: b_114, z_114 ===> b_129
+a_188, z_164, bm_164 in symmetric relation [a_257, a_188, z_164, bm_164] are known: a_188, z_164, bm_164 ===> a_257
+b_10, b_11 in implication relation [b_10, b_11 => bm_9] are known: b_10, b_11 ===> bm_9
+a_50, a_51 in implication relation [a_50, a_51 => am_49] are known: a_50, a_51 ===> am_49
+b_83, b_84 in implication relation [b_83, b_84 => bm_82] are known: b_83, b_84 ===> bm_82
+b_84, b_85 in implication relation [b_84, b_85 => bm_83] are known: b_84, b_85 ===> bm_83
+b_113, b_114 in implication relation [b_113, b_114 => bm_112] are known: b_113, b_114 ===> bm_112
+b_114, b_115 in implication relation [b_114, b_115 => bm_113] are known: b_114, b_115 ===> bm_113
+a_118, a_119 in implication relation [a_118, a_119 => am_117] are known: a_118, a_119 ===> am_117
+############################################################
+State 38:
+a_102, z_9, bm_9 in symmetric relation [a_102, a_33, z_9, bm_9] are known: a_102, z_9, bm_9 ===> a_33
+a_105, z_12, bm_12 in symmetric relation [a_105, a_36, z_12, bm_12] are known: a_105, z_12, bm_12 ===> a_36
+b_133, b_55, a_49, am_49 in symmetric relation [b_133, b_55, a_76, a_49, am_49] are known: b_133, b_55, a_49, am_49 ===> a_76
+b_69, z_54 in symmetric relation [b_54, b_69, z_54] are known: b_69, z_54 ===> b_54
+b_161, b_83, a_77, am_77 in symmetric relation [b_161, b_83, a_104, a_77, am_77] are known: b_161, b_83, a_77, am_77 ===> a_104
+a_105, z_81, bm_81 in symmetric relation [a_174, a_105, z_81, bm_81] are known: a_105, z_81, bm_81 ===> a_174
+a_106, z_82, bm_82 in symmetric relation [a_175, a_106, z_82, bm_82] are known: a_106, z_82, bm_82 ===> a_175
+a_107, z_83, bm_83 in symmetric relation [a_176, a_107, z_83, bm_83] are known: a_107, z_83, bm_83 ===> a_176
+a_136, z_112, bm_112 in symmetric relation [a_205, a_136, z_112, bm_112] are known: a_136, z_112, bm_112 ===> a_205
+a_137, z_113, bm_113 in symmetric relation [a_206, a_137, z_113, bm_113] are known: a_137, z_113, bm_113 ===> a_206
+b_129, a_150, a_123, am_123 in symmetric relation [b_207, b_129, a_150, a_123, am_123] are known: b_129, a_150, a_123, am_123 ===> b_207
+b_129, z_129 in symmetric relation [b_129, b_144, z_129] are known: b_129, z_129 ===> b_144
+a_187, z_163, bm_163 in symmetric relation [a_256, a_187, z_163, bm_163] are known: a_187, z_163, bm_163 ===> a_256
+b_169, a_190, a_163, am_163 in symmetric relation [b_247, b_169, a_190, a_163, am_163] are known: b_169, a_190, a_163, am_163 ===> b_247
+b_170, a_191, a_164, am_164 in symmetric relation [b_248, b_170, a_191, a_164, am_164] are known: b_170, a_191, a_164, am_164 ===> b_248
+a_190, z_166, bm_166 in symmetric relation [a_259, a_190, z_166, bm_166] are known: a_190, z_166, bm_166 ===> a_259
+a_191, z_167, bm_167 in symmetric relation [a_260, a_191, z_167, bm_167] are known: a_191, z_167, bm_167 ===> a_260
+a_23, a_24 in implication relation [a_23, a_24 => am_22] are known: a_23, a_24 ===> am_22
+a_49, a_50 in implication relation [a_49, a_50 => am_48] are known: a_49, a_50 ===> am_48
+b_68, b_69 in implication relation [b_68, b_69 => bm_67] are known: b_68, b_69 ===> bm_67
+b_69, b_70 in implication relation [b_69, b_70 => bm_68] are known: b_69, b_70 ===> bm_68
+a_77, a_78 in implication relation [a_77, a_78 => am_76] are known: a_77, a_78 ===> am_76
+a_105, a_106 in implication relation [a_105, a_106 => am_104] are known: a_105, a_106 ===> am_104
+b_128, b_129 in implication relation [b_128, b_129 => bm_127] are known: b_128, b_129 ===> bm_127
+b_129, b_130 in implication relation [b_129, b_130 => bm_128] are known: b_129, b_130 ===> bm_128
+############################################################
+State 39:
+a_104, z_11, bm_11 in symmetric relation [a_104, a_35, z_11, bm_11] are known: a_104, z_11, bm_11 ===> a_35
+b_106, b_28, a_49, am_22 in symmetric relation [b_106, b_28, a_49, a_22, am_22] are known: b_106, b_28, a_49, am_22 ===> a_22
+b_120, b_42, a_36, am_36 in symmetric relation [b_120, b_42, a_63, a_36, am_36] are known: b_120, b_42, a_36, am_36 ===> a_63
+b_54, z_39 in symmetric relation [b_39, b_54, z_39] are known: b_54, z_39 ===> b_39
+a_91, z_67, bm_67 in symmetric relation [a_160, a_91, z_67, bm_67] are known: a_91, z_67, bm_67 ===> a_160
+a_92, z_68, bm_68 in symmetric relation [a_161, a_92, z_68, bm_68] are known: a_92, z_68, bm_68 ===> a_161
+b_160, b_82, a_76, am_76 in symmetric relation [b_160, b_82, a_103, a_76, am_76] are known: b_160, b_82, a_76, am_76 ===> a_103
+a_104, z_80, bm_80 in symmetric relation [a_173, a_104, z_80, bm_80] are known: a_104, z_80, bm_80 ===> a_173
+b_188, b_110, a_104, am_104 in symmetric relation [b_188, b_110, a_131, a_104, am_104] are known: b_188, b_110, a_104, am_104 ===> a_131
+a_151, z_127, bm_127 in symmetric relation [a_220, a_151, z_127, bm_127] are known: a_151, z_127, bm_127 ===> a_220
+a_152, z_128, bm_128 in symmetric relation [a_221, a_152, z_128, bm_128] are known: a_152, z_128, bm_128 ===> a_221
+b_144, a_165, a_138, am_138 in symmetric relation [b_222, b_144, a_165, a_138, am_138] are known: b_144, a_165, a_138, am_138 ===> b_222
 b_144, z_144 in symmetric relation [b_144, b_159, z_144] are known: b_144, z_144 ===> b_159
+b_153, a_174, a_147, am_147 in symmetric relation [b_231, b_153, a_174, a_147, am_147] are known: b_153, a_174, a_147, am_147 ===> b_231
 b_154, a_175, a_148, am_148 in symmetric relation [b_232, b_154, a_175, a_148, am_148] are known: b_154, a_175, a_148, am_148 ===> b_232
 b_155, a_176, a_149, am_149 in symmetric relation [b_233, b_155, a_176, a_149, am_149] are known: b_155, a_176, a_149, am_149 ===> b_233
 a_174, z_150, bm_150 in symmetric relation [a_243, a_174, z_150, bm_150] are known: a_174, z_150, bm_150 ===> a_243
 a_175, z_151, bm_151 in symmetric relation [a_244, a_175, z_151, bm_151] are known: a_175, z_151, bm_151 ===> a_244
 a_176, z_152, bm_152 in symmetric relation [a_245, a_176, z_152, bm_152] are known: a_176, z_152, bm_152 ===> a_245
-b_160, z_160 in symmetric relation [b_160, b_175, z_160] are known: b_160, z_160 ===> b_175
-b_168, a_189, a_162, am_162 in symmetric relation [b_246, b_168, a_189, a_162, am_162] are known: b_168, a_189, a_162, am_162 ===> b_246
-b_176, a_197, a_170, am_170 in symmetric relation [b_254, b_176, a_197, a_170, am_170] are known: b_176, a_197, a_170, am_170 ===> b_254
-b_176, z_176 in symmetric relation [b_176, b_191, z_176] are known: b_176, z_176 ===> b_191
-b_26, b_27 in implication relation [b_26, b_27 => bm_25] are known: b_26, b_27 ===> bm_25
-a_35, a_36 in implication relation [a_35, a_36 => am_34] are known: a_35, a_36 ===> am_34
+b_182, a_203, a_176, am_176 in symmetric relation [b_260, b_182, a_203, a_176, am_176] are known: b_182, a_203, a_176, am_176 ===> b_260
 a_36, a_37 in implication relation [a_36, a_37 => am_35] are known: a_36, a_37 ===> am_35
-b_40, b_41 in implication relation [b_40, b_41 => bm_39] are known: b_40, b_41 ===> bm_39
 b_53, b_54 in implication relation [b_53, b_54 => bm_52] are known: b_53, b_54 ===> bm_52
 b_54, b_55 in implication relation [b_54, b_55 => bm_53] are known: b_54, b_55 ===> bm_53
-a_64, a_65 in implication relation [a_64, a_65 => am_63] are known: a_64, a_65 ===> am_63
-a_77, a_78 in implication relation [a_77, a_78 => am_76] are known: a_77, a_78 ===> am_76
-a_92, a_93 in implication relation [a_92, a_93 => am_91] are known: a_92, a_93 ===> am_91
-a_134, a_135 in implication relation [a_134, a_135 => am_133] are known: a_134, a_135 ===> am_133
+a_76, a_77 in implication relation [a_76, a_77 => am_75] are known: a_76, a_77 ===> am_75
+a_104, a_105 in implication relation [a_104, a_105 => am_103] are known: a_104, a_105 ===> am_103
 b_143, b_144 in implication relation [b_143, b_144 => bm_142] are known: b_143, b_144 ===> bm_142
 b_144, b_145 in implication relation [b_144, b_145 => bm_143] are known: b_144, b_145 ===> bm_143
-a_148, a_149 in implication relation [a_148, a_149 => am_147] are known: a_148, a_149 ===> am_147
-b_160, b_161 in implication relation [b_160, b_161 => bm_159] are known: b_160, b_161 ===> bm_159
-a_162, a_163 in implication relation [a_162, a_163 => am_161] are known: a_162, a_163 ===> am_161
-a_173, a_174 in implication relation [a_173, a_174 => am_172] are known: a_173, a_174 ===> am_172
 a_174, a_175 in implication relation [a_174, a_175 => am_173] are known: a_174, a_175 ===> am_173
 a_175, a_176 in implication relation [a_175, a_176 => am_174] are known: a_175, a_176 ===> am_174
-b_176, b_177 in implication relation [b_176, b_177 => bm_175] are known: b_176, b_177 ===> bm_175
 a_176, a_177 in implication relation [a_176, a_177 => am_175] are known: a_176, a_177 ===> am_175
 ############################################################
-State 38:
-b_25, z_10 in symmetric relation [b_10, b_25, z_10] are known: b_25, z_10 ===> b_10
-b_107, b_29, a_50, am_23 in symmetric relation [b_107, b_29, a_50, a_23, am_23] are known: b_107, b_29, a_50, am_23 ===> a_23
+State 40:
+a_103, z_10, bm_10 in symmetric relation [a_103, a_34, z_10, bm_10] are known: a_103, z_10, bm_10 ===> a_34
 b_39, z_24 in symmetric relation [b_24, b_39, z_24] are known: b_39, z_24 ===> b_24
 b_119, b_41, a_35, am_35 in symmetric relation [b_119, b_41, a_62, a_35, am_35] are known: b_119, b_41, a_35, am_35 ===> a_62
 a_63, z_39, bm_39 in symmetric relation [a_132, a_63, z_39, bm_39] are known: a_63, z_39, bm_39 ===> a_132
+a_76, z_52, bm_52 in symmetric relation [a_145, a_76, z_52, bm_52] are known: a_76, z_52, bm_52 ===> a_145
 a_77, z_53, bm_53 in symmetric relation [a_146, a_77, z_53, bm_53] are known: a_77, z_53, bm_53 ===> a_146
 b_147, b_69, a_63, am_63 in symmetric relation [b_147, b_69, a_90, a_63, am_63] are known: b_147, b_69, a_63, am_63 ===> a_90
-a_91, z_67, bm_67 in symmetric relation [a_160, a_91, z_67, bm_67] are known: a_91, z_67, bm_67 ===> a_160
-b_160, b_82, a_103, am_76 in symmetric relation [b_160, b_82, a_103, a_76, am_76] are known: b_160, b_82, a_103, am_76 ===> a_76
-b_175, b_97, a_91, am_91 in symmetric relation [b_175, b_97, a_118, a_91, am_91] are known: b_175, b_97, a_91, am_91 ===> a_118
-a_119, z_95, bm_95 in symmetric relation [a_188, a_119, z_95, bm_95] are known: a_119, z_95, bm_95 ===> a_188
-a_130, z_106, bm_106 in symmetric relation [a_199, a_130, z_106, bm_106] are known: a_130, z_106, bm_106 ===> a_199
-b_112, a_133, a_106, am_106 in symmetric relation [b_190, b_112, a_133, a_106, am_106] are known: b_112, a_133, a_106, am_106 ===> b_190
+b_159, b_81, a_102, am_75 in symmetric relation [b_159, b_81, a_102, a_75, am_75] are known: b_159, b_81, a_102, am_75 ===> a_75
+a_103, z_79, bm_79 in symmetric relation [a_172, a_103, z_79, bm_79] are known: a_103, z_79, bm_79 ===> a_172
+b_187, b_109, a_103, am_103 in symmetric relation [b_187, b_109, a_130, a_103, am_103] are known: b_187, b_109, a_103, am_103 ===> a_130
 a_131, z_107, bm_107 in symmetric relation [a_200, a_131, z_107, bm_107] are known: a_131, z_107, bm_107 ===> a_200
-a_133, z_109, bm_109 in symmetric relation [a_202, a_133, z_109, bm_109] are known: a_133, z_109, bm_109 ===> a_202
-b_126, a_147, a_120, am_120 in symmetric relation [b_204, b_126, a_147, a_120, am_120] are known: b_126, a_147, a_120, am_120 ===> b_204
-a_147, z_123, bm_123 in symmetric relation [a_216, a_147, z_123, bm_123] are known: a_147, z_123, bm_123 ===> a_216
+b_139, a_160, a_133, am_133 in symmetric relation [b_217, b_139, a_160, a_133, am_133] are known: b_139, a_160, a_133, am_133 ===> b_217
 b_140, a_161, a_134, am_134 in symmetric relation [b_218, b_140, a_161, a_134, am_134] are known: b_140, a_161, a_134, am_134 ===> b_218
+a_160, z_136, bm_136 in symmetric relation [a_229, a_160, z_136, bm_136] are known: a_160, z_136, bm_136 ===> a_229
 a_161, z_137, bm_137 in symmetric relation [a_230, a_161, z_137, bm_137] are known: a_161, z_137, bm_137 ===> a_230
 a_166, z_142, bm_142 in symmetric relation [a_235, a_166, z_142, bm_142] are known: a_166, z_142, bm_142 ===> a_235
 a_167, z_143, bm_143 in symmetric relation [a_236, a_167, z_143, bm_143] are known: a_167, z_143, bm_143 ===> a_236
-b_153, a_174, a_147, am_147 in symmetric relation [b_231, b_153, a_174, a_147, am_147] are known: b_153, a_174, a_147, am_147 ===> b_231
+a_173, z_149, bm_149 in symmetric relation [a_242, a_173, z_149, bm_149] are known: a_173, z_149, bm_149 ===> a_242
 b_159, z_159 in symmetric relation [b_159, b_174, z_159] are known: b_159, z_159 ===> b_174
-b_175, a_196, a_169, am_169 in symmetric relation [b_253, b_175, a_196, a_169, am_169] are known: b_175, a_196, a_169, am_169 ===> b_253
-b_175, z_175 in symmetric relation [b_175, b_190, z_175] are known: b_175, z_175 ===> b_190
-b_182, a_203, a_176, am_176 in symmetric relation [b_260, b_182, a_203, a_176, am_176] are known: b_182, a_203, a_176, am_176 ===> b_260
-b_11, b_12 in implication relation [b_11, b_12 => bm_10] are known: b_11, b_12 ===> bm_10
-b_25, b_26 in implication relation [b_25, b_26 => bm_24] are known: b_25, b_26 ===> bm_24
+b_167, a_188, a_161, am_161 in symmetric relation [b_245, b_167, a_188, a_161, am_161] are known: b_167, a_188, a_161, am_161 ===> b_245
+b_181, a_202, a_175, am_175 in symmetric relation [b_259, b_181, a_202, a_175, am_175] are known: b_181, a_202, a_175, am_175 ===> b_259
+a_22, a_23 in implication relation [a_22, a_23 => am_21] are known: a_22, a_23 ===> am_21
+a_35, a_36 in implication relation [a_35, a_36 => am_34] are known: a_35, a_36 ===> am_34
 b_38, b_39 in implication relation [b_38, b_39 => bm_37] are known: b_38, b_39 ===> bm_37
 b_39, b_40 in implication relation [b_39, b_40 => bm_38] are known: b_39, b_40 ===> bm_38
-a_50, a_51 in implication relation [a_50, a_51 => am_49] are known: a_50, a_51 ===> am_49
 a_63, a_64 in implication relation [a_63, a_64 => am_62] are known: a_63, a_64 ===> am_62
-a_91, a_92 in implication relation [a_91, a_92 => am_90] are known: a_91, a_92 ===> am_90
-a_119, a_120 in implication relation [a_119, a_120 => am_118] are known: a_119, a_120 ===> am_118
-a_129, a_130 in implication relation [a_129, a_130 => am_128] are known: a_129, a_130 ===> am_128
-a_130, a_131 in implication relation [a_130, a_131 => am_129] are known: a_130, a_131 ===> am_129
-a_133, a_134 in implication relation [a_133, a_134 => am_132] are known: a_133, a_134 ===> am_132
-a_147, a_148 in implication relation [a_147, a_148 => am_146] are known: a_147, a_148 ===> am_146
+a_102, a_103 in implication relation [a_102, a_103 => am_101] are known: a_102, a_103 ===> am_101
+a_103, a_104 in implication relation [a_103, a_104 => am_102] are known: a_103, a_104 ===> am_102
 b_158, b_159 in implication relation [b_158, b_159 => bm_157] are known: b_158, b_159 ===> bm_157
 b_159, b_160 in implication relation [b_159, b_160 => bm_158] are known: b_159, b_160 ===> bm_158
+a_160, a_161 in implication relation [a_160, a_161 => am_159] are known: a_160, a_161 ===> am_159
 a_161, a_162 in implication relation [a_161, a_162 => am_160] are known: a_161, a_162 ===> am_160
-b_175, b_176 in implication relation [b_175, b_176 => bm_174] are known: b_175, b_176 ===> bm_174
+a_173, a_174 in implication relation [a_173, a_174 => am_172] are known: a_173, a_174 ===> am_172
 ############################################################
-State 39:
+State 41:
 b_24, z_9 in symmetric relation [b_9, b_24, z_9] are known: b_24, z_9 ===> b_9
-a_103, z_10, bm_10 in symmetric relation [a_103, a_34, z_10, bm_10] are known: a_103, z_10, bm_10 ===> a_34
-a_118, z_25, bm_25 in symmetric relation [a_118, a_49, z_25, bm_25] are known: a_118, z_25, bm_25 ===> a_49
+b_118, b_40, a_34, am_34 in symmetric relation [b_118, b_40, a_61, a_34, am_34] are known: b_118, b_40, a_34, am_34 ===> a_61
 a_130, z_37, bm_37 in symmetric relation [a_130, a_61, z_37, bm_37] are known: a_130, z_37, bm_37 ===> a_61
-b_133, b_55, a_76, am_49 in symmetric relation [b_133, b_55, a_76, a_49, am_49] are known: b_133, b_55, a_76, am_49 ===> a_49
-a_76, z_52, bm_52 in symmetric relation [a_145, a_76, z_52, bm_52] are known: a_76, z_52, bm_52 ===> a_145
+b_132, b_54, a_75, am_48 in symmetric relation [b_132, b_54, a_75, a_48, am_48] are known: b_132, b_54, a_75, am_48 ===> a_48
+a_75, z_51, bm_51 in symmetric relation [a_144, a_75, z_51, bm_51] are known: a_75, z_51, bm_51 ===> a_144
 b_146, b_68, a_62, am_62 in symmetric relation [b_146, b_68, a_89, a_62, am_62] are known: b_146, b_68, a_62, am_62 ===> a_89
 a_90, z_66, bm_66 in symmetric relation [a_159, a_90, z_66, bm_66] are known: a_90, z_66, bm_66 ===> a_159
 b_174, b_96, a_90, am_90 in symmetric relation [b_174, b_96, a_117, a_90, am_90] are known: b_174, b_96, a_90, am_90 ===> a_117
-a_118, z_94, bm_94 in symmetric relation [a_187, a_118, z_94, bm_94] are known: a_118, z_94, bm_94 ===> a_187
+b_186, b_108, a_102, am_102 in symmetric relation [b_186, b_108, a_129, a_102, am_102] are known: b_186, b_108, a_102, am_102 ===> a_129
 b_111, a_132, a_105, am_105 in symmetric relation [b_189, b_111, a_132, a_105, am_105] are known: b_111, a_132, a_105, am_105 ===> b_189
+a_130, z_106, bm_106 in symmetric relation [a_199, a_130, z_106, bm_106] are known: a_130, z_106, bm_106 ===> a_199
 a_132, z_108, bm_108 in symmetric relation [a_201, a_132, z_108, bm_108] are known: a_132, z_108, bm_108 ===> a_201
+b_124, a_145, a_118, am_118 in symmetric relation [b_202, b_124, a_145, a_118, am_118] are known: b_124, a_145, a_118, am_118 ===> b_202
 b_125, a_146, a_119, am_119 in symmetric relation [b_203, b_125, a_146, a_119, am_119] are known: b_125, a_146, a_119, am_119 ===> b_203
+a_145, z_121, bm_121 in symmetric relation [a_214, a_145, z_121, bm_121] are known: a_145, z_121, bm_121 ===> a_214
 a_146, z_122, bm_122 in symmetric relation [a_215, a_146, z_122, bm_122] are known: a_146, z_122, bm_122 ===> a_215
-b_139, a_160, a_133, am_133 in symmetric relation [b_217, b_139, a_160, a_133, am_133] are known: b_139, a_160, a_133, am_133 ===> b_217
-a_160, z_136, bm_136 in symmetric relation [a_229, a_160, z_136, bm_136] are known: a_160, z_136, bm_136 ===> a_229
 b_152, a_173, a_146, am_146 in symmetric relation [b_230, b_152, a_173, a_146, am_146] are known: b_152, a_173, a_146, am_146 ===> b_230
-b_167, a_188, a_161, am_161 in symmetric relation [b_245, b_167, a_188, a_161, am_161] are known: b_167, a_188, a_161, am_161 ===> b_245
-a_188, z_164, bm_164 in symmetric relation [a_257, a_188, z_164, bm_164] are known: a_188, z_164, bm_164 ===> a_257
-b_174, a_195, a_168, am_168 in symmetric relation [b_252, b_174, a_195, a_168, am_168] are known: b_174, a_195, a_168, am_168 ===> b_252
-b_178, a_199, a_172, am_172 in symmetric relation [b_256, b_178, a_199, a_172, am_172] are known: b_178, a_199, a_172, am_172 ===> b_256
+a_172, z_148, bm_148 in symmetric relation [a_241, a_172, z_148, bm_148] are known: a_172, z_148, bm_148 ===> a_241
+b_166, a_187, a_160, am_160 in symmetric relation [b_244, b_166, a_187, a_160, am_160] are known: b_166, a_187, a_160, am_160 ===> b_244
 b_179, a_200, a_173, am_173 in symmetric relation [b_257, b_179, a_200, a_173, am_173] are known: b_179, a_200, a_173, am_173 ===> b_257
-a_198, z_174, bm_174 in symmetric relation [a_267, a_198, z_174, bm_174] are known: a_198, z_174, bm_174 ===> a_267
 b_174, z_174 in symmetric relation [b_174, b_189, z_174] are known: b_174, z_174 ===> b_189
-a_199, z_175, bm_175 in symmetric relation [a_268, a_199, z_175, bm_175] are known: a_199, z_175, bm_175 ===> a_268
-b_181, a_202, a_175, am_175 in symmetric relation [b_259, b_181, a_202, a_175, am_175] are known: b_181, a_202, a_175, am_175 ===> b_259
 a_200, z_176, bm_176 in symmetric relation [a_269, a_200, z_176, bm_176] are known: a_200, z_176, bm_176 ===> a_269
-b_10, b_11 in implication relation [b_10, b_11 => bm_9] are known: b_10, b_11 ===> bm_9
 b_23, b_24 in implication relation [b_23, b_24 => bm_22] are known: b_23, b_24 ===> bm_22
-a_23, a_24 in implication relation [a_23, a_24 => am_22] are known: a_23, a_24 ===> am_22
 b_24, b_25 in implication relation [b_24, b_25 => bm_23] are known: b_24, b_25 ===> bm_23
+a_33, a_34 in implication relation [a_33, a_34 => am_32] are known: a_33, a_34 ===> am_32
+a_34, a_35 in implication relation [a_34, a_35 => am_33] are known: a_34, a_35 ===> am_33
 a_62, a_63 in implication relation [a_62, a_63 => am_61] are known: a_62, a_63 ===> am_61
-a_76, a_77 in implication relation [a_76, a_77 => am_75] are known: a_76, a_77 ===> am_75
+a_75, a_76 in implication relation [a_75, a_76 => am_74] are known: a_75, a_76 ===> am_74
 a_90, a_91 in implication relation [a_90, a_91 => am_89] are known: a_90, a_91 ===> am_89
-a_118, a_119 in implication relation [a_118, a_119 => am_117] are known: a_118, a_119 ===> am_117
+a_130, a_131 in implication relation [a_130, a_131 => am_129] are known: a_130, a_131 ===> am_129
 a_131, a_132 in implication relation [a_131, a_132 => am_130] are known: a_131, a_132 ===> am_130
 a_132, a_133 in implication relation [a_132, a_133 => am_131] are known: a_132, a_133 ===> am_131
+a_145, a_146 in implication relation [a_145, a_146 => am_144] are known: a_145, a_146 ===> am_144
 a_146, a_147 in implication relation [a_146, a_147 => am_145] are known: a_146, a_147 ===> am_145
-a_160, a_161 in implication relation [a_160, a_161 => am_159] are known: a_160, a_161 ===> am_159
+a_171, a_172 in implication relation [a_171, a_172 => am_170] are known: a_171, a_172 ===> am_170
+a_172, a_173 in implication relation [a_172, a_173 => am_171] are known: a_172, a_173 ===> am_171
 b_173, b_174 in implication relation [b_173, b_174 => bm_172] are known: b_173, b_174 ===> bm_172
 b_174, b_175 in implication relation [b_174, b_175 => bm_173] are known: b_174, b_175 ===> bm_173
 ############################################################
-State 40:
-a_102, z_9, bm_9 in symmetric relation [a_102, a_33, z_9, bm_9] are known: a_102, z_9, bm_9 ===> a_33
-b_106, b_28, a_49, am_22 in symmetric relation [b_106, b_28, a_49, a_22, am_22] are known: b_106, b_28, a_49, am_22 ===> a_22
-a_117, z_24, bm_24 in symmetric relation [a_117, a_48, z_24, bm_24] are known: a_117, z_24, bm_24 ===> a_48
+State 42:
+b_105, b_27, a_48, am_21 in symmetric relation [b_105, b_27, a_48, a_21, am_21] are known: b_105, b_27, a_48, am_21 ===> a_21
+b_117, b_39, a_33, am_33 in symmetric relation [b_117, b_39, a_60, a_33, am_33] are known: b_117, b_39, a_33, am_33 ===> a_60
+a_129, z_36, bm_36 in symmetric relation [a_129, a_60, z_36, bm_36] are known: a_129, z_36, bm_36 ===> a_60
 b_145, b_67, a_61, am_61 in symmetric relation [b_145, b_67, a_88, a_61, am_61] are known: b_145, b_67, a_61, am_61 ===> a_88
 a_89, z_65, bm_65 in symmetric relation [a_158, a_89, z_65, bm_65] are known: a_89, z_65, bm_65 ===> a_158
-b_159, b_81, a_102, am_75 in symmetric relation [b_159, b_81, a_102, a_75, am_75] are known: b_159, b_81, a_102, am_75 ===> a_75
+b_158, b_80, a_74, am_74 in symmetric relation [b_158, b_80, a_101, a_74, am_74] are known: b_158, b_80, a_74, am_74 ===> a_101
 b_173, b_95, a_89, am_89 in symmetric relation [b_173, b_95, a_116, a_89, am_89] are known: b_173, b_95, a_89, am_89 ===> a_116
 a_117, z_93, bm_93 in symmetric relation [a_186, a_117, z_93, bm_93] are known: a_117, z_93, bm_93 ===> a_186
-b_124, a_145, a_118, am_118 in symmetric relation [b_202, b_124, a_145, a_118, am_118] are known: b_124, a_145, a_118, am_118 ===> b_202
-a_145, z_121, bm_121 in symmetric relation [a_214, a_145, z_121, bm_121] are known: a_145, z_121, bm_121 ===> a_214
+a_129, z_105, bm_105 in symmetric relation [a_198, a_129, z_105, bm_105] are known: a_129, z_105, bm_105 ===> a_198
+b_123, a_144, a_117, am_117 in symmetric relation [b_201, b_123, a_144, a_117, am_117] are known: b_123, a_144, a_117, am_117 ===> b_201
+a_144, z_120, bm_120 in symmetric relation [a_213, a_144, z_120, bm_120] are known: a_144, z_120, bm_120 ===> a_213
 b_138, a_159, a_132, am_132 in symmetric relation [b_216, b_138, a_159, a_132, am_132] are known: b_138, a_159, a_132, am_132 ===> b_216
 a_159, z_135, bm_135 in symmetric relation [a_228, a_159, z_135, bm_135] are known: a_159, z_135, bm_135 ===> a_228
+b_150, a_171, a_144, am_144 in symmetric relation [b_228, b_150, a_171, a_144, am_144] are known: b_150, a_171, a_144, am_144 ===> b_228
 b_151, a_172, a_145, am_145 in symmetric relation [b_229, b_151, a_172, a_145, am_145] are known: b_151, a_172, a_145, am_145 ===> b_229
-b_166, a_187, a_160, am_160 in symmetric relation [b_244, b_166, a_187, a_160, am_160] are known: b_166, a_187, a_160, am_160 ===> b_244
-a_187, z_163, bm_163 in symmetric relation [a_256, a_187, z_163, bm_163] are known: a_187, z_163, bm_163 ===> a_256
 a_196, z_172, bm_172 in symmetric relation [a_265, a_196, z_172, bm_172] are known: a_196, z_172, bm_172 ===> a_265
-a_197, z_173, bm_173 in symmetric relation [a_266, a_197, z_173, bm_173] are known: a_197, z_173, bm_173 ===> a_266
+b_178, a_199, a_172, am_172 in symmetric relation [b_256, b_178, a_199, a_172, am_172] are known: b_178, a_199, a_172, am_172 ===> b_256
 b_180, a_201, a_174, am_174 in symmetric relation [b_258, b_180, a_201, a_174, am_174] are known: b_180, a_201, a_174, am_174 ===> b_258
+a_199, z_175, bm_175 in symmetric relation [a_268, a_199, z_175, bm_175] are known: a_199, z_175, bm_175 ===> a_268
 b_9, b_10 in implication relation [b_9, b_10 => bm_8] are known: b_9, b_10 ===> bm_8
-a_34, a_35 in implication relation [a_34, a_35 => am_33] are known: a_34, a_35 ===> am_33
-a_49, a_50 in implication relation [a_49, a_50 => am_48] are known: a_49, a_50 ===> am_48
-a_60, a_61 in implication relation [a_60, a_61 => am_59] are known: a_60, a_61 ===> am_59
+a_48, a_49 in implication relation [a_48, a_49 => am_47] are known: a_48, a_49 ===> am_47
 a_61, a_62 in implication relation [a_61, a_62 => am_60] are known: a_61, a_62 ===> am_60
 a_89, a_90 in implication relation [a_89, a_90 => am_88] are known: a_89, a_90 ===> am_88
 a_117, a_118 in implication relation [a_117, a_118 => am_116] are known: a_117, a_118 ===> am_116
-a_145, a_146 in implication relation [a_145, a_146 => am_144] are known: a_145, a_146 ===> am_144
+a_129, a_130 in implication relation [a_129, a_130 => am_128] are known: a_129, a_130 ===> am_128
+a_143, a_144 in implication relation [a_143, a_144 => am_142] are known: a_143, a_144 ===> am_142
+a_144, a_145 in implication relation [a_144, a_145 => am_143] are known: a_144, a_145 ===> am_143
 a_159, a_160 in implication relation [a_159, a_160 => am_158] are known: a_159, a_160 ===> am_158
 ############################################################
-State 41:
+State 43:
 a_101, z_8, bm_8 in symmetric relation [a_101, a_32, z_8, bm_8] are known: a_101, z_8, bm_8 ===> a_32
 a_116, z_23, bm_23 in symmetric relation [a_116, a_47, z_23, bm_23] are known: a_116, z_23, bm_23 ===> a_47
-a_75, z_51, bm_51 in symmetric relation [a_144, a_75, z_51, bm_51] are known: a_75, z_51, bm_51 ===> a_144
-b_143, b_65, a_59, am_59 in symmetric relation [b_143, b_65, a_86, a_59, am_59] are known: b_143, b_65, a_59, am_59 ===> a_86
+b_131, b_53, a_74, am_47 in symmetric relation [b_131, b_53, a_74, a_47, am_47] are known: b_131, b_53, a_74, am_47 ===> a_47
 b_144, b_66, a_60, am_60 in symmetric relation [b_144, b_66, a_87, a_60, am_60] are known: b_144, b_66, a_60, am_60 ===> a_87
 a_88, z_64, bm_64 in symmetric relation [a_157, a_88, z_64, bm_64] are known: a_88, z_64, bm_64 ===> a_157
+a_101, z_77, bm_77 in symmetric relation [a_170, a_101, z_77, bm_77] are known: a_101, z_77, bm_77 ===> a_170
 b_172, b_94, a_88, am_88 in symmetric relation [b_172, b_94, a_115, a_88, am_88] are known: b_172, b_94, a_88, am_88 ===> a_115
 a_116, z_92, bm_92 in symmetric relation [a_185, a_116, z_92, bm_92] are known: a_116, z_92, bm_92 ===> a_185
+b_185, b_107, a_101, am_101 in symmetric relation [b_185, b_107, a_128, a_101, am_101] are known: b_185, b_107, a_101, am_101 ===> a_128
+b_122, a_143, a_116, am_116 in symmetric relation [b_200, b_122, a_143, a_116, am_116] are known: b_122, a_143, a_116, am_116 ===> b_200
 b_137, a_158, a_131, am_131 in symmetric relation [b_215, b_137, a_158, a_131, am_131] are known: b_137, a_158, a_131, am_131 ===> b_215
 a_158, z_134, bm_134 in symmetric relation [a_227, a_158, z_134, bm_134] are known: a_158, z_134, bm_134 ===> a_227
+b_148, a_169, a_142, am_142 in symmetric relation [b_226, b_148, a_169, a_142, am_142] are known: b_148, a_169, a_142, am_142 ===> b_226
 b_165, a_186, a_159, am_159 in symmetric relation [b_243, b_165, a_186, a_159, am_159] are known: b_165, a_186, a_159, am_159 ===> b_243
 a_186, z_162, bm_162 in symmetric relation [a_255, a_186, z_162, bm_162] are known: a_186, z_162, bm_162 ===> a_255
-a_22, a_23 in implication relation [a_22, a_23 => am_21] are known: a_22, a_23 ===> am_21
-a_33, a_34 in implication relation [a_33, a_34 => am_32] are known: a_33, a_34 ===> am_32
-a_48, a_49 in implication relation [a_48, a_49 => am_47] are known: a_48, a_49 ===> am_47
-a_75, a_76 in implication relation [a_75, a_76 => am_74] are known: a_75, a_76 ===> am_74
+b_177, a_198, a_171, am_171 in symmetric relation [b_255, b_177, a_198, a_171, am_171] are known: b_177, a_198, a_171, am_171 ===> b_255
+a_198, z_174, bm_174 in symmetric relation [a_267, a_198, z_174, bm_174] are known: a_198, z_174, bm_174 ===> a_267
+a_21, a_22 in implication relation [a_21, a_22 => am_20] are known: a_21, a_22 ===> am_20
+a_60, a_61 in implication relation [a_60, a_61 => am_59] are known: a_60, a_61 ===> am_59
 a_88, a_89 in implication relation [a_88, a_89 => am_87] are known: a_88, a_89 ===> am_87
 a_116, a_117 in implication relation [a_116, a_117 => am_115] are known: a_116, a_117 ===> am_115
 a_158, a_159 in implication relation [a_158, a_159 => am_157] are known: a_158, a_159 ===> am_157
 ############################################################
-State 42:
-b_105, b_27, a_48, am_21 in symmetric relation [b_105, b_27, a_48, a_21, am_21] are known: b_105, b_27, a_48, am_21 ===> a_21
+State 44:
+b_104, b_26, a_47, am_20 in symmetric relation [b_104, b_26, a_47, a_20, am_20] are known: b_104, b_26, a_47, am_20 ===> a_20
 a_115, z_22, bm_22 in symmetric relation [a_115, a_46, z_22, bm_22] are known: a_115, z_22, bm_22 ===> a_46
-b_131, b_53, a_47, am_47 in symmetric relation [b_131, b_53, a_74, a_47, am_47] are known: b_131, b_53, a_47, am_47 ===> a_74
-a_86, z_62, bm_62 in symmetric relation [a_155, a_86, z_62, bm_62] are known: a_86, z_62, bm_62 ===> a_155
+b_116, b_38, a_32, am_32 in symmetric relation [b_116, b_38, a_59, a_32, am_32] are known: b_116, b_38, a_32, am_32 ===> a_59
+a_128, z_35, bm_35 in symmetric relation [a_128, a_59, z_35, bm_35] are known: a_128, z_35, bm_35 ===> a_59
 a_87, z_63, bm_63 in symmetric relation [a_156, a_87, z_63, bm_63] are known: a_87, z_63, bm_63 ===> a_156
-b_158, b_80, a_101, am_74 in symmetric relation [b_158, b_80, a_101, a_74, am_74] are known: b_158, b_80, a_101, am_74 ===> a_74
 b_171, b_93, a_87, am_87 in symmetric relation [b_171, b_93, a_114, a_87, am_87] are known: b_171, b_93, a_87, am_87 ===> a_114
 a_115, z_91, bm_91 in symmetric relation [a_184, a_115, z_91, bm_91] are known: a_115, z_91, bm_91 ===> a_184
+a_128, z_104, bm_104 in symmetric relation [a_197, a_128, z_104, bm_104] are known: a_128, z_104, bm_104 ===> a_197
 b_121, a_142, a_115, am_115 in symmetric relation [b_199, b_121, a_142, a_115, am_115] are known: b_121, a_142, a_115, am_115 ===> b_199
-b_123, a_144, a_117, am_117 in symmetric relation [b_201, b_123, a_144, a_117, am_117] are known: b_123, a_144, a_117, am_117 ===> b_201
-a_144, z_120, bm_120 in symmetric relation [a_213, a_144, z_120, bm_120] are known: a_144, z_120, bm_120 ===> a_213
 b_136, a_157, a_130, am_130 in symmetric relation [b_214, b_136, a_157, a_130, am_130] are known: b_136, a_157, a_130, am_130 ===> b_214
 a_157, z_133, bm_133 in symmetric relation [a_226, a_157, z_133, bm_133] are known: a_157, z_133, bm_133 ===> a_226
-b_150, a_171, a_144, am_144 in symmetric relation [b_228, b_150, a_171, a_144, am_144] are known: b_150, a_171, a_144, am_144 ===> b_228
+b_149, a_170, a_143, am_143 in symmetric relation [b_227, b_149, a_170, a_143, am_143] are known: b_149, a_170, a_143, am_143 ===> b_227
+a_170, z_146, bm_146 in symmetric relation [a_239, a_170, z_146, bm_146] are known: a_170, z_146, bm_146 ===> a_239
 b_164, a_185, a_158, am_158 in symmetric relation [b_242, b_164, a_185, a_158, am_158] are known: b_164, a_185, a_158, am_158 ===> b_242
 a_185, z_161, bm_161 in symmetric relation [a_254, a_185, z_161, bm_161] are known: a_185, z_161, bm_161 ===> a_254
 a_47, a_48 in implication relation [a_47, a_48 => am_46] are known: a_47, a_48 ===> am_46
-a_86, a_87 in implication relation [a_86, a_87 => am_85] are known: a_86, a_87 ===> am_85
 a_87, a_88 in implication relation [a_87, a_88 => am_86] are known: a_87, a_88 ===> am_86
 a_115, a_116 in implication relation [a_115, a_116 => am_114] are known: a_115, a_116 ===> am_114
-a_144, a_145 in implication relation [a_144, a_145 => am_143] are known: a_144, a_145 ===> am_143
+a_127, a_128 in implication relation [a_127, a_128 => am_126] are known: a_127, a_128 ===> am_126
+a_128, a_129 in implication relation [a_128, a_129 => am_127] are known: a_128, a_129 ===> am_127
 a_157, a_158 in implication relation [a_157, a_158 => am_156] are known: a_157, a_158 ===> am_156
+a_169, a_170 in implication relation [a_169, a_170 => am_168] are known: a_169, a_170 ===> am_168
+a_170, a_171 in implication relation [a_170, a_171 => am_169] are known: a_170, a_171 ===> am_169
 ############################################################
-State 43:
+State 45:
 a_114, z_21, bm_21 in symmetric relation [a_114, a_45, z_21, bm_21] are known: a_114, z_21, bm_21 ===> a_45
-a_74, z_50, bm_50 in symmetric relation [a_143, a_74, z_50, bm_50] are known: a_74, z_50, bm_50 ===> a_143
-b_169, b_91, a_85, am_85 in symmetric relation [b_169, b_91, a_112, a_85, am_85] are known: b_169, b_91, a_85, am_85 ===> a_112
-b_170, b_92, a_86, am_86 in symmetric relation [b_170, b_92, a_113, a_86, am_86] are known: b_170, b_92, a_86, am_86 ===> a_113
+b_143, b_65, a_59, am_59 in symmetric relation [b_143, b_65, a_86, a_59, am_59] are known: b_143, b_65, a_59, am_59 ===> a_86
 a_114, z_90, bm_90 in symmetric relation [a_183, a_114, z_90, bm_90] are known: a_114, z_90, bm_90 ===> a_183
 b_120, a_141, a_114, am_114 in symmetric relation [b_198, b_120, a_141, a_114, am_114] are known: b_120, a_141, a_114, am_114 ===> b_198
-b_134, a_155, a_128, am_128 in symmetric relation [b_212, b_134, a_155, a_128, am_128] are known: b_134, a_155, a_128, am_128 ===> b_212
 b_135, a_156, a_129, am_129 in symmetric relation [b_213, b_135, a_156, a_129, am_129] are known: b_135, a_156, a_129, am_129 ===> b_213
-a_155, z_131, bm_131 in symmetric relation [a_224, a_155, z_131, bm_131] are known: a_155, z_131, bm_131 ===> a_224
 a_156, z_132, bm_132 in symmetric relation [a_225, a_156, z_132, bm_132] are known: a_156, z_132, bm_132 ===> a_225
 b_163, a_184, a_157, am_157 in symmetric relation [b_241, b_163, a_184, a_157, am_157] are known: b_163, a_184, a_157, am_157 ===> b_241
 a_184, z_160, bm_160 in symmetric relation [a_253, a_184, z_160, bm_160] are known: a_184, z_160, bm_160 ===> a_253
-a_21, a_22 in implication relation [a_21, a_22 => am_20] are known: a_21, a_22 ===> am_20
-a_46, a_47 in implication relation [a_46, a_47 => am_45] are known: a_46, a_47 ===> am_45
-a_114, a_115 in implication relation [a_114, a_115 => am_113] are known: a_114, a_115 ===> am_113
-a_154, a_155 in implication relation [a_154, a_155 => am_153] are known: a_154, a_155 ===> am_153
-a_155, a_156 in implication relation [a_155, a_156 => am_154] are known: a_155, a_156 ===> am_154
-a_156, a_157 in implication relation [a_156, a_157 => am_155] are known: a_156, a_157 ===> am_155
-############################################################
-State 44:
-a_112, z_19, bm_19 in symmetric relation [a_112, a_43, z_19, bm_19] are known: a_112, z_19, bm_19 ===> a_43
-a_113, z_20, bm_20 in symmetric relation [a_113, a_44, z_20, bm_20] are known: a_113, z_20, bm_20 ===> a_44
-b_104, b_26, a_47, am_20 in symmetric relation [b_104, b_26, a_47, a_20, am_20] are known: b_104, b_26, a_47, am_20 ===> a_20
-a_112, z_88, bm_88 in symmetric relation [a_181, a_112, z_88, bm_88] are known: a_112, z_88, bm_88 ===> a_181
-a_113, z_89, bm_89 in symmetric relation [a_182, a_113, z_89, bm_89] are known: a_113, z_89, bm_89 ===> a_182
-b_119, a_140, a_113, am_113 in symmetric relation [b_197, b_119, a_140, a_113, am_113] are known: b_119, a_140, a_113, am_113 ===> b_197
-b_122, a_143, a_116, am_116 in symmetric relation [b_200, b_122, a_143, a_116, am_116] are known: b_122, a_143, a_116, am_116 ===> b_200
-a_143, z_119, bm_119 in symmetric relation [a_212, a_143, z_119, bm_119] are known: a_143, z_119, bm_119 ===> a_212
-b_149, a_170, a_143, am_143 in symmetric relation [b_227, b_149, a_170, a_143, am_143] are known: b_149, a_170, a_143, am_143 ===> b_227
-b_159, a_180, a_153, am_153 in symmetric relation [b_237, b_159, a_180, a_153, am_153] are known: b_159, a_180, a_153, am_153 ===> b_237
-b_162, a_183, a_156, am_156 in symmetric relation [b_240, b_162, a_183, a_156, am_156] are known: b_162, a_183, a_156, am_156 ===> b_240
-a_183, z_159, bm_159 in symmetric relation [a_252, a_183, z_159, bm_159] are known: a_183, z_159, bm_159 ===> a_252
-a_45, a_46 in implication relation [a_45, a_46 => am_44] are known: a_45, a_46 ===> am_44
-a_111, a_112 in implication relation [a_111, a_112 => am_110] are known: a_111, a_112 ===> am_110
-a_112, a_113 in implication relation [a_112, a_113 => am_111] are known: a_112, a_113 ===> am_111
-a_113, a_114 in implication relation [a_113, a_114 => am_112] are known: a_113, a_114 ===> am_112
-a_142, a_143 in implication relation [a_142, a_143 => am_141] are known: a_142, a_143 ===> am_141
-a_143, a_144 in implication relation [a_143, a_144 => am_142] are known: a_143, a_144 ===> am_142
-############################################################
-State 45:
-b_127, b_49, a_70, a_43 in symmetric relation [b_127, b_49, a_70, a_43, am_43] are known: b_127, b_49, a_70, a_43 ===> am_43
-b_116, a_137, a_110, am_110 in symmetric relation [b_194, b_116, a_137, a_110, am_110] are known: b_116, a_137, a_110, am_110 ===> b_194
-b_117, a_138, a_111, am_111 in symmetric relation [b_195, b_117, a_138, a_111, am_111] are known: b_117, a_138, a_111, am_111 ===> b_195
-b_118, a_139, a_112, am_112 in symmetric relation [b_196, b_118, a_139, a_112, am_112] are known: b_118, a_139, a_112, am_112 ===> b_196
-b_147, a_168, a_141, am_141 in symmetric relation [b_225, b_147, a_168, a_141, am_141] are known: b_147, a_168, a_141, am_141 ===> b_225
-b_148, a_169, a_142, am_142 in symmetric relation [b_226, b_148, a_169, a_142, am_142] are known: b_148, a_169, a_142, am_142 ===> b_226
-b_160, a_181, a_154, am_154 in symmetric relation [b_238, b_160, a_181, a_154, am_154] are known: b_160, a_181, a_154, am_154 ===> b_238
-b_161, a_182, a_155, am_155 in symmetric relation [b_239, b_161, a_182, a_155, am_155] are known: b_161, a_182, a_155, am_155 ===> b_239
-a_181, z_157, bm_157 in symmetric relation [a_250, a_181, z_157, bm_157] are known: a_181, z_157, bm_157 ===> a_250
-a_182, z_158, bm_158 in symmetric relation [a_251, a_182, z_158, bm_158] are known: a_182, z_158, bm_158 ===> a_251
+b_174, a_195, a_168, am_168 in symmetric relation [b_252, b_174, a_195, a_168, am_168] are known: b_174, a_195, a_168, am_168 ===> b_252
+b_175, a_196, a_169, am_169 in symmetric relation [b_253, b_175, a_196, a_169, am_169] are known: b_175, a_196, a_169, am_169 ===> b_253
+b_176, a_197, a_170, am_170 in symmetric relation [b_254, b_176, a_197, a_170, am_170] are known: b_176, a_197, a_170, am_170 ===> b_254
+a_197, z_173, bm_173 in symmetric relation [a_266, a_197, z_173, bm_173] are known: a_197, z_173, bm_173 ===> a_266
 a_20, a_21 in implication relation [a_20, a_21 => am_19] are known: a_20, a_21 ===> am_19
-a_44, a_45 in implication relation [a_44, a_45 => am_43] are known: a_44, a_45 ===> am_43
+a_46, a_47 in implication relation [a_46, a_47 => am_45] are known: a_46, a_47 ===> am_45
+a_58, a_59 in implication relation [a_58, a_59 => am_57] are known: a_58, a_59 ===> am_57
+a_59, a_60 in implication relation [a_59, a_60 => am_58] are known: a_59, a_60 ===> am_58
+a_114, a_115 in implication relation [a_114, a_115 => am_113] are known: a_114, a_115 ===> am_113
+a_156, a_157 in implication relation [a_156, a_157 => am_155] are known: a_156, a_157 ===> am_155
 ############################################################
 State 46:
 b_103, b_25, a_46, am_19 in symmetric relation [b_103, b_25, a_46, a_19, am_19] are known: b_103, b_25, a_46, am_19 ===> a_19
+b_141, b_63, a_57, am_57 in symmetric relation [b_141, b_63, a_84, a_57, am_57] are known: b_141, b_63, a_57, am_57 ===> a_84
+b_142, b_64, a_58, am_58 in symmetric relation [b_142, b_64, a_85, a_58, am_58] are known: b_142, b_64, a_58, am_58 ===> a_85
+a_86, z_62, bm_62 in symmetric relation [a_155, a_86, z_62, bm_62] are known: a_86, z_62, bm_62 ===> a_155
+b_170, b_92, a_86, am_86 in symmetric relation [b_170, b_92, a_113, a_86, am_86] are known: b_170, b_92, a_86, am_86 ===> a_113
+b_162, a_183, a_156, am_156 in symmetric relation [b_240, b_162, a_183, a_156, am_156] are known: b_162, a_183, a_156, am_156 ===> b_240
+a_183, z_159, bm_159 in symmetric relation [a_252, a_183, z_159, bm_159] are known: a_183, z_159, bm_159 ===> a_252
+a_45, a_46 in implication relation [a_45, a_46 => am_44] are known: a_45, a_46 ===> am_44
+a_86, a_87 in implication relation [a_86, a_87 => am_85] are known: a_86, a_87 ===> am_85
 ############################################################
 State 47:
+a_113, z_20, bm_20 in symmetric relation [a_113, a_44, z_20, bm_20] are known: a_113, z_20, bm_20 ===> a_44
+b_128, b_50, a_71, am_44 in symmetric relation [b_128, b_50, a_71, a_44, am_44] are known: b_128, b_50, a_71, am_44 ===> a_44
+a_84, z_60, bm_60 in symmetric relation [a_153, a_84, z_60, bm_60] are known: a_84, z_60, bm_60 ===> a_153
+a_85, z_61, bm_61 in symmetric relation [a_154, a_85, z_61, bm_61] are known: a_85, z_61, bm_61 ===> a_154
+b_168, b_90, a_111, a_84 in symmetric relation [b_168, b_90, a_111, a_84, am_84] are known: b_168, b_90, a_111, a_84 ===> am_84
+b_169, b_91, a_85, am_85 in symmetric relation [b_169, b_91, a_112, a_85, am_85] are known: b_169, b_91, a_85, am_85 ===> a_112
+a_113, z_89, bm_89 in symmetric relation [a_182, a_113, z_89, bm_89] are known: a_113, z_89, bm_89 ===> a_182
+b_119, a_140, a_113, am_113 in symmetric relation [b_197, b_119, a_140, a_113, am_113] are known: b_119, a_140, a_113, am_113 ===> b_197
+b_134, a_155, a_128, am_128 in symmetric relation [b_212, b_134, a_155, a_128, am_128] are known: b_134, a_155, a_128, am_128 ===> b_212
+a_155, z_131, bm_131 in symmetric relation [a_224, a_155, z_131, bm_131] are known: a_155, z_131, bm_131 ===> a_224
 a_19, a_20 in implication relation [a_19, a_20 => am_18] are known: a_19, a_20 ===> am_18
+a_85, a_86 in implication relation [a_85, a_86 => am_84] are known: a_85, a_86 ===> am_84
+a_113, a_114 in implication relation [a_113, a_114 => am_112] are known: a_113, a_114 ===> am_112
+a_155, a_156 in implication relation [a_155, a_156 => am_154] are known: a_155, a_156 ===> am_154
 ############################################################
 State 48:
 b_102, b_24, a_45, am_18 in symmetric relation [b_102, b_24, a_45, a_18, am_18] are known: b_102, b_24, a_45, am_18 ===> a_18
+a_112, z_19, bm_19 in symmetric relation [a_112, a_43, z_19, bm_19] are known: a_112, z_19, bm_19 ===> a_43
+a_112, z_88, bm_88 in symmetric relation [a_181, a_112, z_88, bm_88] are known: a_112, z_88, bm_88 ===> a_181
+b_118, a_139, a_112, am_112 in symmetric relation [b_196, b_118, a_139, a_112, am_112] are known: b_118, a_139, a_112, am_112 ===> b_196
+b_132, a_153, a_126, am_126 in symmetric relation [b_210, b_132, a_153, a_126, am_126] are known: b_132, a_153, a_126, am_126 ===> b_210
+b_133, a_154, a_127, am_127 in symmetric relation [b_211, b_133, a_154, a_127, am_127] are known: b_133, a_154, a_127, am_127 ===> b_211
+a_153, z_129, bm_129 in symmetric relation [a_222, a_153, z_129, bm_129] are known: a_153, z_129, bm_129 ===> a_222
+a_154, z_130, bm_130 in symmetric relation [a_223, a_154, z_130, bm_130] are known: a_154, z_130, bm_130 ===> a_223
+b_161, a_182, a_155, am_155 in symmetric relation [b_239, b_161, a_182, a_155, am_155] are known: b_161, a_182, a_155, am_155 ===> b_239
+a_182, z_158, bm_158 in symmetric relation [a_251, a_182, z_158, bm_158] are known: a_182, z_158, bm_158 ===> a_251
+a_44, a_45 in implication relation [a_44, a_45 => am_43] are known: a_44, a_45 ===> am_43
+a_111, a_112 in implication relation [a_111, a_112 => am_110] are known: a_111, a_112 ===> am_110
+a_112, a_113 in implication relation [a_112, a_113 => am_111] are known: a_112, a_113 ===> am_111
+a_152, a_153 in implication relation [a_152, a_153 => am_151] are known: a_152, a_153 ===> am_151
+a_153, a_154 in implication relation [a_153, a_154 => am_152] are known: a_153, a_154 ===> am_152
+a_154, a_155 in implication relation [a_154, a_155 => am_153] are known: a_154, a_155 ===> am_153
 ############################################################
 State 49:
+b_116, a_137, a_110, am_110 in symmetric relation [b_194, b_116, a_137, a_110, am_110] are known: b_116, a_137, a_110, am_110 ===> b_194
+b_117, a_138, a_111, am_111 in symmetric relation [b_195, b_117, a_138, a_111, am_111] are known: b_117, a_138, a_111, am_111 ===> b_195
+b_157, a_178, a_151, am_151 in symmetric relation [b_235, b_157, a_178, a_151, am_151] are known: b_157, a_178, a_151, am_151 ===> b_235
+b_158, a_179, a_152, am_152 in symmetric relation [b_236, b_158, a_179, a_152, am_152] are known: b_158, a_179, a_152, am_152 ===> b_236
+b_159, a_180, a_153, am_153 in symmetric relation [b_237, b_159, a_180, a_153, am_153] are known: b_159, a_180, a_153, am_153 ===> b_237
+b_160, a_181, a_154, am_154 in symmetric relation [b_238, b_160, a_181, a_154, am_154] are known: b_160, a_181, a_154, am_154 ===> b_238
+a_181, z_157, bm_157 in symmetric relation [a_250, a_181, z_157, bm_157] are known: a_181, z_157, bm_157 ===> a_250
 a_18, a_19 in implication relation [a_18, a_19 => am_17] are known: a_18, a_19 ===> am_17
 ############################################################
 State 50:
@@ -1059,38 +1062,47 @@ The following variables are known in final state:
 b_1, b_2, bm_0, a_1, a_2, am_0, b_3, bm_1, a_3, am_1, b_4, bm_2, a_4, am_2, b_5, bm_3, a_5, am_3, b_6, bm_4, a_6, am_4, b_7, bm_5, a_7, am_5, b_8, bm_6, a_8, am_6, b_9, bm_7, a_9, am_7, b_10, bm_8, a_10, am_8, b_11, bm_9, a_11, am_9, b_12, bm_10, a_12, am_10, b_13, bm_11, a_13, am_11, b_14, bm_12, a_14, am_12, b_15, bm_13, a_15, am_13, b_16, bm_14, a_16, am_14, b_17, bm_15, a_17, am_15, b_18, bm_16, a_18, am_16, b_19, bm_17, a_19, am_17, b_20, bm_18, a_20, am_18, b_21, bm_19, a_21, am_19, b_22, bm_20, a_22, am_20, b_23, bm_21, a_23, am_21, b_24, bm_22, a_24, am_22, b_25, bm_23, a_25, am_23, b_26, bm_24, a_26, am_24, b_27, bm_25, a_27, am_25, b_28, bm_26, a_28, am_26, b_29, bm_27, a_29, am_27, b_30, bm_28, a_30, am_28, b_31, bm_29, a_31, am_29, b_32, bm_30, a_32, am_30, b_33, bm_31, a_33, am_31, b_34, bm_32, a_34, am_32, b_35, bm_33, a_35, am_33, b_36, bm_34, a_36, am_34, b_37, bm_35, a_37, am_35, b_38, bm_36, a_38, am_36, b_39, bm_37, a_39, am_37, b_40, bm_38, a_40, am_38, b_41, bm_39, a_41, am_39, b_42, bm_40, a_42, am_40, b_43, bm_41, a_43, am_41, b_44, bm_42, a_44, am_42, b_45, bm_43, a_45, am_43, b_46, bm_44, a_46, am_44, b_47, bm_45, a_47, am_45, b_48, bm_46, a_48, am_46, b_49, bm_47, a_49, am_47, b_50, bm_48, a_50, am_48, b_51, bm_49, a_51, am_49, b_52, bm_50, a_52, am_50, b_53, bm_51, a_53, am_51, b_54, bm_52, a_54, am_52, b_55, bm_53, a_55, am_53, b_56, bm_54, a_56, am_54, b_57, bm_55, a_57, am_55, b_58, bm_56, a_58, am_56, b_59, bm_57, a_59, am_57, b_60, bm_58, a_60, am_58, b_61, bm_59, a_61, am_59, b_62, bm_60, a_62, am_60, b_63, bm_61, a_63, am_61, b_64, bm_62, a_64, am_62, b_65, bm_63, a_65, am_63, b_66, bm_64, a_66, am_64, b_67, bm_65, a_67, am_65, b_68, bm_66, a_68, am_66, b_69, bm_67, a_69, am_67, b_70, bm_68, a_70, am_68, b_71, bm_69, a_71, am_69, b_72, bm_70, a_72, am_70, b_73, bm_71, a_73, am_71, b_74, bm_72, a_74, am_72, b_75, bm_73, a_75, am_73, b_76, bm_74, a_76, am_74, b_77, bm_75, a_77, am_75, b_78, bm_76, a_78, am_76, b_79, bm_77, a_79, am_77, b_80, bm_78, a_80, am_78, b_81, bm_79, a_81, am_79, b_82, bm_80, a_82, am_80, b_83, bm_81, a_83, am_81, b_84, bm_82, a_84, am_82, b_85, bm_83, a_85, am_83, b_86, bm_84, a_86, am_84, b_87, bm_85, a_87, am_85, b_88, bm_86, a_88, am_86, b_89, bm_87, a_89, am_87, b_90, bm_88, a_90, am_88, b_91, bm_89, a_91, am_89, b_92, bm_90, a_92, am_90, b_93, bm_91, a_93, am_91, b_94, bm_92, a_94, am_92, b_95, bm_93, a_95, am_93, b_96, bm_94, a_96, am_94, b_97, bm_95, a_97, am_95, b_98, bm_96, a_98, am_96, b_99, bm_97, a_99, am_97, b_100, bm_98, a_100, am_98, b_101, bm_99, a_101, am_99, b_102, bm_100, a_102, am_100, b_103, bm_101, a_103, am_101, b_104, bm_102, a_104, am_102, b_105, bm_103, a_105, am_103, b_106, bm_104, a_106, am_104, b_107, bm_105, a_107, am_105, b_108, bm_106, a_108, am_106, b_109, bm_107, a_109, am_107, b_110, bm_108, a_110, am_108, b_111, bm_109, a_111, am_109, b_112, bm_110, a_112, am_110, b_113, bm_111, a_113, am_111, b_114, bm_112, a_114, am_112, b_115, bm_113, a_115, am_113, b_116, bm_114, a_116, am_114, b_117, bm_115, a_117, am_115, b_118, bm_116, a_118, am_116, b_119, bm_117, a_119, am_117, b_120, bm_118, a_120, am_118, b_121, bm_119, a_121, am_119, b_122, bm_120, a_122, am_120, b_123, bm_121, a_123, am_121, b_124, bm_122, a_124, am_122, b_125, bm_123, a_125, am_123, b_126, bm_124, a_126, am_124, b_127, bm_125, a_127, am_125, b_128, bm_126, a_128, am_126, b_129, bm_127, a_129, am_127, b_130, bm_128, a_130, am_128, b_131, bm_129, a_131, am_129, b_132, bm_130, a_132, am_130, b_133, bm_131, a_133, am_131, b_134, bm_132, a_134, am_132, b_135, bm_133, a_135, am_133, b_136, bm_134, a_136, am_134, b_137, bm_135, a_137, am_135, b_138, bm_136, a_138, am_136, b_139, bm_137, a_139, am_137, b_140, bm_138, a_140, am_138, b_141, bm_139, a_141, am_139, b_142, bm_140, a_142, am_140, b_143, bm_141, a_143, am_141, b_144, bm_142, a_144, am_142, b_145, bm_143, a_145, am_143, b_146, bm_144, a_146, am_144, b_147, bm_145, a_147, am_145, b_148, bm_146, a_148, am_146, b_149, bm_147, a_149, am_147, b_150, bm_148, a_150, am_148, b_151, bm_149, a_151, am_149, b_152, bm_150, a_152, am_150, b_153, bm_151, a_153, am_151, b_154, bm_152, a_154, am_152, b_155, bm_153, a_155, am_153, b_156, bm_154, a_156, am_154, b_157, bm_155, a_157, am_155, b_158, bm_156, a_158, am_156, b_159, bm_157, a_159, am_157, b_160, bm_158, a_160, am_158, b_161, bm_159, a_161, am_159, b_162, bm_160, a_162, am_160, b_163, bm_161, a_163, am_161, b_164, bm_162, a_164, am_162, b_165, bm_163, a_165, am_163, b_166, bm_164, a_166, am_164, b_167, bm_165, a_167, am_165, b_168, bm_166, a_168, am_166, b_169, bm_167, a_169, am_167, b_170, bm_168, a_170, am_168, b_171, bm_169, a_171, am_169, b_172, bm_170, a_172, am_170, b_173, bm_171, a_173, am_171, b_174, bm_172, a_174, am_172, b_175, bm_173, a_175, am_173, b_176, bm_174, a_176, am_174, b_177, bm_175, a_177, am_175, b_178, bm_176, a_178, am_176, z_0, a_0, b_0, z_1, z_2, z_3, z_4, z_5, z_6, z_7, z_8, z_9, z_10, z_11, z_12, z_13, z_14, z_15, z_16, z_17, z_18, z_19, z_20, z_21, z_22, z_23, z_24, z_25, z_26, z_27, z_28, z_29, z_30, z_31, z_32, z_33, z_34, z_35, z_36, z_37, z_38, z_39, z_40, z_41, z_42, z_43, z_44, z_45, z_46, z_47, z_48, z_49, z_50, z_51, z_52, z_53, z_54, z_55, z_56, z_57, z_58, z_59, z_60, z_61, z_62, z_63, z_64, z_65, z_66, z_67, z_68, z_69, z_70, z_71, z_72, z_73, z_74, z_75, z_76, z_77, z_78, z_79, z_80, z_81, z_82, z_83, z_84, z_85, a_179, z_86, a_180, z_87, a_181, z_88, a_182, z_89, a_183, z_90, a_184, z_91, a_185, z_92, a_186, z_93, a_187, z_94, a_188, z_95, b_179, a_189, z_96, b_180, a_190, z_97, b_181, a_191, z_98, b_182, a_192, z_99, b_183, a_193, z_100, b_184, a_194, z_101, b_185, a_195, z_102, b_186, a_196, z_103, b_187, a_197, z_104, b_188, a_198, z_105, b_189, a_199, z_106, b_190, a_200, z_107, b_191, a_201, z_108, b_192, a_202, z_109, b_193, a_203, z_110, b_194, a_204, z_111, b_195, a_205, z_112, b_196, a_206, z_113, b_197, a_207, z_114, b_198, a_208, z_115, b_199, a_209, z_116, b_200, a_210, z_117, b_201, a_211, z_118, b_202, a_212, z_119, b_203, a_213, z_120, b_204, a_214, z_121, b_205, a_215, z_122, b_206, a_216, z_123, b_207, a_217, z_124, b_208, a_218, z_125, b_209, a_219, z_126, b_210, a_220, z_127, b_211, a_221, z_128, b_212, a_222, z_129, b_213, a_223, z_130, b_214, a_224, z_131, b_215, a_225, z_132, b_216, a_226, z_133, b_217, a_227, z_134, b_218, a_228, z_135, b_219, a_229, z_136, b_220, a_230, z_137, b_221, a_231, z_138, b_222, a_232, z_139, b_223, a_233, z_140, b_224, a_234, z_141, b_225, a_235, z_142, b_226, a_236, z_143, b_227, a_237, z_144, b_228, a_238, z_145, b_229, a_239, z_146, b_230, a_240, z_147, b_231, a_241, z_148, b_232, a_242, z_149, b_233, a_243, z_150, b_234, a_244, z_151, b_235, a_245, z_152, b_236, a_246, z_153, b_237, a_247, z_154, b_238, a_248, z_155, b_239, a_249, z_156, b_240, a_250, z_157, b_241, a_251, z_158, b_242, a_252, z_159, b_243, a_253, z_160, b_244, a_254, z_161, b_245, a_255, z_162, b_246, a_256, z_163, b_247, a_257, z_164, b_248, a_258, z_165, b_249, a_259, z_166, b_250, a_260, z_167, b_251, a_261, z_168, b_252, a_262, z_169, b_253, a_263, z_170, b_254, a_264, z_171, b_255, a_265, z_172, b_256, a_266, z_173, b_257, a_267, z_174, b_258, a_268, z_175, b_259, a_269, z_176, b_260
 ############################################################
 The following relations have not been used in determination (they might be used to check the correctness of guesses):
-a_119, a_50, z_26, bm_26
-b_116, b_38, a_59, a_32, am_32
-b_117, b_39, a_60, a_33, am_33
-b_118, b_40, a_61, a_34, am_34
+a_117, a_48, z_24, bm_24
 a_131, a_62, z_38, bm_38
-b_128, b_50, a_71, a_44, am_44
+b_127, b_49, a_70, a_43, am_43
 b_129, b_51, a_72, a_45, am_45
 b_130, b_52, a_73, a_46, am_46
-b_132, b_54, a_75, a_48, am_48
 b_8, b_9 => bm_7
 a_31, a_32 => am_30
 a_32, a_33 => am_31
 a_42, a_43 => am_41
 a_43, a_44 => am_42
-a_73, a_74 => am_72
 a_74, a_75 => am_73
-a_85, a_86 => am_84
+a_83, a_84 => am_82
+a_84, a_85 => am_83
+a_100, a_101 => am_99
 a_101, a_102 => am_100
 ############################################################
 The following variables can be deduced from multiple paths:
 
-am_43 can be deduced from:
-b_127, b_49, a_70, a_43, am_43
-a_44, a_45 => am_43
+a_44 can be deduced from:
+a_113, a_44, z_20, bm_20
+b_128, b_50, a_71, a_44, am_44
 
-a_49 can be deduced from:
-a_118, a_49, z_25, bm_25
-b_133, b_55, a_76, a_49, am_49
-
-a_74 can be deduced from:
+a_47 can be deduced from:
+a_116, a_47, z_23, bm_23
 b_131, b_53, a_74, a_47, am_47
-b_158, b_80, a_101, a_74, am_74
+
+a_59 can be deduced from:
+b_116, b_38, a_59, a_32, am_32
+a_128, a_59, z_35, bm_35
+
+a_60 can be deduced from:
+b_117, b_39, a_60, a_33, am_33
+a_129, a_60, z_36, bm_36
+
+a_61 can be deduced from:
+b_118, b_40, a_61, a_34, am_34
+a_130, a_61, z_37, bm_37
+
+am_84 can be deduced from:
+b_168, b_90, a_111, a_84, am_84
+a_85, a_86 => am_84
 
 b_189 can be deduced from:
 b_189, b_111, a_132, a_105, am_105
